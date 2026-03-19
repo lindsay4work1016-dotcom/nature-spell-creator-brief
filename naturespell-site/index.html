@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature Spell Creator Brief</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" data-i18n="brandEyebrow"></p>
+          <h1 data-i18n="heroTitle"></h1>
+        </div>
+        <div class="language-switcher" aria-label="Language switcher">
+          <button class="lang-btn active" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">English</button>
+          <button class="lang-btn" data-lang="it">Italiano</button>
+          <button class="lang-btn" data-lang="de">Deutsch</button>
+          <button class="lang-btn" data-lang="fr">Français</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-grid">
+          <div class="hero-copy">
+            <p class="lede" data-i18n="heroIntro"></p>
+            <p class="hero-note" data-i18n="heroNote"></p>
+
+            <div class="hero-cards">
+              <article class="mini-card">
+                <span class="mini-label" data-i18n="focusLabel"></span>
+                <p data-i18n="focusText"></p>
+              </article>
+              <article class="mini-card">
+                <span class="mini-label" data-i18n="goalLabel"></span>
+                <p data-i18n="goalText"></p>
+              </article>
+            </div>
+          </div>
+
+          <div class="phone-stage">
+            <div class="phone-caption">
+              <span data-i18n="mockupLabel"></span>
+            </div>
+            <img class="phone-image" src="./ai-chat-mockup.svg" alt="AI chat style screenshot mockup" />
+          </div>
+        </section>
+
+        <section class="section offer-section">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="offerEyebrow"></p>
+            <h2 data-i18n="offerTitle"></h2>
+            <p class="section-copy" data-i18n="offerIntro"></p>
+          </div>
+          <div class="offer-grid" id="offerCards"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="strategyEyebrow"></p>
+            <h2 data-i18n="strategyTitle"></h2>
+          </div>
+          <div class="insight-grid" id="strategyCards"></div>
+        </section>
+
+        <section class="section section-alt">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="productEyebrow"></p>
+            <h2 data-i18n="productTitle"></h2>
+          </div>
+          <div class="product-layout">
+            <article class="tip-card">
+              <h3 data-i18n="productBulletsTitle"></h3>
+              <ul id="productBullets"></ul>
+            </article>
+            <article class="tip-card">
+              <h3 data-i18n="brandBulletsTitle"></h3>
+              <ul id="brandBullets"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-alt">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="starterEyebrow"></p>
+            <h2 data-i18n="starterTitle"></h2>
+            <p class="section-copy" data-i18n="starterIntro"></p>
+          </div>
+          <div class="starter-layout">
+            <article class="script-card">
+              <div class="script-card-header">
+                <span data-i18n="scriptLabel"></span>
+              </div>
+              <div id="starterScript"></div>
+            </article>
+            <article class="tip-card">
+              <h3 data-i18n="creatorChecklistTitle"></h3>
+              <ul id="creatorChecklist"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="hooksEyebrow"></p>
+            <h2 data-i18n="hooksTitle"></h2>
+          </div>
+          <div class="two-column">
+            <article class="tip-card">
+              <h3 data-i18n="hooksCardTitle"></h3>
+              <ul id="hookList"></ul>
+            </article>
+            <article class="tip-card">
+              <h3 data-i18n="ctaCardTitle"></h3>
+              <ul id="ctaList"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-alt">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="proofEyebrow"></p>
+            <h2 data-i18n="proofTitle"></h2>
+            <p class="section-copy" data-i18n="proofIntro"></p>
+          </div>
+          <div class="proof-grid" id="proofCards"></div>
+        </section>
+
+        <section class="section reference-section">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="referenceEyebrow"></p>
+            <h2 data-i18n="referenceTitle"></h2>
+            <p class="section-copy" data-i18n="referenceIntro"></p>
+          </div>
+          <div class="reference-grid" id="referenceCards"></div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="nextEyebrow"></p>
+            <h2 data-i18n="nextTitle"></h2>
+          </div>
+          <div class="next-grid">
+            <article class="next-card">
+              <h3 data-i18n="nextBlockOneTitle"></h3>
+              <p data-i18n="nextBlockOneBody"></p>
+            </article>
+            <article class="next-card">
+              <h3 data-i18n="nextBlockTwoTitle"></h3>
+              <p data-i18n="nextBlockTwoBody"></p>
+            </article>
+            <article class="next-card">
+              <h3 data-i18n="nextBlockThreeTitle"></h3>
+              <p data-i18n="nextBlockThreeBody"></p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

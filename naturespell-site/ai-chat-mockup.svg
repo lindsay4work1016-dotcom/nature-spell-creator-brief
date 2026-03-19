@@ -1,0 +1,51 @@
+<svg width="440" height="860" viewBox="0 0 440 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phoneBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1C1F22"/>
+      <stop offset="100%" stop-color="#090A0B"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20252A"/>
+      <stop offset="100%" stop-color="#111315"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="22" y="20" width="396" height="820" rx="56" fill="url(#phoneBg)" filter="url(#shadow)"/>
+  <rect x="54" y="92" width="332" height="664" rx="28" fill="url(#screenGlow)" stroke="#2A2E33" stroke-width="2"/>
+  <rect x="165" y="42" width="110" height="18" rx="9" fill="#0C0D0E"/>
+  <circle cx="84" cy="128" r="6" fill="#F5F5F5" opacity="0.75"/>
+  <circle cx="104" cy="128" r="6" fill="#F5F5F5" opacity="0.45"/>
+  <text x="166" y="134" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="22" font-weight="700">AI Hair Review</text>
+
+  <circle cx="89" cy="184" r="11" fill="#38C172"/>
+  <text x="112" y="192" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="18" font-weight="700">
+    Potential Benefits for Dry, Frizzy Hair
+  </text>
+
+  <text x="84" y="238" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="20" font-weight="700">1. Smoother-looking ends</text>
+  <text x="96" y="270" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">• Oils can help coat the hair shaft and reduce roughness.</text>
+  <text x="96" y="296" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">• Best shown visually with shine and finger-comb footage.</text>
+
+  <text x="84" y="350" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="20" font-weight="700">2. Less visible frizz</text>
+  <text x="96" y="382" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">• Lightweight oil can help hair look more controlled.</text>
+  <text x="96" y="408" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">• Keep brand wording soft: "looks calmer" or "looks smoother".</text>
+
+  <text x="84" y="462" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="20" font-weight="700">3. Everyday ease</text>
+  <text x="96" y="494" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">• The strongest message can be "simple to use" and "easy to keep using".</text>
+  <text x="96" y="520" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">• Pair with a quick routine shot instead of heavy science.</text>
+
+  <text x="84" y="574" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="20" font-weight="700">4. Better visual proof</text>
+  <text x="96" y="606" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">• Use the screenshot as a hook, then show real hair texture right after.</text>
+  <text x="96" y="632" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">• This makes the video feel researched instead of over-scripted.</text>
+
+  <rect x="74" y="684" width="292" height="50" rx="24" fill="#1B1F23" stroke="#2F343A"/>
+  <text x="102" y="715" fill="#8A9098" font-family="Arial, sans-serif" font-size="18">Ask about hair oil angles...</text>
+  <circle cx="344" cy="709" r="18" fill="#F6F6F6"/>
+  <path d="M339 709H349" stroke="#111315" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M344 704V714" stroke="#111315" stroke-width="2.4" stroke-linecap="round"/>
+
+  <rect x="183" y="776" width="74" height="6" rx="3" fill="#F0F0F0" opacity="0.7"/>
+</svg>
