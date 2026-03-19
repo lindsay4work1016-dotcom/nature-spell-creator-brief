@@ -23,6 +23,50 @@ const translations = {
     goalLabel: "Tu Objetivo",
     goalText: "Graba primero la versión más fácil de ejecutar; después añade close-ups, más proof visual y más variaciones.",
     mockupLabel: "Mockup AI reemplazable",
+    quickEyebrow: "Graba Esto Hoy",
+    quickTitle: "Elige 1 guion y graba 1 video",
+    quickIntro: "No lo compliques. Elige una ruta, copia la estructura y envía una primera versión hoy.",
+    quickHookLabel: "Hook",
+    quickFilmLabel: "Qué filmar",
+    quickEndLabel: "Cómo cerrar",
+    quickRoutes: [
+      {
+        kicker: "Ruta 01",
+        title: "AI hook",
+        hook: "Pon el screenshot AI al inicio y di una frase corta.",
+        film: "Cara a cámara, screenshot, cuero cabelludo, masaje, puntas.",
+        end: "Di: si quieres una rutina simple, empieza por aquí."
+      },
+      {
+        kicker: "Ruta 02",
+        title: "Routine demo",
+        hook: "Di: esta es la rutina que más estoy usando ahora.",
+        film: "Brush, apply, massage, wait, result.",
+        end: "Di cuántas veces lo usas por semana."
+      },
+      {
+        kicker: "Ruta 03",
+        title: "Hair update",
+        hook: "Empieza con el estado real de tu pelo antes de arreglarlo.",
+        film: "Antes, aplicación real, secado o resultado final.",
+        end: "Di: este es el que yo miraría primero."
+      }
+    ],
+    mustFilmEyebrow: "Imprescindible",
+    mustFilmTitle: "4 tomas que sí o sí tienes que grabar",
+    mustFilmList: [
+      "Producto en mano o bottle shot claro.",
+      "Aplicación en cuero cabelludo.",
+      "Masaje o gesto real de uso.",
+      "Close-up final de brillo, puntas o movimiento."
+    ],
+    deliveryEyebrow: "Entrega",
+    deliveryTitle: "Qué mandar hoy",
+    deliveryList: [
+      "1 video vertical de 20 a 45 segundos.",
+      "Habla natural; no hace falta que esté perfecto.",
+      "Manda una primera versión hoy y luego ya iteramos."
+    ],
     jumpEyebrow: "Salta a la Parte Importante",
     jumpIntro: "Ve directo a la ruta que necesitas ahora: estructura rápida, reglas básicas o referencias completas.",
     jumpLinks: [
@@ -444,6 +488,50 @@ const translations = {
     goalLabel: "Your Goal",
     goalText: "Film the easiest version first, then add more close-ups, more proof, and more variations once it works.",
     mockupLabel: "Replaceable AI screenshot mockup",
+    quickEyebrow: "Film This Today",
+    quickTitle: "Choose 1 script and film 1 video",
+    quickIntro: "Do not overthink it. Pick one route, copy the structure, and send a first version today.",
+    quickHookLabel: "Hook",
+    quickFilmLabel: "What to film",
+    quickEndLabel: "How to end",
+    quickRoutes: [
+      {
+        kicker: "Route 01",
+        title: "AI hook",
+        hook: "Open with the AI screenshot and say one short line.",
+        film: "Face to camera, screenshot, scalp, massage, ends.",
+        end: "Say: if you want a simple routine, start here."
+      },
+      {
+        kicker: "Route 02",
+        title: "Routine demo",
+        hook: "Say: this is the routine I have been using lately.",
+        film: "Brush, apply, massage, wait, result.",
+        end: "Say how many times a week you use it."
+      },
+      {
+        kicker: "Route 03",
+        title: "Hair update",
+        hook: "Start with what your hair looks like before you fix it.",
+        film: "Before, real application, dry result or final look.",
+        end: "Say: this is the one I would look at first."
+      }
+    ],
+    mustFilmEyebrow: "Must Film",
+    mustFilmTitle: "4 shots you need every time",
+    mustFilmList: [
+      "Clear bottle shot or product in hand.",
+      "Scalp application.",
+      "Massage or real use motion.",
+      "Final close-up of shine, ends, or movement."
+    ],
+    deliveryEyebrow: "Delivery",
+    deliveryTitle: "What to send today",
+    deliveryList: [
+      "1 vertical video, 20 to 45 seconds.",
+      "Keep the delivery natural; it does not need to be perfect.",
+      "Send a first version today and improve later."
+    ],
     jumpEyebrow: "Jump Through The Page",
     jumpIntro: "Go straight to the part you need now: quick structure, core rules, or full reference breakdowns.",
     jumpLinks: [
@@ -863,6 +951,50 @@ const translations = {
     goalLabel: "Obiettivo Creator",
     goalText: "Far partire i creator con la versione piu semplice, poi aggiungere varianti e selling point.",
     mockupLabel: "Mockup AI sostituibile",
+    quickEyebrow: "Filma Questo Oggi",
+    quickTitle: "Scegli 1 script e gira 1 video",
+    quickIntro: "Non complicarti. Scegli una strada, copia la struttura e manda una prima versione oggi.",
+    quickHookLabel: "Hook",
+    quickFilmLabel: "Cosa filmare",
+    quickEndLabel: "Come chiudere",
+    quickRoutes: [
+      {
+        kicker: "Route 01",
+        title: "AI hook",
+        hook: "Apri con lo screenshot AI e una frase breve.",
+        film: "Viso, screenshot, cute, massaggio, punte.",
+        end: "Di: se vuoi una routine semplice, parti da qui."
+      },
+      {
+        kicker: "Route 02",
+        title: "Routine demo",
+        hook: "Di: questa e la routine che sto usando di piu ora.",
+        film: "Brush, apply, massage, wait, result.",
+        end: "Di quante volte a settimana lo usi."
+      },
+      {
+        kicker: "Route 03",
+        title: "Hair update",
+        hook: "Apri con lo stato reale dei capelli prima di sistemarli.",
+        film: "Prima, applicazione reale, asciutto o risultato finale.",
+        end: "Di: questo e quello che guarderei per primo."
+      }
+    ],
+    mustFilmEyebrow: "Da Filmare",
+    mustFilmTitle: "4 inquadrature obbligatorie",
+    mustFilmList: [
+      "Bottle shot chiaro o prodotto in mano.",
+      "Applicazione sulla cute.",
+      "Massaggio o gesto reale d'uso.",
+      "Close-up finale su shine, punte o movimento."
+    ],
+    deliveryEyebrow: "Consegna",
+    deliveryTitle: "Cosa mandare oggi",
+    deliveryList: [
+      "1 video verticale da 20 a 45 secondi.",
+      "Tono naturale, non deve essere perfetto.",
+      "Manda una prima versione oggi e poi la miglioriamo."
+    ],
     jumpEyebrow: "Vai Diretto",
     jumpIntro: "Apri subito la parte che ti serve: struttura veloce, regole o riferimenti completi.",
     jumpLinks: [
@@ -1150,6 +1282,50 @@ const translations = {
     goalLabel: "Creator-Ziel",
     goalText: "Creator sollen mit der einfachsten Version starten und spater mehr Varianten bekommen.",
     mockupLabel: "Austauschbares AI-Mockup",
+    quickEyebrow: "Dreh Das Heute",
+    quickTitle: "Wahle 1 Skript und drehe 1 Video",
+    quickIntro: "Mach es nicht kompliziert. Wahle eine Route, kopiere die Struktur und schick heute eine erste Version.",
+    quickHookLabel: "Hook",
+    quickFilmLabel: "Was filmen",
+    quickEndLabel: "Wie enden",
+    quickRoutes: [
+      {
+        kicker: "Route 01",
+        title: "AI hook",
+        hook: "Starte mit dem AI-Screenshot und einem kurzen Satz.",
+        film: "Gesicht, Screenshot, Kopfhaut, Massage, Spitzen.",
+        end: "Sag: wenn du eine einfache Routine willst, starte hier."
+      },
+      {
+        kicker: "Route 02",
+        title: "Routine demo",
+        hook: "Sag: das ist die Routine, die ich gerade am meisten nutze.",
+        film: "Brush, apply, massage, wait, result.",
+        end: "Sag, wie oft pro Woche du es nutzt."
+      },
+      {
+        kicker: "Route 03",
+        title: "Hair update",
+        hook: "Starte mit dem echten Haarzustand vor dem Styling.",
+        film: "Vorher, echte Anwendung, trockenes Ergebnis oder Endlook.",
+        end: "Sag: das ist das, was ich mir zuerst ansehen wurde."
+      }
+    ],
+    mustFilmEyebrow: "Pflicht",
+    mustFilmTitle: "4 Shots, die du immer brauchst",
+    mustFilmList: [
+      "Klarer Bottle Shot oder Produkt in der Hand.",
+      "Auftrag auf die Kopfhaut.",
+      "Massage oder echte Nutzungsbewegung.",
+      "Close-up am Ende fur Glanz, Spitzen oder Bewegung."
+    ],
+    deliveryEyebrow: "Abgabe",
+    deliveryTitle: "Was du heute schicken sollst",
+    deliveryList: [
+      "1 vertikales Video, 20 bis 45 Sekunden.",
+      "Sprich naturlich; es muss nicht perfekt sein.",
+      "Schick heute eine erste Version, dann verbessern wir spaeter."
+    ],
     jumpEyebrow: "Direkt Springen",
     jumpIntro: "Geh direkt zu Struktur, Regeln oder kompletten Referenzen.",
     jumpLinks: [
@@ -1436,6 +1612,50 @@ const translations = {
     goalLabel: "Objectif Createur",
     goalText: "Faire demarrer les createurs avec la version la plus simple, puis ajouter des variantes ensuite.",
     mockupLabel: "Mockup AI remplacable",
+    quickEyebrow: "Filme Ca Aujourd'hui",
+    quickTitle: "Choisis 1 script et filme 1 video",
+    quickIntro: "Ne complique pas. Choisis une route, copie la structure et envoie une premiere version aujourd'hui.",
+    quickHookLabel: "Hook",
+    quickFilmLabel: "Quoi filmer",
+    quickEndLabel: "Comment finir",
+    quickRoutes: [
+      {
+        kicker: "Route 01",
+        title: "AI hook",
+        hook: "Ouvre avec la capture AI et une phrase courte.",
+        film: "Visage, capture, cuir chevelu, massage, pointes.",
+        end: "Dis : si tu veux une routine simple, commence ici."
+      },
+      {
+        kicker: "Route 02",
+        title: "Routine demo",
+        hook: "Dis : c'est la routine que j'utilise le plus en ce moment.",
+        film: "Brush, apply, massage, wait, result.",
+        end: "Dis combien de fois par semaine tu l'utilises."
+      },
+      {
+        kicker: "Route 03",
+        title: "Hair update",
+        hook: "Commence avec l'etat reel de tes cheveux avant de les arranger.",
+        film: "Avant, vraie application, resultat sec ou look final.",
+        end: "Dis : c'est celui que je regarderais en premier."
+      }
+    ],
+    mustFilmEyebrow: "Obligatoire",
+    mustFilmTitle: "4 plans a filmer a chaque fois",
+    mustFilmList: [
+      "Bottle shot clair ou produit en main.",
+      "Application sur le cuir chevelu.",
+      "Massage ou vrai geste d'usage.",
+      "Close-up final sur la brillance, les pointes ou le mouvement."
+    ],
+    deliveryEyebrow: "Livraison",
+    deliveryTitle: "Ce qu'il faut envoyer aujourd'hui",
+    deliveryList: [
+      "1 video verticale de 20 a 45 secondes.",
+      "Parle naturellement, pas besoin que ce soit parfait.",
+      "Envoie une premiere version aujourd'hui, on ajustera ensuite."
+    ],
     jumpEyebrow: "Aller Plus Vite",
     jumpIntro: "Va directement a la structure, aux regles ou aux references completes.",
     jumpLinks: [
@@ -1707,6 +1927,9 @@ const translations = {
 const root = document.documentElement;
 const languageButtons = document.querySelectorAll('.lang-btn');
 const guidePills = document.getElementById('guidePills');
+const quickRoutes = document.getElementById('quickRoutes');
+const mustFilmList = document.getElementById('mustFilmList');
+const deliveryList = document.getElementById('deliveryList');
 const jumpChips = document.getElementById('jumpChips');
 const startCards = document.getElementById('startCards');
 const offerCards = document.getElementById('offerCards');
@@ -1804,6 +2027,35 @@ function renderStartCards(copy) {
         <article class="start-card">
           <h3>${item.title}</h3>
           <p>${item.body}</p>
+        </article>
+      `
+    )
+    .join('');
+}
+
+function renderQuickRoutes(copy) {
+  const items = t(copy, 'quickRoutes');
+  if (!quickRoutes || !Array.isArray(items)) {
+    return;
+  }
+  quickRoutes.innerHTML = items
+    .map(
+      (item) => `
+        <article class="quick-route-card">
+          <p class="offer-kicker">${item.kicker}</p>
+          <h3>${item.title}</h3>
+          <div class="quick-route-block">
+            <strong>${t(copy, 'quickHookLabel')}</strong>
+            <p>${item.hook}</p>
+          </div>
+          <div class="quick-route-block">
+            <strong>${t(copy, 'quickFilmLabel')}</strong>
+            <p>${item.film}</p>
+          </div>
+          <div class="quick-route-block">
+            <strong>${t(copy, 'quickEndLabel')}</strong>
+            <p>${item.end}</p>
+          </div>
         </article>
       `
     )
@@ -1947,6 +2199,9 @@ function setLanguage(lang) {
   });
 
   renderGuidePills(copy);
+  renderQuickRoutes(copy);
+  renderList(mustFilmList, t(copy, 'mustFilmList'));
+  renderList(deliveryList, t(copy, 'deliveryList'));
   renderJumpChips(copy);
   renderStartCards(copy);
   renderInsightGrid(offerCards, t(copy, 'offerCards'), 'offer-card');
