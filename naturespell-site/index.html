@@ -9,77 +9,107 @@
   <body>
     <div class="page-shell">
       <header class="topbar">
-        <div>
+        <div class="topbar-copy">
           <p class="eyebrow" data-i18n="brandEyebrow"></p>
           <h1 data-i18n="heroTitle"></h1>
+          <p class="lede topbar-lede" data-i18n="heroIntro"></p>
+
+          <div class="hero-cards">
+            <article class="mini-card">
+              <span class="mini-label" data-i18n="focusLabel"></span>
+              <p data-i18n="focusText"></p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-label" data-i18n="goalLabel"></span>
+              <p data-i18n="goalText"></p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-label" data-i18n="mockupLabel"></span>
+              <p data-i18n="heroNote"></p>
+            </article>
+          </div>
         </div>
-        <div class="language-switcher" aria-label="Language switcher">
-          <button class="lang-btn active" data-lang="es">Español</button>
-          <button class="lang-btn" data-lang="en">English</button>
-          <button class="lang-btn" data-lang="it">Italiano</button>
-          <button class="lang-btn" data-lang="de">Deutsch</button>
-          <button class="lang-btn" data-lang="fr">Français</button>
+        <div class="topbar-side">
+          <div class="language-switcher" aria-label="Language switcher">
+            <button class="lang-btn active" data-lang="es">Español</button>
+            <button class="lang-btn" data-lang="en">English</button>
+            <button class="lang-btn" data-lang="it">Italiano</button>
+            <button class="lang-btn" data-lang="de">Deutsch</button>
+            <button class="lang-btn" data-lang="fr">Français</button>
+          </div>
+
+          <article class="guide-card">
+            <p class="eyebrow" data-i18n="guideEyebrow"></p>
+            <h2 class="guide-title" data-i18n="guideTitle"></h2>
+            <p class="guide-copy" data-i18n="guideBody"></p>
+            <p class="guide-note" data-i18n="guideNote"></p>
+            <div class="guide-pill-grid" id="guidePills"></div>
+          </article>
         </div>
       </header>
 
       <main>
-        <section class="hero-grid">
-          <div class="hero-copy">
-            <p class="lede" data-i18n="heroIntro"></p>
-            <p class="hero-note" data-i18n="heroNote"></p>
+        <section class="jump-strip section">
+          <div class="jump-copy">
+            <p class="eyebrow" data-i18n="jumpEyebrow"></p>
+            <p class="section-copy" data-i18n="jumpIntro"></p>
+          </div>
+          <div class="jump-links" id="jumpChips"></div>
+        </section>
 
-            <div class="hero-cards">
-              <article class="mini-card">
-                <span class="mini-label" data-i18n="focusLabel"></span>
-                <p data-i18n="focusText"></p>
+        <section class="section start-section" id="start">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="startEyebrow"></p>
+            <h2 data-i18n="startTitle"></h2>
+            <p class="section-copy" data-i18n="startIntro"></p>
+          </div>
+          <div class="start-grid" id="startCards"></div>
+        </section>
+
+        <section class="creator-grid">
+          <article class="section offer-panel" id="proof-notes">
+            <div class="section-heading">
+              <p class="eyebrow" data-i18n="offerEyebrow"></p>
+              <h2 data-i18n="offerTitle"></h2>
+              <p class="section-copy" data-i18n="offerIntro"></p>
+            </div>
+            <div class="offer-grid" id="offerCards"></div>
+          </article>
+
+          <article class="section rules-panel" id="rules">
+            <div class="section-heading">
+              <p class="eyebrow" data-i18n="rulesEyebrow"></p>
+              <h2 data-i18n="rulesTitle"></h2>
+            </div>
+            <div class="rules-card-grid">
+              <article class="rule-card">
+                <h3 data-i18n="doTitle"></h3>
+                <ul id="doList"></ul>
               </article>
-              <article class="mini-card">
-                <span class="mini-label" data-i18n="goalLabel"></span>
-                <p data-i18n="goalText"></p>
+              <article class="rule-card rule-card-soft">
+                <h3 data-i18n="dontTitle"></h3>
+                <ul id="dontList"></ul>
               </article>
             </div>
-          </div>
-
-          <div class="phone-stage">
-            <div class="phone-caption">
-              <span data-i18n="mockupLabel"></span>
-            </div>
-            <img class="phone-image" src="./ai-chat-mockup.svg" alt="AI chat style screenshot mockup" />
-          </div>
+          </article>
         </section>
 
-        <section class="section offer-section">
+        <section class="section reference-detail-section" id="references">
           <div class="section-heading">
-            <p class="eyebrow" data-i18n="offerEyebrow"></p>
-            <h2 data-i18n="offerTitle"></h2>
-            <p class="section-copy" data-i18n="offerIntro"></p>
+            <p class="eyebrow" data-i18n="referenceDetailEyebrow"></p>
+            <h2 data-i18n="referenceDetailTitle"></h2>
+            <p class="section-copy" data-i18n="referenceDetailIntro"></p>
           </div>
-          <div class="offer-grid" id="offerCards"></div>
+          <div class="reference-detail-grid" id="referenceDetailCards"></div>
         </section>
 
-        <section class="section">
+        <section class="section section-alt" id="brief-table">
           <div class="section-heading">
-            <p class="eyebrow" data-i18n="strategyEyebrow"></p>
-            <h2 data-i18n="strategyTitle"></h2>
+            <p class="eyebrow" data-i18n="scriptBreakdownEyebrow"></p>
+            <h2 data-i18n="scriptBreakdownTitle"></h2>
+            <p class="section-copy" data-i18n="scriptBreakdownIntro"></p>
           </div>
-          <div class="insight-grid" id="strategyCards"></div>
-        </section>
-
-        <section class="section section-alt">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="productEyebrow"></p>
-            <h2 data-i18n="productTitle"></h2>
-          </div>
-          <div class="product-layout">
-            <article class="tip-card">
-              <h3 data-i18n="productBulletsTitle"></h3>
-              <ul id="productBullets"></ul>
-            </article>
-            <article class="tip-card">
-              <h3 data-i18n="brandBulletsTitle"></h3>
-              <ul id="brandBullets"></ul>
-            </article>
-          </div>
+          <div class="script-breakdown-grid" id="scriptBreakdowns"></div>
         </section>
 
         <section class="section section-alt">
@@ -103,6 +133,19 @@
         </section>
 
         <section class="section">
+          <div class="two-column">
+            <article class="tip-card">
+              <h3 data-i18n="productBulletsTitle"></h3>
+              <ul id="productBullets"></ul>
+            </article>
+            <article class="tip-card">
+              <h3 data-i18n="brandBulletsTitle"></h3>
+              <ul id="brandBullets"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
           <div class="section-heading">
             <p class="eyebrow" data-i18n="hooksEyebrow"></p>
             <h2 data-i18n="hooksTitle"></h2>
@@ -117,42 +160,6 @@
               <ul id="ctaList"></ul>
             </article>
           </div>
-        </section>
-
-        <section class="section section-alt">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="proofEyebrow"></p>
-            <h2 data-i18n="proofTitle"></h2>
-            <p class="section-copy" data-i18n="proofIntro"></p>
-          </div>
-          <div class="proof-grid" id="proofCards"></div>
-        </section>
-
-        <section class="section reference-section">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="referenceEyebrow"></p>
-            <h2 data-i18n="referenceTitle"></h2>
-            <p class="section-copy" data-i18n="referenceIntro"></p>
-          </div>
-          <div class="reference-grid" id="referenceCards"></div>
-        </section>
-
-        <section class="section section-alt">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="videoEyebrow"></p>
-            <h2 data-i18n="videoTitle"></h2>
-            <p class="section-copy" data-i18n="videoIntro"></p>
-          </div>
-          <div class="breakdown-grid" id="videoBreakdowns"></div>
-        </section>
-
-        <section class="section">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="scriptBreakdownEyebrow"></p>
-            <h2 data-i18n="scriptBreakdownTitle"></h2>
-            <p class="section-copy" data-i18n="scriptBreakdownIntro"></p>
-          </div>
-          <div class="script-breakdown-grid" id="scriptBreakdowns"></div>
         </section>
 
         <section class="section">

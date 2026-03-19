@@ -7,11 +7,40 @@ const translations = {
       "Abre con una captura estilo ChatGPT en los primeros 1-2 segundos, di lo que descubriste en una frase y pasa directo a la demo. No necesitas sonar técnico: necesitas sonar creíble, simple y fácil de copiar.",
     heroNote:
       "No copies claims de otro producto. Quédate con la sensación de prueba, investigación y descubrimiento, pero mantén tu wording en líneas seguras: más brillo, aspecto más suave, raíces con más cuerpo y menos frizz visible.",
+    guideEyebrow: "Usa Esta Página Así",
+    guideTitle: "Elige una ruta y grábala fácil",
+    guideBody:
+      "Elige una referencia, copia el flow corto, grábalo con tu propia voz y vuelve después a la parte detallada si quieres mejorarlo.",
+    guideNote:
+      "Esta versión ya está pensada para lectura rápida en desktop y móvil, así que úsala como hoja de acción, no como brand deck.",
+    guidePills: [
+      "Build estático para compartir con un solo link",
+      "Sin embeds externos ni fuentes de terceros",
+      "Pensado para lectura rápida en móvil"
+    ],
     focusLabel: "Tu Hook",
     focusText: "Pon la captura AI al principio y déjala en pantalla lo suficiente para que se lea.",
     goalLabel: "Tu Objetivo",
     goalText: "Graba primero la versión más fácil de ejecutar; después añade close-ups, más proof visual y más variaciones.",
     mockupLabel: "Mockup AI reemplazable",
+    jumpEyebrow: "Salta a la Parte Importante",
+    jumpIntro: "Ve directo a la ruta que necesitas ahora: estructura rápida, reglas básicas o referencias completas.",
+    jumpLinks: [
+      { href: "#start", label: "Empieza aquí" },
+      { href: "#rules", label: "Reglas" },
+      { href: "#brief-table", label: "Guiones" },
+      { href: "#references", label: "Referencias" },
+      { href: "#proof-notes", label: "Proof notes" }
+    ],
+    startEyebrow: "Empieza Aquí",
+    startTitle: "Si solo recuerdas cuatro cosas, recuerda esto",
+    startIntro: "No metas demasiadas ideas en el primer vídeo. Una idea, una prueba, una demo y un cierre suave ya es suficiente.",
+    startSteps: [
+      { title: "Paso 1. Abre con un problema", body: "Di una línea simple sobre frizz, puntas secas, cuero cabelludo o raíces con más cuerpo. No expliques todo todavía." },
+      { title: "Paso 2. Enseña una prueba", body: "Usa una sola prueba: captura AI, comentario de viewer, foto antigua o tu resultado actual. Elige una, no cuatro." },
+      { title: "Paso 3. Haz la rutina rápida", body: "Aplicación en cuero cabelludo, masaje, movimiento del pelo o bottle shot. La persona tiene que entenderlo sin clase larga." },
+      { title: "Paso 4. Cierra suave", body: "Termina con una línea tranquila como esto es lo que más estoy usando últimamente o esta es una ruta fácil para empezar." }
+    ],
     offerEyebrow: "Creator Offer",
     offerTitle: "Por qué te conviene probar este ángulo",
     offerIntro: "Tienes un incentivo claro, apoyo de marca y suficiente proof para que esta pieza se sienta fácil de testear.",
@@ -19,6 +48,24 @@ const translations = {
       { kicker: "Ingreso", title: "18% comisión", body: "Es una razón directa para probar una primera pieza sin complicarte la estructura." },
       { kicker: "Soporte", title: "Muestras gratis + presupuesto de ads", body: "Te deja grabar y testear sin cargar todo el riesgo sobre tu propio contenido." },
       { kicker: "Confianza", title: "VIP group + autoridad TikTok UK", body: "Te ayuda a presentar la marca como algo ya probado, no como una apuesta rara." }
+    ],
+    rulesEyebrow: "Haz Esto / No Hagas Esto",
+    rulesTitle: "Haz que el video sea fácil de ver",
+    doTitle: "Haz Esto",
+    dontTitle: "Evita Estos Errores",
+    doList: [
+      "Habla como si hubieras encontrado una rutina útil, no como si estuvieras leyendo un deck de marca.",
+      "Mantén la apertura simple: una idea, una prueba y una demo fácil.",
+      "Deja la captura o el comentario en pantalla el tiempo suficiente para que se entienda.",
+      "Si el resultado es sutil, apóyate en textura, brillo, raya del pelo y finger-comb footage.",
+      "Usa wording seguro como se ve más suave, se siente más fácil o me ayuda a ser constante."
+    ],
+    dontList: [
+      "No leas toda la captura palabra por palabra.",
+      "No intentes meter todos los facts de marca en un solo video.",
+      "No suenes como trainer ni como vendedor agresivo.",
+      "No hagas el primer post demasiado pulido; fácil y repetible funciona mejor.",
+      "No prometas resultados que no se vean realmente en cámara."
     ],
     strategyEyebrow: "Why This Works",
     strategyTitle: "Cómo hacer que este enfoque te funcione",
@@ -131,6 +178,178 @@ const translations = {
           "La energía que debes copiar es la de descubrimiento personal. Va muy bien con la captura AI al principio y benefits conservadores."
       }
     ],
+    referenceDetailEyebrow: "Referencias Completas",
+    referenceDetailTitle: "Qué copiar de cada video y cómo grabarlo paso a paso",
+    referenceDetailIntro:
+      "Aquí ya no estás viendo notas internas. Aquí tienes el flow, el porqué y lo que debes filmar para que cada referencia se sienta usable.",
+    referenceFlowTitle: "Copia Este Flow",
+    referenceWhyTitle: "Por Qué La Gente Se Queda",
+    referenceCopyTitle: "Copia Estas Partes",
+    referenceNoteTitle: "Por Qué Esta Referencia Importa",
+    referenceTableBeat: "Beat",
+    referenceTableWhy: "Por qué existe",
+    referenceTableSay: "Qué decir",
+    referenceTableFilm: "Qué filmar",
+    referenceTableTip: "Tip",
+    referenceDetails: [
+      {
+        videoKey: "aiHook",
+        kicker: "Referencia 01",
+        duration: "0:50",
+        title: "AI Screenshot Hook",
+        subtitle: "Toma prestado el proof device, no el claim del otro producto.",
+        flow: [
+          "I asked AI what actually helps hair look smoother and less dry.",
+          "This is the angle that made the most sense to me.",
+          "That is why I have been reaching for this pre-diluted rosemary oil.",
+          "If you want a simple scalp oil routine, this is an easy place to start."
+        ],
+        whyBullets: [
+          "La captura genera curiosidad instantánea porque parece investigación, no un opener normal.",
+          "La creadora apunta a la pantalla y te dice dónde mirar desde el segundo uno.",
+          "La prueba visual aparece antes de la explicación completa, así la gente sigue mirando para conectar puntos."
+        ],
+        copyBullets: [
+          "Abre con una pregunta que tú ya estabas intentando responder.",
+          "Pon la pantalla AI en cámara en los primeros 1 a 3 segundos.",
+          "Traduce la captura a una sola idea simple; no la leas entera."
+        ],
+        note:
+          "Este video no vende el mismo producto, pero el formato de captura estilo ChatGPT sí es exactamente el trigger que vale la pena tomar. Usa la pantalla como proof device y mantén todas tus claims dentro del wording aprobado.",
+        table: [
+          {
+            beat: "0 a 3 sec hook",
+            why: "Para parar el scroll con un ángulo de investigación.",
+            say: "I asked AI what actually helps hair look smoother and less dry.",
+            film: "Cara a cámara con la captura al lado.",
+            tip: "Deja la pantalla suficiente tiempo para procesarla."
+          },
+          {
+            beat: "3 a 8 sec bridge",
+            why: "Para que el proof se sienta personal, no robótico.",
+            say: "This is the angle that made the most sense to me.",
+            film: "Señala una línea del screenshot y luego corta a pelo o bottle.",
+            tip: "No leas cada bullet. Una takeaway basta."
+          },
+          {
+            beat: "8 a 18 sec demo",
+            why: "Para conectar el proof con tu rutina real.",
+            say: "That is why I have been reaching for this pre-diluted rosemary oil.",
+            film: "Aplicación en cuero cabelludo, masaje o close-up de puntas.",
+            tip: "Empareja el proof con acción visible enseguida."
+          },
+          {
+            beat: "18 sec+ CTA",
+            why: "Para cerrar suave y seguir siendo creíble.",
+            say: "If you want a simple scalp oil routine, this is an easy place to start.",
+            film: "Bottle in hand, routine clip o mirror shot.",
+            tip: "No oversell. La captura ya hizo la parte pesada."
+          }
+        ]
+      },
+      {
+        videoKey: "replyRoutine",
+        kicker: "Referencia 02",
+        duration: "2:38",
+        title: "Reply-to-Comment Routine",
+        subtitle: "Convierte una pregunta real en una rutina completa que sí se entiende.",
+        flow: [
+          "My hair used to look like this, so here is the routine that helped me.",
+          "I start by brushing, then I mix the oils I am using.",
+          "I apply it section by section and massage it in.",
+          "I do this twice a week and leave it in for a few hours before washing."
+        ],
+        whyBullets: [
+          "El before versus now crea proof inmediato de que algo cambió.",
+          "La creadora enseña cada paso en vez de hacer claims vagos.",
+          "El aplicador, el cuero cabelludo y el lavado hacen que la rutina se sienta específica y repetible."
+        ],
+        copyBullets: [
+          "Usa una pregunta real, aunque la resumas en texto en pantalla.",
+          "Enseña el orden exacto de acciones: brush, apply, massage, wait, wash.",
+          "Explica por qué cada paso es fácil de repetir, no solo por qué suena impresionante."
+        ],
+        note:
+          "Este formato gana porque se siente útil. El comentario le da motivo al video, y la rutina larga le da valor. Si quieres que tu contenido parezca guardable y no solo inspiracional, esta es una ruta fuerte.",
+        table: [
+          {
+            beat: "0 a 4 sec opener",
+            why: "Para anclar el video en un problema y una transformación.",
+            say: "My hair used to look like this, so here is the routine that helped me.",
+            film: "Resultado actual primero, luego foto vieja o texto before.",
+            tip: "Empieza con cambio visual antes que educación de producto."
+          },
+          {
+            beat: "4 a 20 sec setup",
+            why: "Para hacer la rutina clara y útil.",
+            say: "I start by brushing, then I mix the oils I am using.",
+            film: "Close-up del brush, del producto y del mezclado.",
+            tip: "Las manos en acción venden mejor que la teoría."
+          },
+          {
+            beat: "20 a 70 sec routine",
+            why: "Para demostrar que el método es real y repetible.",
+            say: "I apply it section by section and massage it in.",
+            film: "Scalp sections, applicator, masaje y product glide.",
+            tip: "Mantén el orden de los pasos visible, no lo saltes."
+          },
+          {
+            beat: "70 sec+ washout",
+            why: "Para cerrar la historia completa.",
+            say: "I do this twice a week and leave it in for a few hours before washing.",
+            film: "Wash plan, dry result y pelo con movimiento.",
+            tip: "Cuando la rutina es larga, resume con claridad en vez de acelerar demasiado."
+          }
+        ]
+      },
+      {
+        videoKey: "resultProof",
+        kicker: "Referencia 03",
+        duration: "0:07",
+        title: "Healthy Hair Result Tease",
+        subtitle: "Usa una prueba visual rápida cuando no quieres explicar tanto.",
+        flow: [
+          "If you want healthier-looking, longer-looking hair, this is the kind of result I am chasing.",
+          "I keep this routine simple because I actually want to stick to it.",
+          "This is the texture and shine I look for after wash day."
+        ],
+        whyBullets: [
+          "El movimiento del pelo hace que el resultado se entienda sin demasiadas palabras.",
+          "Un clip corto así funciona muy bien como intro, interlude o ending.",
+          "Te deja vender sensación visual sin sonar demasiado técnica."
+        ],
+        copyBullets: [
+          "Usa esta referencia para cortar entre el hook y la demo.",
+          "Prioriza movimiento, brillo y densidad visual sobre explicación larga.",
+          "Si el clip es corto, la voz debe ser todavía más simple."
+        ],
+        note:
+          "No necesitas que todos los videos sean largos. Una pieza así puede funcionar como result teaser dentro de un video más grande o como social proof visual en un edit corto.",
+        table: [
+          {
+            beat: "0 a 2 sec tease",
+            why: "Para mostrar resultado rápido antes de explicar nada.",
+            say: "This is the kind of healthy, glossy result I want from a routine.",
+            film: "Hair flip o shine movement shot.",
+            tip: "Empieza con movimiento, no con bottle education."
+          },
+          {
+            beat: "2 a 5 sec bridge",
+            why: "Para conectar el look con un hábito simple.",
+            say: "I keep this routine simple because I actually want to stick to it.",
+            film: "Hands in hair, close-up de ends o side profile.",
+            tip: "Una sola sentence funciona mejor que tres claims."
+          },
+          {
+            beat: "5 sec+ close",
+            why: "Para dejar una impresión visual clara.",
+            say: "This is the texture and shine I look for after wash day.",
+            film: "Final glossy shot o slow turn.",
+            tip: "Úsalo como apoyo visual dentro de otra pieza más larga."
+          }
+        ]
+      }
+    ],
     videoEyebrow: "Video Breakdowns",
     videoTitle: "Los dos formatos que mejor puedes volver a grabar",
     videoIntro: "Aquí tienes la versión más útil de las referencias: escena por escena y con la intención clara de cada bloque.",
@@ -209,11 +428,40 @@ const translations = {
     heroTitle: "Open like a real discovery, not like an ad",
     heroIntro: "Start with an AI-style screenshot in the first 1-2 seconds, say what you found in one line, then move straight into the demo. You do not need to sound technical. You need to sound believable, easy, and worth copying.",
     heroNote: "Do not copy another product's claims. Borrow the proof and discovery feeling instead, then keep your wording inside safe lines like smoother-looking, fuller-looking, shinier, and less dry-looking.",
+    guideEyebrow: "Use This Page Like This",
+    guideTitle: "Pick one route and film it simply",
+    guideBody:
+      "Pick one reference, copy the short flow, film it in your own voice, then come back to the detailed breakdown if you want to improve it.",
+    guideNote:
+      "This version is built for quick desktop and mobile reading, so treat it like an action page, not a brand deck.",
+    guidePills: [
+      "Static build for sharing with one public link",
+      "No external embeds or third-party fonts required",
+      "Designed for fast mobile reading"
+    ],
     focusLabel: "Your Hook",
     focusText: "Get the AI screenshot on screen early and leave it there long enough to actually read.",
     goalLabel: "Your Goal",
     goalText: "Film the easiest version first, then add more close-ups, more proof, and more variations once it works.",
     mockupLabel: "Replaceable AI screenshot mockup",
+    jumpEyebrow: "Jump Through The Page",
+    jumpIntro: "Go straight to the part you need now: quick structure, core rules, or full reference breakdowns.",
+    jumpLinks: [
+      { href: "#start", label: "Start here" },
+      { href: "#rules", label: "Rules" },
+      { href: "#brief-table", label: "Scripts" },
+      { href: "#references", label: "References" },
+      { href: "#proof-notes", label: "Proof notes" }
+    ],
+    startEyebrow: "Start Here",
+    startTitle: "If you only remember four things, remember these",
+    startIntro: "Do not force too many ideas into the first post. One problem, one proof device, one demo, and one soft ending is enough.",
+    startSteps: [
+      { title: "Step 1. Open with one problem", body: "Say one simple line about frizz, dry ends, scalp care, or fuller-looking roots. Do not explain everything yet." },
+      { title: "Step 2. Show one proof device", body: "Use either the AI screenshot, a viewer comment, an old photo, or your current result. Pick one, not all four." },
+      { title: "Step 3. Show the routine fast", body: "Scalp application, massage, hair movement, or a bottle shot. The viewer should understand the routine without a lecture." },
+      { title: "Step 4. End softly", body: "Close with a calm line like this is what I have been using lately or this is an easy one to start with." }
+    ],
     offerEyebrow: "Creator Offer",
     offerTitle: "Why this angle is worth testing",
     offerIntro: "You already have a clear incentive, brand support, and enough proof to make this feel like an easy first test.",
@@ -221,6 +469,24 @@ const translations = {
       { kicker: "Earnings", title: "18% commission", body: "That is a clear reason to test a first video without overcomplicating the structure." },
       { kicker: "Support", title: "Free samples + ad budget", body: "It lets you test content without putting all the risk on your own side." },
       { kicker: "Trust", title: "VIP groups + TikTok UK category authority", body: "It helps the brand feel established and easier to talk about with confidence." }
+    ],
+    rulesEyebrow: "Do This / Do Not Do This",
+    rulesTitle: "Keep it easy to watch",
+    doTitle: "Do This",
+    dontTitle: "Avoid These Mistakes",
+    doList: [
+      "Speak like you found a useful routine, not like you are reading a brand deck.",
+      "Keep the opening simple: one idea, one proof device, one easy demo.",
+      "Leave the screenshot or viewer comment on screen long enough to understand it.",
+      "If the result is subtle, lean on texture, shine, scalp parting, and finger-comb footage.",
+      "Use safe wording like looks smoother, feels easier, or helps me stay consistent."
+    ],
+    dontList: [
+      "Do not read the whole screenshot word for word.",
+      "Do not try to fit every brand fact into one video.",
+      "Do not sound like a trainer or a hard salesperson.",
+      "Do not over-polish the first post. Easy and repeatable works better.",
+      "Do not promise results that are not actually visible on camera."
     ],
     strategyEyebrow: "Why This Works",
     strategyTitle: "How to make this angle work for you",
@@ -331,6 +597,178 @@ const translations = {
         ],
         takeaway:
           "The reusable part is the honest, personal-discovery energy. It pairs especially well with the AI screenshot opening and conservative benefit wording."
+      }
+    ],
+    referenceDetailEyebrow: "Full References",
+    referenceDetailTitle: "What to copy from each video and how to shoot it step by step",
+    referenceDetailIntro:
+      "This is no longer internal note-taking. This is the actual flow, the reason it works, and what to film if you want each reference to feel usable.",
+    referenceFlowTitle: "Copy This Exact Flow",
+    referenceWhyTitle: "Why People Keep Watching",
+    referenceCopyTitle: "Copy These Parts",
+    referenceNoteTitle: "Why This Reference Matters",
+    referenceTableBeat: "Beat",
+    referenceTableWhy: "Why this part exists",
+    referenceTableSay: "What to say",
+    referenceTableFilm: "What to film",
+    referenceTableTip: "Easy tip",
+    referenceDetails: [
+      {
+        videoKey: "aiHook",
+        kicker: "Reference 01",
+        duration: "0:50",
+        title: "AI Screenshot Hook",
+        subtitle: "Borrow the proof device, not the other product claim.",
+        flow: [
+          "I asked AI what actually helps hair look smoother and less dry.",
+          "This is the angle that made the most sense to me.",
+          "That is why I have been reaching for this pre-diluted rosemary oil.",
+          "If you want a simple scalp oil routine, this is an easy place to start."
+        ],
+        whyBullets: [
+          "The screenshot creates instant curiosity because it looks like research, not a normal opener.",
+          "The creator points to the screen, which tells the viewer where to look right away.",
+          "The visual proof appears before the full explanation, so the audience keeps watching to connect the dots."
+        ],
+        copyBullets: [
+          "Open with a question you were already trying to answer yourself.",
+          "Put the AI screen on camera in the first 1 to 3 seconds.",
+          "Translate the screenshot into one simple takeaway instead of reading it word for word."
+        ],
+        note:
+          "This video is not selling the same product, but the ChatGPT-style screenshot is exactly the trigger worth borrowing. Use the screenshot as a proof device only, and keep all spoken claims inside approved wording.",
+        table: [
+          {
+            beat: "0 to 3 sec hook",
+            why: "To stop the scroll with a research angle.",
+            say: "I asked AI what actually helps hair look smoother and less dry.",
+            film: "Face to camera with the screenshot beside you.",
+            tip: "Hold the screenshot for a full beat so the viewer can process it."
+          },
+          {
+            beat: "3 to 8 sec bridge",
+            why: "To make the proof feel personal, not robotic.",
+            say: "This is the angle that made the most sense to me.",
+            film: "Point at one line on the screenshot, then cut to bottle or hair.",
+            tip: "You do not need to read every bullet. One takeaway is enough."
+          },
+          {
+            beat: "8 to 18 sec demo",
+            why: "To connect the proof to your own routine.",
+            say: "That is why I have been reaching for this pre-diluted rosemary oil.",
+            film: "Scalp application, massage, or ends close-up.",
+            tip: "Pair the proof device with a visible action right away."
+          },
+          {
+            beat: "18 sec onward CTA",
+            why: "To close softly and keep it believable.",
+            say: "If you want a simple scalp oil routine, this is an easy place to start.",
+            film: "Bottle in hand, routine clip, or mirror shot.",
+            tip: "Do not oversell. The screenshot already did the heavy lifting."
+          }
+        ]
+      },
+      {
+        videoKey: "replyRoutine",
+        kicker: "Reference 02",
+        duration: "2:38",
+        title: "Reply-to-Comment Routine",
+        subtitle: "Turn a real viewer question into a complete routine answer.",
+        flow: [
+          "My hair used to look like this, so here is the routine that helped me.",
+          "I start by brushing, then I mix the oils I am using.",
+          "I apply it section by section and massage it in.",
+          "I do this twice a week and leave it in for a few hours before washing."
+        ],
+        whyBullets: [
+          "The before-versus-now framing creates immediate proof that something changed.",
+          "The creator shows each step instead of making vague claims.",
+          "The applicator, scalp footage, and wash plan make the routine feel specific and repeatable."
+        ],
+        copyBullets: [
+          "Use a real question, even if you paraphrase it into on-screen text.",
+          "Show the exact order of actions: brush, apply, massage, wait, wash.",
+          "Explain why each step is easy enough to repeat, not just why it sounds impressive."
+        ],
+        note:
+          "This format wins because it feels useful. The comment gives the post a reason to exist, and the long routine gives it value. If you want the content to feel saveable, this is a strong route.",
+        table: [
+          {
+            beat: "0 to 4 sec opener",
+            why: "To anchor the video in a problem and a transformation.",
+            say: "My hair used to look like this, so here is the routine that helped me.",
+            film: "Current result first, then old hair photo or text callout.",
+            tip: "Lead with visual change before product education."
+          },
+          {
+            beat: "4 to 20 sec setup",
+            why: "To make the routine feel clear and useful.",
+            say: "I start by brushing, then I mix the oils I am using.",
+            film: "Brush close-up, product close-up, mixing shot.",
+            tip: "Hands-on action sells better than theory."
+          },
+          {
+            beat: "20 to 70 sec routine",
+            why: "To prove the method is real and repeatable.",
+            say: "I apply it section by section and massage it in.",
+            film: "Scalp sections, applicator, massage, product glide.",
+            tip: "Keep the order of steps visible. Do not skip around."
+          },
+          {
+            beat: "70 sec+ washout",
+            why: "To finish the full story.",
+            say: "I do this twice a week and leave it in for a few hours before washing.",
+            film: "Wash plan, dry result, hair movement.",
+            tip: "When the routine is long, summarize clearly instead of rushing."
+          }
+        ]
+      },
+      {
+        videoKey: "resultProof",
+        kicker: "Reference 03",
+        duration: "0:07",
+        title: "Healthy Hair Result Tease",
+        subtitle: "Use a quick visual proof clip when you do not want to explain too much.",
+        flow: [
+          "If you want healthier-looking, longer-looking hair, this is the kind of result I am chasing.",
+          "I keep this routine simple because I actually want to stick to it.",
+          "This is the texture and shine I look for after wash day."
+        ],
+        whyBullets: [
+          "The hair movement makes the result readable without too many words.",
+          "A short clip like this works well as an intro, interlude, or ending.",
+          "It lets you sell a visual feeling without sounding too technical."
+        ],
+        copyBullets: [
+          "Use this as a cutaway between the hook and the demo.",
+          "Prioritize movement, shine, and visual density over long explanation.",
+          "If the clip is short, the voiceover should be even simpler."
+        ],
+        note:
+          "Not every video needs to be long. A piece like this can work as a result teaser inside a longer edit or as fast visual proof in a short post.",
+        table: [
+          {
+            beat: "0 to 2 sec tease",
+            why: "To show the result quickly before explaining anything.",
+            say: "This is the kind of healthy, glossy result I want from a routine.",
+            film: "Hair flip or shine movement shot.",
+            tip: "Open with movement, not bottle education."
+          },
+          {
+            beat: "2 to 5 sec bridge",
+            why: "To connect the look to a simple habit.",
+            say: "I keep this routine simple because I actually want to stick to it.",
+            film: "Hands in hair, ends close-up, side profile.",
+            tip: "One sentence works better than three claims."
+          },
+          {
+            beat: "5 sec+ close",
+            why: "To leave a clear visual impression.",
+            say: "This is the texture and shine I look for after wash day.",
+            film: "Final glossy shot or slow turn.",
+            tip: "Use it as visual support inside a longer piece."
+          }
+        ]
       }
     ],
     videoEyebrow: "Video Breakdowns",
@@ -827,21 +1265,29 @@ const translations = {
 
 const root = document.documentElement;
 const languageButtons = document.querySelectorAll('.lang-btn');
-const strategyCards = document.getElementById('strategyCards');
+const guidePills = document.getElementById('guidePills');
+const jumpChips = document.getElementById('jumpChips');
+const startCards = document.getElementById('startCards');
 const offerCards = document.getElementById('offerCards');
+const doList = document.getElementById('doList');
+const dontList = document.getElementById('dontList');
+const referenceDetailCards = document.getElementById('referenceDetailCards');
 const starterScript = document.getElementById('starterScript');
 const creatorChecklist = document.getElementById('creatorChecklist');
 const hookList = document.getElementById('hookList');
 const ctaList = document.getElementById('ctaList');
-const proofCards = document.getElementById('proofCards');
-const referenceCards = document.getElementById('referenceCards');
-const videoBreakdowns = document.getElementById('videoBreakdowns');
 const scriptBreakdowns = document.getElementById('scriptBreakdowns');
 const productBullets = document.getElementById('productBullets');
 const brandBullets = document.getElementById('brandBullets');
-const referenceAssetMap = {
-  replying: '../naturespell_assets/replying/contact.jpg',
-  hairUpdate: '../naturespell_assets/hair_update/contact.jpg'
+const videoAssetMap = {
+  aiHook: '../naturespell_assets/video_references/ai-screenshot-hook.mp4',
+  replyRoutine: '../naturespell_assets/video_references/reply-to-comment-routine.mp4',
+  resultProof: '../naturespell_assets/video_references/healthy-hair-result.mp4'
+};
+const posterAssetMap = {
+  aiHook: '../naturespell_assets/new_reference_frames/ai_hook.jpg',
+  replyRoutine: '../naturespell_assets/new_reference_frames/reply_routine.jpg',
+  resultProof: '../naturespell_assets/new_reference_frames/testimonial.jpg'
 };
 const fallbackLanguage = translations.en;
 
@@ -850,10 +1296,16 @@ function t(copy, key) {
 }
 
 function renderList(target, items) {
+  if (!target || !Array.isArray(items)) {
+    return;
+  }
   target.innerHTML = items.map((item) => `<li>${item}</li>`).join('');
 }
 
 function renderScript(items) {
+  if (!starterScript || !Array.isArray(items)) {
+    return;
+  }
   starterScript.innerHTML = items
     .map(
       (item) => `
@@ -867,6 +1319,9 @@ function renderScript(items) {
 }
 
 function renderInsightGrid(target, items, type) {
+  if (!target || !Array.isArray(items)) {
+    return;
+  }
   target.innerHTML = items
     .map(
       (item, index) => `
@@ -881,73 +1336,112 @@ function renderInsightGrid(target, items, type) {
     .join('');
 }
 
-function renderReferenceCards(copy) {
-  const items = t(copy, 'referenceCards');
-  referenceCards.innerHTML = items
+function renderGuidePills(copy) {
+  const items = t(copy, 'guidePills');
+  if (!guidePills || !Array.isArray(items)) {
+    return;
+  }
+  guidePills.innerHTML = items.map((item) => `<div class="guide-pill">${item}</div>`).join('');
+}
+
+function renderJumpChips(copy) {
+  const items = t(copy, 'jumpLinks');
+  if (!jumpChips || !Array.isArray(items)) {
+    return;
+  }
+  jumpChips.innerHTML = items.map((item) => `<a class="jump-chip" href="${item.href}">${item.label}</a>`).join('');
+}
+
+function renderStartCards(copy) {
+  const items = t(copy, 'startSteps');
+  if (!startCards || !Array.isArray(items)) {
+    return;
+  }
+  startCards.innerHTML = items
     .map(
       (item) => `
-        <article class="reference-card">
-          <div class="reference-media">
-            <img src="${referenceAssetMap[item.id]}" alt="${item.title}" loading="lazy" />
-          </div>
-          <div class="reference-copy">
-            <div>
-              <p class="offer-kicker">${item.kicker}</p>
-              <h3>${item.title}</h3>
-            </div>
-            <div class="reference-meta">
-              <span class="reference-pill"><strong>${t(copy, 'referenceAngleLabel')}:</strong> ${item.angle}</span>
-              <span class="reference-pill"><strong>${t(copy, 'referenceBestForLabel')}:</strong> ${item.bestFor}</span>
-            </div>
-            <p class="reference-summary">${item.summary}</p>
-            <div>
-              <h3 class="reference-list-title">${t(copy, 'referenceBeatLabel')}</h3>
-              <ul class="reference-beats">
-                ${item.beats.map((beat) => `<li>${beat}</li>`).join('')}
-              </ul>
-            </div>
-            <div class="reference-takeaway">
-              <strong>${t(copy, 'referenceTakeawayLabel')}</strong>
-              <p>${item.takeaway}</p>
-            </div>
-          </div>
+        <article class="start-card">
+          <h3>${item.title}</h3>
+          <p>${item.body}</p>
         </article>
       `
     )
     .join('');
 }
 
-function renderVideoBreakdowns(copy) {
-  const items = t(copy, 'videoCards');
-  videoBreakdowns.innerHTML = items
+function renderReferenceDetailCards(copy) {
+  const items = t(copy, 'referenceDetails');
+  if (!referenceDetailCards || !Array.isArray(items)) {
+    return;
+  }
+  referenceDetailCards.innerHTML = items
     .map(
       (item) => `
-        <article class="video-breakdown-card">
-          <div class="video-breakdown-media">
-            <img src="${referenceAssetMap[item.id]}" alt="${item.title}" loading="lazy" />
+        <article class="reference-detail-card">
+          <div class="reference-detail-top">
+            <div class="reference-detail-video-column">
+              <div class="reference-detail-headline">
+                <span class="reference-badge">${item.kicker}</span>
+                <span class="reference-duration">${item.duration}</span>
+              </div>
+              <h3>${item.title}</h3>
+              <p class="reference-detail-subtitle">${item.subtitle}</p>
+              <div class="reference-video-shell">
+                <video class="reference-video" controls preload="metadata" playsinline poster="${posterAssetMap[item.videoKey]}">
+                  <source src="${videoAssetMap[item.videoKey]}" type="video/mp4" />
+                </video>
+              </div>
+              <div class="reference-note-box">
+                <h4>${t(copy, 'referenceNoteTitle')}</h4>
+                <p>${item.note}</p>
+              </div>
+            </div>
+            <div class="reference-detail-copy-column">
+              <div class="flow-box">
+                <p class="eyebrow">${t(copy, 'referenceFlowTitle')}</p>
+                <div class="flow-lines">
+                  ${item.flow.map((line, index) => `<div class="flow-line">${index + 1}. "${line}"</div>`).join('')}
+                </div>
+              </div>
+              <div class="reference-mini-grid">
+                <article class="reference-mini-card">
+                  <h4>${t(copy, 'referenceWhyTitle')}</h4>
+                  <ul>${item.whyBullets.map((bullet) => `<li>${bullet}</li>`).join('')}</ul>
+                </article>
+                <article class="reference-mini-card">
+                  <h4>${t(copy, 'referenceCopyTitle')}</h4>
+                  <ul>${item.copyBullets.map((bullet) => `<li>${bullet}</li>`).join('')}</ul>
+                </article>
+              </div>
+            </div>
           </div>
-          <div class="video-breakdown-copy">
-            <p class="offer-kicker">${item.kicker}</p>
-            <h3>${item.title}</h3>
-            <div class="breakdown-steps">
-              ${item.stages
-                .map(
-                  (stage) => `
-                    <div class="breakdown-step">
-                      <div class="breakdown-step-head">
-                        <span class="step-time">${stage.time}</span>
-                        <h4>${stage.title}</h4>
-                      </div>
-                      <p>${stage.body}</p>
-                    </div>
-                  `
-                )
-                .join('')}
-            </div>
-            <div class="breakdown-note">
-              <strong>${t(copy, 'videoTakeLabel')}</strong>
-              <p>${item.takeaway}</p>
-            </div>
+          <div class="reference-table-wrap">
+            <table class="reference-table">
+              <thead>
+                <tr>
+                  <th>${t(copy, 'referenceTableBeat')}</th>
+                  <th>${t(copy, 'referenceTableWhy')}</th>
+                  <th>${t(copy, 'referenceTableSay')}</th>
+                  <th>${t(copy, 'referenceTableFilm')}</th>
+                  <th>${t(copy, 'referenceTableTip')}</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${item.table
+                  .map(
+                    (row) => `
+                      <tr>
+                        <td>${row.beat}</td>
+                        <td>${row.why}</td>
+                        <td>${row.say}</td>
+                        <td>${row.film}</td>
+                        <td>${row.tip}</td>
+                      </tr>
+                    `
+                  )
+                  .join('')}
+              </tbody>
+            </table>
           </div>
         </article>
       `
@@ -957,6 +1451,9 @@ function renderVideoBreakdowns(copy) {
 
 function renderScriptBreakdowns(copy) {
   const items = t(copy, 'scriptBreakdowns');
+  if (!scriptBreakdowns || !Array.isArray(items)) {
+    return;
+  }
   scriptBreakdowns.innerHTML = items
     .map(
       (item) => `
@@ -1008,11 +1505,13 @@ function setLanguage(lang) {
     }
   });
 
+  renderGuidePills(copy);
+  renderJumpChips(copy);
+  renderStartCards(copy);
   renderInsightGrid(offerCards, t(copy, 'offerCards'), 'offer-card');
-  renderInsightGrid(strategyCards, t(copy, 'strategyCards'), 'insight-card');
-  renderInsightGrid(proofCards, t(copy, 'proofCards'), 'proof-card');
-  renderReferenceCards(copy);
-  renderVideoBreakdowns(copy);
+  renderList(doList, t(copy, 'doList'));
+  renderList(dontList, t(copy, 'dontList'));
+  renderReferenceDetailCards(copy);
   renderScriptBreakdowns(copy);
   renderScript(t(copy, 'starterScript'));
   renderList(creatorChecklist, t(copy, 'creatorChecklist'));
