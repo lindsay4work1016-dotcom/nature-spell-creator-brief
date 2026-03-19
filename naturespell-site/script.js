@@ -34,8 +34,8 @@ const translations = {
     promoTitle: "Oferta del 24 de marzo al 1 de abril de 2026",
     promoIntro: "Si te encaja, mete la promo de forma natural al final o en el texto.",
     promoList: [
-      "Single: 12.99",
-      "Bundle: 24.99",
+      "Single: €12.99",
+      "Bundle: €24.99",
       "Hashtags ES: #Ofertasdeprimavera #GlowUpdeprimavera"
     ],
     scriptLibraryEyebrow: "3 Scripts",
@@ -49,6 +49,7 @@ const translations = {
       {
         kicker: "Script 1",
         title: "AI screenshot opener",
+        videoKey: "aiHook",
         steps: [
           "Llevaba días intentando entender qué ayuda de verdad con el cuero cabelludo y el frizz.",
           "Le pasé este tipo de aceite al AI antes de probarlo yo.",
@@ -66,6 +67,7 @@ const translations = {
       {
         kicker: "Script 2",
         title: "Routine demo",
+        videoKey: "replyRoutine",
         steps: [
           "Esta es la rutina que más estoy usando ahora mismo.",
           "Primero aplico en cuero cabelludo y masajeo.",
@@ -83,6 +85,7 @@ const translations = {
       {
         kicker: "Script 3",
         title: "Hair update",
+        videoKey: "resultProof",
         steps: [
           "Este es el estado real de mi pelo antes de arreglarlo.",
           "Esto es lo que más me está funcionando ahora mismo.",
@@ -142,6 +145,9 @@ const translations = {
       "Habla natural; no hace falta que esté perfecto.",
       "Manda una primera versión hoy y luego ya iteramos."
     ],
+    libraryEyebrow: "Knowledge Library",
+    libraryTitle: "Más ejemplos, más training y más detalle",
+    libraryIntro: "Desde aquí para abajo ya no es la tarea de hoy. Esto es la biblioteca para aprender más, sacar ideas nuevas y mejorar los siguientes videos.",
     jumpEyebrow: "Aprende Más",
     jumpIntro: "Si quieres más contexto, más ejemplos o más técnica, aquí empieza la parte de referencia y training.",
     jumpLinks: [
@@ -574,8 +580,8 @@ const translations = {
     promoTitle: "Promo runs from March 24, 2026 to April 1, 2026",
     promoIntro: "If it fits naturally, add the promo near the end or in on-screen text.",
     promoList: [
-      "Single: 12.99",
-      "Bundle: 24.99",
+      "Single: €12.99",
+      "Bundle: €24.99",
       "Hashtags IE: #SpringDealsDays #SpringGlowUp"
     ],
     scriptLibraryEyebrow: "3 Scripts",
@@ -589,6 +595,7 @@ const translations = {
       {
         kicker: "Script 1",
         title: "AI screenshot opener",
+        videoKey: "aiHook",
         steps: [
           "I had been trying to figure out what actually helps with scalp care and frizz.",
           "I even ran this type of hair oil through AI before trying it myself.",
@@ -606,6 +613,7 @@ const translations = {
       {
         kicker: "Script 2",
         title: "Routine demo",
+        videoKey: "replyRoutine",
         steps: [
           "This is the routine I have been using most lately.",
           "First I apply it to my scalp and massage it in.",
@@ -623,6 +631,7 @@ const translations = {
       {
         kicker: "Script 3",
         title: "Hair update",
+        videoKey: "resultProof",
         steps: [
           "This is what my hair actually looks like before I fix it.",
           "This is what has been working best for me lately.",
@@ -682,6 +691,9 @@ const translations = {
       "Keep the delivery natural; it does not need to be perfect.",
       "Send a first version today and improve later."
     ],
+    libraryEyebrow: "Knowledge Library",
+    libraryTitle: "More examples, more training, and more detail",
+    libraryIntro: "Everything below this point is no longer today's task. It is the library for learning more, finding new angles, and improving the next videos.",
     jumpEyebrow: "Learn More",
     jumpIntro: "If you want more context, more examples, or more filming technique, the training library starts below.",
     jumpLinks: [
@@ -1112,8 +1124,8 @@ const translations = {
     promoTitle: "Promo dal 24 marzo 2026 al 1 aprile 2026",
     promoIntro: "Se entra in modo naturale, aggiungi la promo alla fine o nel testo.",
     promoList: [
-      "Single: 12.99",
-      "Bundle: 24.99",
+      "Single: €12.99",
+      "Bundle: €24.99",
       "Hashtags IT: #Offertediprimavera #SpringGlowUp"
     ],
     scriptLibraryEyebrow: "3 Script",
@@ -1127,6 +1139,7 @@ const translations = {
       {
         kicker: "Script 1",
         title: "AI screenshot opener",
+        videoKey: "aiHook",
         steps: [
           "Stavo cercando di capire cosa aiuta davvero cute e crespo.",
           "Ho persino fatto controllare questo tipo di olio all'AI.",
@@ -1139,6 +1152,7 @@ const translations = {
       {
         kicker: "Script 2",
         title: "Routine demo",
+        videoKey: "replyRoutine",
         steps: [
           "Questa e la routine che sto usando di piu adesso.",
           "Prima applico sulla cute e massaggio.",
@@ -1151,6 +1165,7 @@ const translations = {
       {
         kicker: "Script 3",
         title: "Hair update",
+        videoKey: "resultProof",
         steps: [
           "Questo e lo stato reale dei miei capelli prima di sistemarli.",
           "Questo e quello che mi sta aiutando di piu adesso.",
@@ -1205,6 +1220,9 @@ const translations = {
       "Tono naturale, non deve essere perfetto.",
       "Manda una prima versione oggi e poi la miglioriamo."
     ],
+    libraryEyebrow: "Knowledge Library",
+    libraryTitle: "Piu esempi, piu training e piu dettaglio",
+    libraryIntro: "Da qui in giu non e piu il compito di oggi. Questa e la libreria per imparare di piu e migliorare i prossimi video.",
     jumpEyebrow: "Scopri Di Piu",
     jumpIntro: "Se vuoi piu contesto, piu esempi o piu tecnica, qui sotto inizia la libreria.",
     jumpLinks: [
@@ -1503,8 +1521,8 @@ const translations = {
     promoTitle: "Promo von 24. Marz 2026 bis 1. April 2026",
     promoIntro: "Wenn es naturlich passt, setze die Promo ans Ende oder in den Text.",
     promoList: [
-      "Single: 12.99",
-      "Bundle: 24.99",
+      "Single: €12.99",
+      "Bundle: €24.99",
       "Hashtags DE: #FrühjahrsDeals #FrühlingsGlowUp"
     ],
     scriptLibraryEyebrow: "3 Skripte",
@@ -1518,6 +1536,7 @@ const translations = {
       {
         kicker: "Skript 1",
         title: "AI screenshot opener",
+        videoKey: "aiHook",
         steps: [
           "Ich wollte verstehen, was wirklich bei Kopfhaut und Frizz hilft.",
           "Ich habe diese Art Oel sogar erst durch AI gecheckt.",
@@ -1530,6 +1549,7 @@ const translations = {
       {
         kicker: "Skript 2",
         title: "Routine demo",
+        videoKey: "replyRoutine",
         steps: [
           "Das ist die Routine, die ich gerade am meisten nutze.",
           "Zuerst trage ich es auf die Kopfhaut auf und massiere es ein.",
@@ -1542,6 +1562,7 @@ const translations = {
       {
         kicker: "Skript 3",
         title: "Hair update",
+        videoKey: "resultProof",
         steps: [
           "So sehen meine Haare wirklich aus, bevor ich sie mache.",
           "Das hilft mir im Moment am meisten.",
@@ -1596,6 +1617,9 @@ const translations = {
       "Sprich naturlich; es muss nicht perfekt sein.",
       "Schick heute eine erste Version, dann verbessern wir spaeter."
     ],
+    libraryEyebrow: "Knowledge Library",
+    libraryTitle: "Mehr Beispiele, mehr Training und mehr Detail",
+    libraryIntro: "Ab hier ist es nicht mehr die Aufgabe fur heute. Das ist die Bibliothek fur mehr Lernen und bessere nachste Videos.",
     jumpEyebrow: "Mehr Lernen",
     jumpIntro: "Wenn du mehr Kontext, mehr Beispiele oder mehr Technik willst, beginnt die Bibliothek weiter unten.",
     jumpLinks: [
@@ -1893,8 +1917,8 @@ const translations = {
     promoTitle: "Promo du 24 mars 2026 au 1 avril 2026",
     promoIntro: "Si cela rentre naturellement, ajoute la promo a la fin ou en texte ecran.",
     promoList: [
-      "Single: 12.99",
-      "Bundle: 24.99",
+      "Single: €12.99",
+      "Bundle: €24.99",
       "Hashtags FR: #Offresdeprintemps #MénageDePrintemps"
     ],
     scriptLibraryEyebrow: "3 Scripts",
@@ -1908,6 +1932,7 @@ const translations = {
       {
         kicker: "Script 1",
         title: "AI screenshot opener",
+        videoKey: "aiHook",
         steps: [
           "J'essayais de comprendre ce qui aide vraiment le cuir chevelu et les frisottis.",
           "J'ai meme fait verifier ce type d'huile par l'AI.",
@@ -1920,6 +1945,7 @@ const translations = {
       {
         kicker: "Script 2",
         title: "Routine demo",
+        videoKey: "replyRoutine",
         steps: [
           "C'est la routine que j'utilise le plus en ce moment.",
           "D'abord j'applique sur le cuir chevelu et je masse.",
@@ -1932,6 +1958,7 @@ const translations = {
       {
         kicker: "Script 3",
         title: "Hair update",
+        videoKey: "resultProof",
         steps: [
           "Voila l'etat reel de mes cheveux avant de les arranger.",
           "C'est ce qui m'aide le plus en ce moment.",
@@ -1986,6 +2013,9 @@ const translations = {
       "Parle naturellement, pas besoin que ce soit parfait.",
       "Envoie une premiere version aujourd'hui, on ajustera ensuite."
     ],
+    libraryEyebrow: "Knowledge Library",
+    libraryTitle: "Plus d'exemples, plus de training et plus de detail",
+    libraryIntro: "A partir d'ici, ce n'est plus la tache du jour. C'est la bibliotheque pour apprendre plus et ameliorer les prochaines videos.",
     jumpEyebrow: "Aller Plus Loin",
     jumpIntro: "Si tu veux plus de contexte, plus d'exemples ou plus de technique, la bibliotheque commence plus bas.",
     jumpLinks: [
@@ -2372,27 +2402,34 @@ function renderScriptNowCards(copy) {
     .map(
       (item) => `
         <article class="script-now-card">
-          <p class="offer-kicker">${item.kicker}</p>
-          <h3>${item.title}</h3>
-          <div class="script-now-block">
-            <strong>${t(copy, 'scriptFlowLabel')}</strong>
-            <ul>
-              ${item.steps.map((step) => `<li>${step}</li>`).join('')}
-            </ul>
+          <div class="script-now-copy">
+            <p class="offer-kicker">${item.kicker}</p>
+            <h3>${item.title}</h3>
+            <div class="script-now-block">
+              <strong>${t(copy, 'scriptFlowLabel')}</strong>
+              <ul>
+                ${item.steps.map((step) => `<li>${step}</li>`).join('')}
+              </ul>
+            </div>
+            <div class="script-now-block">
+              <strong>${t(copy, 'scriptFilmLabel')}</strong>
+              <ul>
+                ${item.film.map((shot) => `<li>${shot}</li>`).join('')}
+              </ul>
+            </div>
+            <div class="script-now-block">
+              <strong>${t(copy, 'scriptBrandLabel')}</strong>
+              <p>${item.brand}</p>
+            </div>
+            <div class="script-now-block">
+              <strong>${t(copy, 'scriptEndLabel')}</strong>
+              <p>${item.end}</p>
+            </div>
           </div>
-          <div class="script-now-block">
-            <strong>${t(copy, 'scriptFilmLabel')}</strong>
-            <ul>
-              ${item.film.map((shot) => `<li>${shot}</li>`).join('')}
-            </ul>
-          </div>
-          <div class="script-now-block">
-            <strong>${t(copy, 'scriptBrandLabel')}</strong>
-            <p>${item.brand}</p>
-          </div>
-          <div class="script-now-block">
-            <strong>${t(copy, 'scriptEndLabel')}</strong>
-            <p>${item.end}</p>
+          <div class="script-now-media">
+            <video class="script-now-video" controls preload="metadata" playsinline poster="${posterAssetMap[item.videoKey]}">
+              <source src="${videoAssetMap[item.videoKey]}" type="video/mp4" />
+            </video>
           </div>
         </article>
       `
