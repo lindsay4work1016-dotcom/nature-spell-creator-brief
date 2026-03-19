@@ -48,30 +48,15 @@ const translations = {
       "Después pasa directo a tu demo real."
     ],
     aiMockup: {
-      appTitle: "AI Hair Review",
-      header: "Possible benefits of rosemary hair oil",
-      sections: [
-        {
-          title: "1. Más brillo y suavidad",
-          lines: [
-            "Puede ayudar a que el pelo se vea",
-            "más suave y con más brillo."
-          ]
-        },
-        {
-          title: "2. Menos frizz visible",
-          lines: [
-            "Puede ayudar a que el pelo se vea",
-            "menos seco y más controlado."
-          ]
-        },
-        {
-          title: "3. Rutina más fácil",
-          lines: [
-            "El beneficio más fuerte suele ser:",
-            "simple de usar y fácil de repetir."
-          ]
-        }
+      appTitle: "ChatGPT",
+      prompt: "What are the benefits of hair & scalp massage oil?",
+      responseTitle: "Benefits of Hair & Scalp Massage Oil",
+      bullets: [
+        "Helps nourish and hydrate dry, frizzy hair so it looks smoother and softer.",
+        "Scalp massage can support better circulation and healthier-looking hair growth.",
+        "Can soothe the scalp, ease dryness, and reduce that tight or itchy feeling.",
+        "May help protect hair from styling, heat, and everyday environmental stress.",
+        "Adds shine and can help reduce breakage, tangles, and rough-feeling ends."
       ],
       input: "Ask about hair oil..."
     },
@@ -631,30 +616,15 @@ const translations = {
       "Then cut straight into your real demo."
     ],
     aiMockup: {
-      appTitle: "AI Hair Review",
-      header: "Possible benefits of rosemary hair oil",
-      sections: [
-        {
-          title: "1. More shine and smoother hair",
-          lines: [
-            "It may help hair look smoother",
-            "and feel less rough visually."
-          ]
-        },
-        {
-          title: "2. Less visible frizz",
-          lines: [
-            "It may help hair look calmer,",
-            "less dry, and more controlled."
-          ]
-        },
-        {
-          title: "3. Easier scalp routine",
-          lines: [
-            "The strongest message is usually:",
-            "easy to use and easy to keep using."
-          ]
-        }
+      appTitle: "ChatGPT",
+      prompt: "What are the benefits of hair & scalp massage oil?",
+      responseTitle: "Benefits of Hair & Scalp Massage Oil",
+      bullets: [
+        "Helps nourish and hydrate dry, frizzy hair so it looks smoother and softer.",
+        "Scalp massage can support better circulation and healthier-looking hair growth.",
+        "Can soothe the scalp, ease dryness, and reduce that tight or itchy feeling.",
+        "May help protect hair from styling, heat, and everyday environmental stress.",
+        "Adds shine and can help reduce breakage, tangles, and rough-feeling ends."
       ],
       input: "Ask about hair oil..."
     },
@@ -1212,30 +1182,15 @@ const translations = {
       "Poi passa subito alla tua demo reale."
     ],
     aiMockup: {
-      appTitle: "AI Hair Review",
-      header: "Possibili benefici dell'olio al rosmarino",
-      sections: [
-        {
-          title: "1. Piu lucentezza e morbidezza",
-          lines: [
-            "Puo aiutare i capelli a sembrare",
-            "piu morbidi e piu luminosi."
-          ]
-        },
-        {
-          title: "2. Meno crespo visibile",
-          lines: [
-            "Puo aiutare i capelli a sembrare",
-            "meno secchi e piu ordinati."
-          ]
-        },
-        {
-          title: "3. Routine piu facile",
-          lines: [
-            "Il messaggio piu forte e spesso:",
-            "facile da usare e facile da ripetere."
-          ]
-        }
+      appTitle: "ChatGPT",
+      prompt: "Quali sono i benefici dell'olio per massaggio capelli e cute?",
+      responseTitle: "Benefici dell'olio per capelli e cute",
+      bullets: [
+        "Aiuta a nutrire e idratare capelli secchi e crespi, facendoli sembrare piu morbidi.",
+        "Il massaggio sulla cute puo favorire una migliore circolazione e capelli piu sani.",
+        "Puo calmare la cute, ridurre secchezza e quella sensazione di prurito o tensione.",
+        "Puo aiutare a proteggere i capelli da calore, styling e stress esterno.",
+        "Aggiunge lucentezza e puo aiutare a ridurre rottura, nodi e punte rovinate."
       ],
       input: "Ask about hair oil..."
     },
@@ -1646,30 +1601,15 @@ const translations = {
       "Danach direkt in deine echte Demo schneiden."
     ],
     aiMockup: {
-      appTitle: "AI Hair Review",
-      header: "Moegliche Vorteile von Rosmarin-Haaroel",
-      sections: [
-        {
-          title: "1. Mehr Glanz und glatteres Haar",
-          lines: [
-            "Es kann helfen, dass Haare glatter",
-            "und optisch glanzender wirken."
-          ]
-        },
-        {
-          title: "2. Weniger sichtbarer Frizz",
-          lines: [
-            "Es kann helfen, dass Haare weniger",
-            "trocken und ruhiger aussehen."
-          ]
-        },
-        {
-          title: "3. Einfachere Routine",
-          lines: [
-            "Die staerkste Botschaft ist oft:",
-            "leicht zu nutzen und leicht durchzuhalten."
-          ]
-        }
+      appTitle: "ChatGPT",
+      prompt: "Was sind die Vorteile von Haar- und Kopfhaut-Massageoel?",
+      responseTitle: "Vorteile von Haar- und Kopfhaut-Massageoel",
+      bullets: [
+        "Kann trockenes und frizziges Haar naehren und mit Feuchtigkeit versorgen, sodass es glatter wirkt.",
+        "Kopfhautmassage kann die Durchblutung unterstuetzen und gesuender wirkendes Haar foerdern.",
+        "Kann die Kopfhaut beruhigen und Trockenheit oder Juckreiz lindern.",
+        "Kann helfen, das Haar vor Hitze, Styling und Umwelteinfluessen zu schuetzen.",
+        "Kann mehr Glanz geben und Haarbruch, Knoten und spröde Spitzen reduzieren."
       ],
       input: "Ask about hair oil..."
     },
@@ -2079,30 +2019,15 @@ const translations = {
       "Puis passe tout de suite a ta vraie demo."
     ],
     aiMockup: {
-      appTitle: "AI Hair Review",
-      header: "Benefices possibles de l'huile au romarin",
-      sections: [
-        {
-          title: "1. Plus de brillance et de douceur",
-          lines: [
-            "Cela peut aider les cheveux a paraitre",
-            "plus lisses et plus brillants."
-          ]
-        },
-        {
-          title: "2. Moins de frisottis visibles",
-          lines: [
-            "Cela peut aider les cheveux a paraitre",
-            "moins secs et plus nets."
-          ]
-        },
-        {
-          title: "3. Routine plus simple",
-          lines: [
-            "Le message le plus fort est souvent :",
-            "facile a utiliser et facile a refaire."
-          ]
-        }
+      appTitle: "ChatGPT",
+      prompt: "Quels sont les bienfaits de l'huile de massage cheveux et cuir chevelu ?",
+      responseTitle: "Bienfaits de l'huile cheveux et cuir chevelu",
+      bullets: [
+        "Aide a nourrir et hydrater les cheveux secs et frisottants pour un rendu plus lisse.",
+        "Le massage du cuir chevelu peut favoriser une meilleure circulation et des cheveux plus sains.",
+        "Peut apaiser le cuir chevelu et reduire secheresse ou demangeaisons.",
+        "Peut aider a proteger les cheveux de la chaleur, du styling et de l'environnement.",
+        "Ajoute de la brillance et peut aider a reduire casse, noeuds et pointes abimees."
       ],
       input: "Ask about hair oil..."
     },
@@ -2515,27 +2440,75 @@ function escapeXml(value) {
     .replaceAll("'", '&apos;');
 }
 
+function wrapText(value, maxChars) {
+  const words = String(value).split(/\s+/).filter(Boolean);
+  const lines = [];
+  let current = '';
+
+  words.forEach((word) => {
+    const next = current ? `${current} ${word}` : word;
+    if (next.length > maxChars && current) {
+      lines.push(current);
+      current = word;
+    } else {
+      current = next;
+    }
+  });
+
+  if (current) {
+    lines.push(current);
+  }
+
+  return lines;
+}
+
+function svgTextBlock({ x, y, lines, fill, fontSize, fontWeight = '400', lineHeight = 22 }) {
+  return `
+    <text x="${x}" y="${y}" fill="${fill}" font-family="Arial, sans-serif" font-size="${fontSize}" font-weight="${fontWeight}">
+      ${lines
+        .map((line, index) => `<tspan x="${x}" dy="${index === 0 ? 0 : lineHeight}">${escapeXml(line)}</tspan>`)
+        .join('')}
+    </text>
+  `;
+}
+
 function renderAiScreenshot(copy) {
   const mockup = t(copy, 'aiMockup');
   if (!aiScreenshotImage || !mockup) {
     return;
   }
 
-  const sectionBlocks = mockup.sections
-    .map((section, index) => {
-      const baseY = 230 + index * 126;
-      return `
-        <text x="84" y="${baseY}" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="20" font-weight="700">${escapeXml(section.title)}</text>
-        ${section.lines
-          .map(
-            (line, lineIndex) => `
-              <text x="96" y="${baseY + 32 + lineIndex * 26}" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">${escapeXml(line)}</text>
-            `
-          )
-          .join('')}
+  const promptLines = wrapText(mockup.prompt, 27);
+  const responseTitleLines = wrapText(mockup.responseTitle, 24);
+  const bulletLines = mockup.bullets.map((bullet) => wrapText(bullet, 27));
+
+  const promptHeight = 22 + promptLines.length * 20;
+  const promptY = 148;
+  const promptRectY = promptY - 18;
+  const promptRectHeight = promptHeight + 18;
+  const responseHeaderY = promptRectY + promptRectHeight + 34;
+
+  let currentY = responseHeaderY + 32;
+  const bulletBlocks = bulletLines
+    .map((lines) => {
+      const block = `
+        <circle cx="96" cy="${currentY - 7}" r="4.5" fill="#D5D8DD"/>
+        ${svgTextBlock({
+          x: 110,
+          y: currentY,
+          lines,
+          fill: '#D5D8DD',
+          fontSize: 15,
+          lineHeight: 22
+        })}
       `;
+      currentY += lines.length * 22 + 18;
+      return block;
     })
     .join('');
+
+  const responseRectY = responseHeaderY + 14;
+  const responseRectHeight = currentY - responseRectY + 16;
 
   const svg = `
     <svg width="440" height="860" viewBox="0 0 440 860" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2558,12 +2531,33 @@ function renderAiScreenshot(copy) {
       <rect x="165" y="42" width="110" height="18" rx="9" fill="#0C0D0E"/>
       <circle cx="84" cy="128" r="6" fill="#F5F5F5" opacity="0.75"/>
       <circle cx="104" cy="128" r="6" fill="#F5F5F5" opacity="0.45"/>
-      <text x="166" y="134" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="22" font-weight="700">${escapeXml(mockup.appTitle)}</text>
+      <text x="184" y="134" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="22" font-weight="700">${escapeXml(mockup.appTitle)}</text>
 
-      <circle cx="89" cy="184" r="11" fill="#38C172"/>
-      <text x="112" y="192" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="18" font-weight="700">${escapeXml(mockup.header)}</text>
+      <rect x="126" y="${promptRectY}" width="228" height="${promptRectHeight}" rx="22" fill="#2A2E33"/>
+      ${svgTextBlock({
+        x: 146,
+        y: promptY,
+        lines: promptLines,
+        fill: '#F7F7F7',
+        fontSize: 15,
+        fontWeight: '600',
+        lineHeight: 20
+      })}
 
-      ${sectionBlocks}
+      <circle cx="88" cy="${responseHeaderY}" r="12" fill="#38C172"/>
+      <text x="110" y="${responseHeaderY + 6}" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="16" font-weight="700">ChatGPT</text>
+
+      <rect x="74" y="${responseRectY}" width="292" height="${responseRectHeight}" rx="24" fill="#1B1F23" stroke="#2F343A"/>
+      ${svgTextBlock({
+        x: 90,
+        y: responseHeaderY + 30,
+        lines: responseTitleLines,
+        fill: '#F7F7F7',
+        fontSize: 18,
+        fontWeight: '700',
+        lineHeight: 22
+      })}
+      ${bulletBlocks}
 
       <rect x="74" y="684" width="292" height="50" rx="24" fill="#1B1F23" stroke="#2F343A"/>
       <text x="102" y="715" fill="#8A9098" font-family="Arial, sans-serif" font-size="18">${escapeXml(mockup.input)}</text>
