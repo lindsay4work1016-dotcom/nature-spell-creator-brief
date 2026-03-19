@@ -1,170 +1,233 @@
 const translations = {
-  zh: {
-    pageTitle: "Nature Spell 爆款拆解",
+  es: {
+    pageTitle: "Nature Spell Creator Brief",
     brandEyebrow: "Powerfully Natural Rituals",
-    heroTitle: "用 AI 截图做证据感，把 Nature Spell 讲得更像真实发现",
+    heroTitle: "Empieza tu video como un descubrimiento real",
     heroIntro:
-      "这版首稿先解决第一天最重要的任务：让达人一看就会拍。我们先不做过度复杂的品牌手册，而是先围绕“AI 截图 + 个人解释 + 简单演示 + 轻 CTA”搭出最容易起步的爆款结构。",
+      "Abre con una captura estilo ChatGPT en los primeros 1-2 segundos, di lo que descubriste en una frase y pasa directo a la demo. No necesitas sonar técnico: necesitas sonar creíble, simple y fácil de copiar.",
     heroNote:
-      "参考视频卖的不是 Nature Spell 同款产品，但它的表现结构非常值得复用。页面里会明确说明：我们借的是 AI 证据感和内容结构，不是照搬对方产品 claim。所有效果表达都要回到品牌允许的话术。",
-    focusLabel: "当前重点",
-    focusText: "先把 ChatGPT 截图这个点打透，让视频一开头就有可信感和新鲜感。",
-    goalLabel: "达人目标",
-    goalText: "先用最简单的脚本跑起来，再逐步补更多卖点、镜头和变体。",
-    mockupLabel: "可替换 AI 截图示意",
+      "No copies claims de otro producto. Quédate con la sensación de prueba, investigación y descubrimiento, pero mantén tu wording en líneas seguras: más brillo, aspecto más suave, raíces con más cuerpo y menos frizz visible.",
+    focusLabel: "Tu Hook",
+    focusText: "Pon la captura AI al principio y déjala en pantalla lo suficiente para que se lea.",
+    goalLabel: "Tu Objetivo",
+    goalText: "Graba primero la versión más fácil de ejecutar; después añade close-ups, más proof visual y más variaciones.",
+    mockupLabel: "Mockup AI reemplazable",
     offerEyebrow: "Creator Offer",
-    offerTitle: "达人为什么愿意先拍这款",
-    offerIntro: "你刚补的品牌图很关键，所以这一版已经把达人最关心的收益点和品牌背书塞进来了。",
+    offerTitle: "Por qué te conviene probar este ángulo",
+    offerIntro: "Tienes un incentivo claro, apoyo de marca y suficiente proof para que esta pieza se sienta fácil de testear.",
     offerCards: [
-      { kicker: "收益", title: "18% commission", body: "对于达人来说，这是可以直接理解的激励点，适合放进 brief 首页。" },
-      { kicker: "支持", title: "免费样品 + 广告预算", body: "这能降低达人起步门槛，也让内容更容易持续测试。" },
-      { kicker: "背书", title: "VIP 群组与 TikTok UK 头部形象", body: "达人会更容易相信这是一个已经跑通、有资源的品牌。" }
+      { kicker: "Ingreso", title: "18% comisión", body: "Es una razón directa para probar una primera pieza sin complicarte la estructura." },
+      { kicker: "Soporte", title: "Muestras gratis + presupuesto de ads", body: "Te deja grabar y testear sin cargar todo el riesgo sobre tu propio contenido." },
+      { kicker: "Confianza", title: "VIP group + autoridad TikTok UK", body: "Te ayuda a presentar la marca como algo ya probado, no como una apuesta rara." }
     ],
     strategyEyebrow: "Why This Works",
-    strategyTitle: "这个角度为什么容易起量",
+    strategyTitle: "Cómo hacer que este enfoque te funcione",
     strategyCards: [
-      { title: "先给“发现感”", body: "达人不是上来硬卖产品，而是先抛出一个“我去问 AI / 我查过了”的发现。观众会更愿意停下来听后面的话。" },
-      { title: "截图承担一半解释", body: "屏幕上的文字在替达人说话，口播就可以更轻、更像分享，不需要一口气背很多专业内容。" },
-      { title: "证据感比“广告感”更强", body: "黑底聊天截图会让内容像搜索、研究、验证过程，而不是普通带货。这个画面本身就能形成 hook。" }
+      { title: "Empieza con descubrimiento", body: "No abras vendiendo. Abre con algo como 'lo estuve mirando' o 'se lo pregunté al AI', para que la gente quiera escuchar el resto." },
+      { title: "Deja que la captura explique por ti", body: "Si el texto en pantalla ya hace parte del trabajo, tu voz puede sentirse más ligera, más natural y más fácil de grabar." },
+      { title: "Haz que parezca prueba, no anuncio", body: "Una captura de chat oscura se siente como búsqueda, validación y prueba. Ese visual ya te regala el hook." }
     ],
     productEyebrow: "Product Facts",
-    productTitle: "产品信息和品牌背书先这样讲",
-    productBulletsTitle: "产品可说内容",
+    productTitle: "Qué puedes decir delante de cámara",
+    productBulletsTitle: "Talking points de producto",
     productBullets: [
-      "产品是预稀释迷迭香护发油，降低了达人解释使用门槛。",
-      "建议表达：涂在头皮、按摩、停留 30 分钟到 4 小时后洗掉。",
-      "使用频率可以先写成每周 2 次或更多。",
-      "首批视频更适合讲“看起来更丰盈、更顺滑、更有光泽”，不要一开始就堆太多成分术语。",
-      "可用方向：减少毛躁感、改善发尾干燥感、让日常护发更容易坚持。"
+      "Puedes presentarlo como un aceite de romero pre-diluido, fácil de meter en tu rutina.",
+      "El uso más claro para decir en voz alta es: cuero cabelludo, masaje, 30 minutos a 4 horas y luego lavado.",
+      "Si necesitas una línea simple, di que lo usas dos veces por semana o más.",
+      "Prioriza beneficios visuales como más brillo, puntas más suaves y raíces con más cuerpo.",
+      "Mantén el wording prudente: menos frizz visible, puntas menos secas, rutina más fácil de sostener."
     ],
-    brandBulletsTitle: "品牌背书",
+    brandBulletsTitle: "Proof de marca",
     brandBullets: [
-      "TikTok Shop UK 头部护发品牌形象。",
-      "品牌图里强调：TikTok UK #1 haircare brand。",
-      "产品图和 before/after 视觉很适合做达人 brief 页素材。",
-      "Beauty Awards 2025、4.9 星评分、全球高频销售这些都可作为信任加分项。",
-      "价格信息和促销价可以放到落地页或 CTA 区，不一定要压在达人第一句里。"
+      "Apóyate en la posición de Nature Spell dentro de TikTok Shop UK para reforzar confianza.",
+      "La idea de '#1 haircare brand' funciona mejor como señal de credibilidad que como grito de venta.",
+      "Los visuals tipo before and after te ayudan a sostener el mensaje si no tienes mucho texto.",
+      "Beauty Awards 2025, 4.9 estrellas y ventas frecuentes ayudan a que el producto se vea probado.",
+      "Precio y promo déjalos más abajo o cerca del CTA; no los fuerces en el primer hook."
     ],
     starterEyebrow: "Starter Script",
-    starterTitle: "达人起步版脚本",
-    starterIntro: "这版故意做得简单，适合今天就先跑第一批达人。你后面继续补产品信息后，我再把 wording 压得更准。",
-    scriptLabel: "Simple Flow",
+    starterTitle: "Tu guion de arranque",
+    starterIntro: "Si hoy quieres grabar una primera versión rápida, usa esta estructura tal cual y adapta solo tu tono.",
+    scriptLabel: "Creator Flow",
     starterScript: [
-      { index: "01", body: "开头 1-3 秒先说：我最近一直在查，什么东西真的能让头发看起来更顺、更有光泽。" },
-      { index: "02", body: "立刻把 AI 截图放上来，语气像分享发现：我甚至把这种护发油的思路和效果丢给 AI 看了一遍。" },
-      { index: "03", body: "转到 Nature Spell，强调它是已经预稀释的迷迭香油，使用门槛低，不需要把视频拍得很复杂。" },
-      { index: "04", body: "给一个最容易拍的演示：上头皮、按摩、再补一个发尾顺滑和光泽 close-up。" },
-      { index: "05", body: "结尾轻 CTA：如果你也在找一款更容易坚持用的头皮护理油，可以先看这瓶。" }
+      { index: "01", body: "Abre con: llevaba días intentando entender qué ayuda de verdad a que el pelo se vea más suave y con más brillo." },
+      { index: "02", body: "Mete la captura AI enseguida y dilo como descubrimiento personal: incluso le pasé este tipo de aceite al AI antes de probarlo." },
+      { index: "03", body: "Pasa a Nature Spell y apóyate en la facilidad: este ya viene pre-diluido, así que es mucho más fácil de usar de verdad." },
+      { index: "04", body: "Haz la demo más fácil de grabar: aplicación en cuero cabelludo, masaje, y luego close-up de puntas, brillo y movimiento." },
+      { index: "05", body: "Cierra suave: si quieres un aceite de cuero cabelludo que de verdad sea fácil de mantener en rutina, mira este primero." }
     ],
-    creatorChecklistTitle: "达人执行清单",
+    creatorChecklistTitle: "Checklist de grabación",
     creatorChecklist: [
-      "口播像“我刚发现”，不要像“品牌培训”。",
-      "AI 截图停留至少 1-2 秒，别一闪而过。",
-      "先展示头发/头皮状态，再讲使用方法。",
-      "如果没有明显前后对比，就用头皮分线、手指梳发、发尾 close-up 和光泽反光来替代。",
-      "所有效果词尽量偏保守，比如“看起来更丰盈”“感觉没那么干”“看起来更顺滑”。"
+      "Habla como si acabaras de descubrir algo útil, no como si estuvieras leyendo un training de marca.",
+      "Deja la captura AI en pantalla al menos 1-2 segundos.",
+      "Enseña primero el estado del pelo o del cuero cabelludo y luego explica la rutina.",
+      "Si no tienes un before and after fuerte, usa raya del pelo, dedos, close-ups de puntas y tomas de brillo.",
+      "Quédate en palabras seguras: más lleno, menos seco, más suave, con más brillo."
     ],
     hooksEyebrow: "Hooks & CTA",
-    hooksTitle: "先从最简单的钩子和收尾开始",
-    hooksCardTitle: "可直接套用的 Hook",
+    hooksTitle: "Hooks y cierres para usar ya",
+    hooksCardTitle: "Hooks que puedes decir",
     hookList: [
-      "我本来只是想查一下，什么东西真的对发根和毛躁有帮助。",
-      "我最近在用 AI 帮我筛掉那些听起来很厉害、但我根本不会坚持用的护发产品。",
-      "如果你的头发一到发尾就开始干、炸、乱，这个角度你可以试试。",
-      "我不想再盲买护发油了，所以我先去问了一遍 AI。"
+      "Llevaba días intentando entender qué ayuda de verdad con el cuero cabelludo y el frizz.",
+      "Estoy usando AI para filtrar productos capilares que suenan increíbles pero luego nadie mantiene.",
+      "Si tus puntas se ponen secas y como hinchadas, prueba este ángulo.",
+      "No quería comprar otro aceite a ciegas, así que lo revisé primero."
     ],
-    ctaCardTitle: "建议 CTA",
+    ctaCardTitle: "CTA que suenan bien",
     ctaList: [
-      "轻 CTA 优先，不要上来就“立即购买”。",
-      "更适合用“我会先看这瓶”“这瓶是我最近最常拿的”“如果你也有这个问题可以试试”。",
-      "结尾可以补一句使用场景，比如洗前护理、头皮按摩、每周两次。",
-      "如果达人个性更强，也可以走评论区 CTA：想看我完整用法，我再拍。"
+      "Mantén el CTA suave; no entres con compra ya.",
+      "Usa frases como: este es el primero que miraría, esta es la botella que más estoy usando, o si tienes el mismo problema prueba este.",
+      "Añade un momento de uso claro como pre-wash scalp care o dos veces por semana.",
+      "Si tu estilo funciona mejor en comentarios, remata con: si quieres mi rutina completa, la grabo luego."
     ],
     proofEyebrow: "Proof Points",
-    proofTitle: "从补充视频里先抓到的卖点和展示点",
-    proofIntro: "我已经把你补的护发类视频快速看过了，这里先放第一轮可用结论，方便你今天就能推进达人执行。",
+    proofTitle: "Qué sí debes tomar de las referencias",
+    proofIntro: "Quédate con la estructura, el ritmo y la prueba visual. No copies claims ajenos; copia lo que hace que el formato parezca creíble.",
     proofCards: [
-      { title: "Routine 教学型内容", body: "其中一条视频很强的点在于完整展示梳发、上头皮、按摩、停留、清洗后的流程。这个特别适合做“更专业、更像经验分享”的达人版本。" },
-      { title: "Hair Update 日记型内容", body: "另一条视频更像个人变化更新，优势是更真、更能讲“这不是广告，是我自己真的在用”。这种语气很适合拉近信任。" },
-      { title: "适合先讲的卖点方向", body: "首批达人不一定要讲很多专业成分。更建议先从头皮护理、发根更饱满、发尾没那么干、头发看起来更顺手这些感受型利益点切入。" }
+      { title: "Tutorial routine completo", body: "Te sirve cuando quieres que el video se sienta más útil y más experto: cepillado, aplicación, masaje, tiempo de espera y resultado final." },
+      { title: "Hair update honesto", body: "Te sirve cuando quieres sonar cercana y real: más selfie, más update personal y menos sensación de anuncio." },
+      { title: "Beneficios que mejor entran", body: "Empieza con cuero cabelludo, raíces con más cuerpo, puntas menos secas y pelo que se ve más manejable." }
     ],
     referenceEyebrow: "Reference Breakdowns",
-    referenceTitle: "把两条参考视频拆成可直接复用的执行模板",
-    referenceIntro: "这一块直接把两组参考素材拆成镜头结构、语气角度和落地提醒，方便达人快速知道该借什么、不该照搬什么。",
-    referenceAngleLabel: "内容角度",
-    referenceBestForLabel: "适合用途",
-    referenceBeatLabel: "建议复用的镜头顺序",
-    referenceTakeawayLabel: "落地提醒",
+    referenceTitle: "Cómo reutilizar las dos referencias sin sonar igual",
+    referenceIntro: "Aquí tienes lo más útil de cada referencia para que tomes la estructura correcta y no solo la estética.",
+    referenceAngleLabel: "Ángulo",
+    referenceBestForLabel: "Ideal Para",
+    referenceBeatLabel: "Orden de planos",
+    referenceTakeawayLabel: "Recuerda esto",
     referenceCards: [
       {
         id: "replying",
-        kicker: "教程型",
-        title: "Routine 教学视频：强在步骤完整、工具感强",
-        angle: "专业 routine + 明确操作",
-        bestFor: "教育型 creator、头皮护理演示",
+        kicker: "Tutorial",
+        title: "Routine tutorial: cuando quieres enseñar un proceso completo",
+        angle: "Rutina educativa + aplicación clara",
+        bestFor: "Scalp care demo y creator más explicativa",
         summary:
-          "这条视频把梳发、混油、分区上头皮、按摩、停留和洗后建议都讲全了，所以很适合拿来做“流程可信度”模板。",
+          "Esta referencia funciona porque enseña todo el proceso: cepillo, mezcla, secciones, aplicación, masaje, espera y lavado. Hace que tu contenido parezca ordenado y fácil de repetir.",
         beats: [
-          "先用头发变化或结果图做开场，马上说明这是日常 routine。",
-          "展示 applicator 或工具，让观众觉得这个方法有章法、容易复制。",
-          "分区上头皮时一定给近景，让涂抹动作看得清楚。",
-          "补 5-10 秒按摩和停留说明，再接洗后或整理后的发丝状态。"
+          "Abre con el resultado o con una promesa clara para que la rutina merezca la pena desde el segundo uno.",
+          "Enseña el applicator o la herramienta temprano para que el método se vea fácil de copiar.",
+          "Usa planos cercanos en la raya y en el cuero cabelludo para que la aplicación se entienda de verdad.",
+          "Después mete masaje, tiempo de espera y un reveal limpio del pelo ya seco o peinado."
         ],
         takeaway:
-          "可借的是“完整流程 + 工具辅助 + twice-a-week 习惯感”；不要直接照搬过强功效词，首版还是回到 smoother-looking、fuller-looking 这类安全表达。"
+          "Quédate con la sensación de rutina completa y repetible. No copies wording demasiado fuerte sobre resultados."
       },
       {
         id: "hairUpdate",
-        kicker: "日记型",
-        title: "Hair update 视频：强在真实口吻和自购感",
-        angle: "个人变化更新 + 低广告感",
-        bestFor: "信任型 creator、UGC 自拍叙述",
+        kicker: "Diary",
+        title: "Hair update: cuando quieres que se sienta más real que ad",
+        angle: "Update personal + confianza",
+        bestFor: "UGC selfie y creator que vende desde la cercanía",
         summary:
-          "这条素材的优势不在完美布景，而在“我自己真的在用，而且我已经看到差别”的口气。对首批达人来说，这种真实感往往比精致话术更值钱。",
+          "Lo que gana aquí no es la perfección del set, sino la sinceridad del tono. Parece un update después de usar algo de verdad, y esa sensación mueve mucho la confianza.",
         beats: [
-          "开头先放略乱或偏干的头发状态，立刻制造“更新前”语境。",
-          "中段给产品上头皮和发尾的真实手部动作，保持自拍感，不要太广告片。",
-          "洗后和吹干后一定补 close-up，让观众自己看顺滑度和蓬松感。",
-          "结尾更适合用“这甚至不是广告”“我自己买的”这种信任句式，再接轻 CTA。"
+          "Empieza con el pelo algo desordenado o seco para crear un antes implícito.",
+          "Mantén la aplicación del producto muy manual y real; no la conviertas en un anuncio pulido.",
+          "Mete close-ups después del lavado o secado para que la gente vea brillo, suavidad y cuerpo por sí misma.",
+          "Cierra con una línea de confianza antes del CTA, algo tipo no es ni un ad o esto lo compré yo."
         ],
         takeaway:
-          "可借的是“不是硬卖，是分享自己最近的发现”；尤其适合搭配 AI 截图开场，再接头皮分线、发尾 close-up 和结果口播。"
+          "La energía que debes copiar es la de descubrimiento personal. Va muy bien con la captura AI al principio y benefits conservadores."
+      }
+    ],
+    videoEyebrow: "Video Breakdowns",
+    videoTitle: "Los dos formatos que mejor puedes volver a grabar",
+    videoIntro: "Aquí tienes la versión más útil de las referencias: escena por escena y con la intención clara de cada bloque.",
+    videoTakeLabel: "Cómo Usarlo",
+    videoCards: [
+      {
+        id: "replying",
+        kicker: "Formato 01",
+        title: "Tutorial routine con herramienta",
+        stages: [
+          { time: "0-5s", title: "Abre con resultado", body: "Empieza con una frase de cambio o con el pelo ya mejor para que la rutina tenga promesa desde el inicio." },
+          { time: "5-18s", title: "Enseña el método", body: "Muestra el applicator, el producto y cómo lo preparas para que la rutina parezca concreta y fácil de seguir." },
+          { time: "18-42s", title: "Haz visible la aplicación", body: "Divide el cuero cabelludo, aplica en plano cercano y mete un masaje breve para que la demo no se sienta genérica." },
+          { time: "42s+", title: "Termina con rutina completa", body: "Explica cuánto lo dejas, cómo lo lavas y cierra con un finish limpio del pelo." }
+        ],
+        takeaway: "Úsalo si quieres que tu contenido se sienta más útil, más ordenado y más fácil de guardar o repetir."
+      },
+      {
+        id: "hairUpdate",
+        kicker: "Formato 02",
+        title: "Hair update con tono honesto",
+        stages: [
+          { time: "0-4s", title: "Entra con un antes real", body: "Abre con el pelo en estado normal, no perfecto, para que la gente entre en modo update." },
+          { time: "4-20s", title: "Muestra el producto sin teatralidad", body: "Aplica el aceite con gestos sencillos y cercanos, como si de verdad estuvieras enseñando tu rutina." },
+          { time: "20-45s", title: "Haz que el cambio se vea", body: "Después del lavado o secado, mete brillo, puntas y movimiento para que el resultado se entienda visualmente." },
+          { time: "45s+", title: "Cierra con confianza", body: "Remata con una línea de honestidad y luego un CTA suave; así la venta se siente secundaria." }
+        ],
+        takeaway: "Úsalo si tu fortaleza está en sonar cercana, real y poco anunciada."
+      }
+    ],
+    scriptBreakdownEyebrow: "Script Breakdowns",
+    scriptBreakdownTitle: "Dos guiones listos para grabar",
+    scriptBreakdownIntro: "Estos ya están escritos en tono creator. Puedes leerlos tal cual, recortarlos o mezclar partes según tus tomas.",
+    scriptUseLabel: "Úsalo Si",
+    scriptSwapLabel: "Cambia Esto",
+    scriptBreakdowns: [
+      {
+        kicker: "Variación 01",
+        title: "Apertura con descubrimiento AI",
+        use: "Quieres que el video se sienta nuevo y con proof visual desde el segundo uno.",
+        swap: "Cambia smoother-looking, fuller-looking o less dry-looking según lo que realmente se vea en tus planos.",
+        lines: [
+          "Llevaba días intentando entender qué ayuda de verdad con el cuero cabelludo y con el frizz.",
+          "Así que incluso le pasé este tipo de aceite al AI antes de probarlo yo.",
+          "Lo que me llamó la atención de este de Nature Spell es que ya viene pre-diluido y se siente mucho más fácil de usar de verdad.",
+          "Te enseño rapidísimo cómo lo aplico en el cuero cabelludo y cómo se ve luego el pelo.",
+          "Si buscas algo que sí puedas mantener en rutina, este es un buen punto para empezar."
+        ]
+      },
+      {
+        kicker: "Variación 02",
+        title: "Hair update con confianza",
+        use: "Tu punto fuerte es sonar cercana y quieres que la pieza se sienta menos anuncio y más update personal.",
+        swap: "Si no quieres mencionar compra propia, cambia esa línea por llevo unas semanas usándolo y sí noto que se ve mejor.",
+        lines: [
+          "Vale, este es el estado real de mi pelo antes de arreglarlo y quería enseñarte lo que más me está funcionando ahora mismo.",
+          "No me gustan las rutinas imposibles, así que me fijé en este aceite porque ya viene listo para usar.",
+          "Lo pongo en el cuero cabelludo, masajeo un poco y con lo que queda paso por medios y puntas.",
+          "Luego te enseño cómo se ve seco, porque ahí es donde de verdad se nota si el pelo se ve más suave y con más brillo.",
+          "Si tienes el mismo problema, yo miraría este primero."
+        ]
       }
     ],
     nextEyebrow: "Next Build",
-    nextTitle: "下一步我建议继续补这三块",
-    nextBlockOneTitle: "品牌允许的 claim",
-    nextBlockOneBody: "把 Nature Spell 这款油能讲、不能讲的话术列出来，我就能把整页 wording 压得更安全。",
-    nextBlockTwoTitle: "真实产品素材",
-    nextBlockTwoBody: "如果你再给我产品图、瓶身图、达人使用图，我可以把这页视觉再往你刚发的品牌 UI 靠得更近。",
-    nextBlockThreeTitle: "更多爆款视频",
-    nextBlockThreeBody: "你继续发素材，我就能把这个基础版升级成真正的爆款拆解库，包含 Pattern、镜头、口播和多语言成品页。"
+    nextTitle: "Qué añadir si quieres sacar más versiones",
+    nextBlockOneTitle: "Claims seguros",
+    nextBlockOneBody: "Antes de exagerar resultados, asegúrate de quedarte dentro del wording aprobado por marca.",
+    nextBlockTwoTitle: "Más assets reales",
+    nextBlockTwoBody: "Si tienes bottle shots, packshots o uso real, mételos para que la pieza se vea todavía más creíble.",
+    nextBlockThreeTitle: "Más referencias virales",
+    nextBlockThreeBody: "Guarda más ejemplos y podrás sacar versiones más educativas, más UGC o más centradas en resultado."
   },
   en: {
     pageTitle: "Nature Spell Viral Breakdown",
     brandEyebrow: "Powerfully Natural Rituals",
-    heroTitle: "Use an AI screenshot as proof, so Nature Spell feels like a real discovery",
-    heroIntro: "This first draft is built for day one: creators should be able to open it and start filming right away. The current structure we want to push is simple and effective: AI screenshot, personal explanation, easy demo, soft CTA.",
-    heroNote: "The reference video is not selling the same Nature Spell product, and that is stated clearly on the page. We are borrowing the AI-proof format and content structure, not copying another product's claims. All benefit language should stay within brand-safe wording.",
-    focusLabel: "Current Focus",
-    focusText: "Lead with the ChatGPT-style screenshot so the video opens with credibility and novelty.",
-    goalLabel: "Creator Goal",
-    goalText: "Start creators with the easiest version first, then add more selling points and variations later.",
+    heroTitle: "Open like a real discovery, not like an ad",
+    heroIntro: "Start with an AI-style screenshot in the first 1-2 seconds, say what you found in one line, then move straight into the demo. You do not need to sound technical. You need to sound believable, easy, and worth copying.",
+    heroNote: "Do not copy another product's claims. Borrow the proof and discovery feeling instead, then keep your wording inside safe lines like smoother-looking, fuller-looking, shinier, and less dry-looking.",
+    focusLabel: "Your Hook",
+    focusText: "Get the AI screenshot on screen early and leave it there long enough to actually read.",
+    goalLabel: "Your Goal",
+    goalText: "Film the easiest version first, then add more close-ups, more proof, and more variations once it works.",
     mockupLabel: "Replaceable AI screenshot mockup",
     offerEyebrow: "Creator Offer",
-    offerTitle: "Why creators will want to test this first",
-    offerIntro: "Your brand visual helped a lot, so this version already pulls in the creator incentives and brand proof that matter most.",
+    offerTitle: "Why this angle is worth testing",
+    offerIntro: "You already have a clear incentive, brand support, and enough proof to make this feel like an easy first test.",
     offerCards: [
-      { kicker: "Earnings", title: "18% commission", body: "That is a clear creator-facing incentive and belongs near the top of the brief." },
-      { kicker: "Support", title: "Free samples + ad budget", body: "This lowers the barrier to entry and makes content testing easier to sustain." },
-      { kicker: "Trust", title: "VIP groups + TikTok UK category authority", body: "Creators are more likely to engage when the brand already looks resourced and proven." }
+      { kicker: "Earnings", title: "18% commission", body: "That is a clear reason to test a first video without overcomplicating the structure." },
+      { kicker: "Support", title: "Free samples + ad budget", body: "It lets you test content without putting all the risk on your own side." },
+      { kicker: "Trust", title: "VIP groups + TikTok UK category authority", body: "It helps the brand feel established and easier to talk about with confidence." }
     ],
     strategyEyebrow: "Why This Works",
-    strategyTitle: "Why this angle can stop the scroll",
+    strategyTitle: "How to make this angle work for you",
     strategyCards: [
-      { title: "It starts with discovery", body: "The creator does not jump straight into selling. She starts with 'I checked this' or 'I asked AI,' which makes viewers more willing to stay for the rest." },
-      { title: "The screenshot explains half the story", body: "On-screen text carries part of the message, so the spoken delivery can stay casual, lighter, and easier to film." },
-      { title: "It feels more like proof than an ad", body: "A dark AI chat screenshot looks like research and validation. That visual alone can act as the hook." }
+      { title: "Start with discovery", body: "Do not open by selling. Open with a line like I checked this or I asked AI, so people want to hear what comes next." },
+      { title: "Let the screenshot do part of the work", body: "If the on-screen text already explains part of the story, your delivery can stay lighter and more natural." },
+      { title: "Make it feel like proof", body: "A dark chat screenshot feels like research, validation, and evidence. That visual alone can be your hook." }
     ],
     productEyebrow: "Product Facts",
     productTitle: "How to frame the product and the brand",
@@ -220,8 +283,8 @@ const translations = {
       "Creators with stronger personalities can also use a comment CTA: if you want my full routine, I can film that next."
     ],
     proofEyebrow: "Proof Points",
-    proofTitle: "Quick takeaways from the extra videos",
-    proofIntro: "I already reviewed the extra hair references, so this section gives you an immediate first round of usable creator guidance.",
+    proofTitle: "What you should actually borrow from the references",
+    proofIntro: "Borrow the structure, rhythm, and visual proof. Do not borrow someone else's claim language.",
     proofCards: [
       { title: "Routine tutorial format", body: "One of the references is strong because it shows the full process: brushing, scalp application, massage, waiting time, and wash-out. That format is ideal for a more educational creator version." },
       { title: "Hair update diary format", body: "Another reference feels more like a personal progress check-in. That tone works very well for lines like 'this is not even an ad, I actually bought this myself.'" },
@@ -270,14 +333,77 @@ const translations = {
           "The reusable part is the honest, personal-discovery energy. It pairs especially well with the AI screenshot opening and conservative benefit wording."
       }
     ],
+    videoEyebrow: "Video Breakdowns",
+    videoTitle: "The two formats you can re-film most easily",
+    videoIntro: "This is the useful version of the references: scene by scene and with a clear job for each part.",
+    videoTakeLabel: "How To Use It",
+    videoCards: [
+      {
+        id: "replying",
+        kicker: "Format 01",
+        title: "Tutorial routine with a tool",
+        stages: [
+          { time: "0-5s", title: "Open with the outcome", body: "Start with a result line or improved-hair visual so the routine feels worth watching immediately." },
+          { time: "5-18s", title: "Show the method", body: "Bring in the applicator, the product, and the setup so the routine feels concrete and easy to copy." },
+          { time: "18-42s", title: "Make the application visible", body: "Section the scalp, apply in close-up, and add a short massage so the demo feels specific instead of generic." },
+          { time: "42s+", title: "Finish the full routine", body: "Explain the leave-in window, show the wash step, and end on clean finished hair." }
+        ],
+        takeaway: "Use this if you want the content to feel more useful, more organized, and easier to save or repeat."
+      },
+      {
+        id: "hairUpdate",
+        kicker: "Format 02",
+        title: "Hair update with an honest tone",
+        stages: [
+          { time: "0-4s", title: "Open with a real before", body: "Start with normal, imperfect hair so viewers instantly understand this as an update." },
+          { time: "4-20s", title: "Show the product casually", body: "Apply the oil with simple, handheld gestures so it feels like a real routine, not a polished ad." },
+          { time: "20-45s", title: "Make the change visible", body: "After washing or drying, show shine, ends, and movement so the result reads visually." },
+          { time: "45s+", title: "Close with trust", body: "End with an honest line before the CTA so the selling feels secondary." }
+        ],
+        takeaway: "Use this if your strength is sounding close, honest, and low-pressure."
+      }
+    ],
+    scriptBreakdownEyebrow: "Script Breakdowns",
+    scriptBreakdownTitle: "Two scripts you can film right away",
+    scriptBreakdownIntro: "These are already written in a creator voice. Read them as-is, trim them down, or mix pieces depending on your footage.",
+    scriptUseLabel: "Use This If",
+    scriptSwapLabel: "Swap This",
+    scriptBreakdowns: [
+      {
+        kicker: "Variation 01",
+        title: "AI discovery opening",
+        use: "You want the video to feel new and proof-led from the first second.",
+        swap: "Swap in smoother-looking, fuller-looking, shinier, or less dry-looking depending on what your footage really shows.",
+        lines: [
+          "I had been trying to figure out what actually helps with scalp care and frizz.",
+          "So I even ran this type of hair oil through AI before I tried it myself.",
+          "What caught my attention with this Nature Spell one is that it already comes pre-diluted, so it feels much easier to actually use.",
+          "Let me show you quickly how I apply it and how my hair looks after.",
+          "If you want something that feels easier to keep in your routine, this is a good place to start."
+        ]
+      },
+      {
+        kicker: "Variation 02",
+        title: "Trust-led hair update",
+        use: "Your strength is sounding personal, and you want the piece to feel less like an ad and more like an update.",
+        swap: "If you do not want to mention buying it yourself, switch that line to: I have been using this for a few weeks and I can see it looking better.",
+        lines: [
+          "Okay, this is what my hair actually looks like before I fix it, and I wanted to show you what has been working best for me lately.",
+          "I do not like impossible routines, so this oil stood out because it already comes ready to use.",
+          "I put it on my scalp, massage it in, and run whatever is left through my mid-lengths and ends.",
+          "Then I will show you how it looks dry, because that is where you really see if the hair looks smoother and shinier.",
+          "If you have the same issue, this is the one I would look at first."
+        ]
+      }
+    ],
     nextEyebrow: "Next Build",
-    nextTitle: "Three things to add next",
+    nextTitle: "What to add if you want more versions",
     nextBlockOneTitle: "Brand-safe claims",
-    nextBlockOneBody: "Send the approved and restricted wording for this product so I can tighten every line safely.",
-    nextBlockTwoTitle: "Real product assets",
-    nextBlockTwoBody: "If you send bottle shots, product packshots, and creator visuals, I can push the page much closer to the UI style you just shared.",
+    nextBlockOneBody: "Before you push the results harder, stay inside the approved wording for the product.",
+    nextBlockTwoTitle: "More real assets",
+    nextBlockTwoBody: "If you have bottle shots, packshots, or real use visuals, add them so the piece feels even more credible.",
     nextBlockThreeTitle: "More viral references",
-    nextBlockThreeBody: "Keep sending examples and I can turn this starter page into a full breakdown library with patterns, shots, scripts, and final multilingual pages."
+    nextBlockThreeBody: "Save more examples and you can build more educational, more UGC-led, or more result-led versions."
   },
   it: {
     pageTitle: "Analisi Viral Nature Spell",
@@ -709,12 +835,19 @@ const hookList = document.getElementById('hookList');
 const ctaList = document.getElementById('ctaList');
 const proofCards = document.getElementById('proofCards');
 const referenceCards = document.getElementById('referenceCards');
+const videoBreakdowns = document.getElementById('videoBreakdowns');
+const scriptBreakdowns = document.getElementById('scriptBreakdowns');
 const productBullets = document.getElementById('productBullets');
 const brandBullets = document.getElementById('brandBullets');
 const referenceAssetMap = {
   replying: '../naturespell_assets/replying/contact.jpg',
   hairUpdate: '../naturespell_assets/hair_update/contact.jpg'
 };
+const fallbackLanguage = translations.en;
+
+function t(copy, key) {
+  return copy[key] ?? fallbackLanguage[key] ?? translations.es[key];
+}
 
 function renderList(target, items) {
   target.innerHTML = items.map((item) => `<li>${item}</li>`).join('');
@@ -749,7 +882,8 @@ function renderInsightGrid(target, items, type) {
 }
 
 function renderReferenceCards(copy) {
-  referenceCards.innerHTML = copy.referenceCards
+  const items = t(copy, 'referenceCards');
+  referenceCards.innerHTML = items
     .map(
       (item) => `
         <article class="reference-card">
@@ -762,18 +896,18 @@ function renderReferenceCards(copy) {
               <h3>${item.title}</h3>
             </div>
             <div class="reference-meta">
-              <span class="reference-pill"><strong>${copy.referenceAngleLabel}:</strong> ${item.angle}</span>
-              <span class="reference-pill"><strong>${copy.referenceBestForLabel}:</strong> ${item.bestFor}</span>
+              <span class="reference-pill"><strong>${t(copy, 'referenceAngleLabel')}:</strong> ${item.angle}</span>
+              <span class="reference-pill"><strong>${t(copy, 'referenceBestForLabel')}:</strong> ${item.bestFor}</span>
             </div>
             <p class="reference-summary">${item.summary}</p>
             <div>
-              <h3 class="reference-list-title">${copy.referenceBeatLabel}</h3>
+              <h3 class="reference-list-title">${t(copy, 'referenceBeatLabel')}</h3>
               <ul class="reference-beats">
                 ${item.beats.map((beat) => `<li>${beat}</li>`).join('')}
               </ul>
             </div>
             <div class="reference-takeaway">
-              <strong>${copy.referenceTakeawayLabel}</strong>
+              <strong>${t(copy, 'referenceTakeawayLabel')}</strong>
               <p>${item.takeaway}</p>
             </div>
           </div>
@@ -783,38 +917,120 @@ function renderReferenceCards(copy) {
     .join('');
 }
 
+function renderVideoBreakdowns(copy) {
+  const items = t(copy, 'videoCards');
+  videoBreakdowns.innerHTML = items
+    .map(
+      (item) => `
+        <article class="video-breakdown-card">
+          <div class="video-breakdown-media">
+            <img src="${referenceAssetMap[item.id]}" alt="${item.title}" loading="lazy" />
+          </div>
+          <div class="video-breakdown-copy">
+            <p class="offer-kicker">${item.kicker}</p>
+            <h3>${item.title}</h3>
+            <div class="breakdown-steps">
+              ${item.stages
+                .map(
+                  (stage) => `
+                    <div class="breakdown-step">
+                      <div class="breakdown-step-head">
+                        <span class="step-time">${stage.time}</span>
+                        <h4>${stage.title}</h4>
+                      </div>
+                      <p>${stage.body}</p>
+                    </div>
+                  `
+                )
+                .join('')}
+            </div>
+            <div class="breakdown-note">
+              <strong>${t(copy, 'videoTakeLabel')}</strong>
+              <p>${item.takeaway}</p>
+            </div>
+          </div>
+        </article>
+      `
+    )
+    .join('');
+}
+
+function renderScriptBreakdowns(copy) {
+  const items = t(copy, 'scriptBreakdowns');
+  scriptBreakdowns.innerHTML = items
+    .map(
+      (item) => `
+        <article class="script-breakdown-card">
+          <div class="script-breakdown-copy">
+            <div>
+              <p class="offer-kicker">${item.kicker}</p>
+              <h3>${item.title}</h3>
+            </div>
+            <div class="script-meta">
+              <span class="script-chip"><strong>${t(copy, 'scriptUseLabel')}:</strong>&nbsp;${item.use}</span>
+            </div>
+            <div class="script-line-block">
+              ${item.lines
+                .map(
+                  (line, index) => `
+                    <div class="script-line-item">
+                      <div class="script-line-number">${String(index + 1).padStart(2, '0')}</div>
+                      <p>${line}</p>
+                    </div>
+                  `
+                )
+                .join('')}
+            </div>
+            <div class="script-support-grid">
+              <div class="script-block">
+                <h4>${t(copy, 'scriptSwapLabel')}</h4>
+                <p>${item.swap}</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      `
+    )
+    .join('');
+}
+
 function setLanguage(lang) {
-  const copy = translations[lang] || translations.zh;
-  document.title = copy.pageTitle;
-  root.lang = lang === 'zh' ? 'zh-CN' : lang;
+  const normalizedLang = lang === 'zh' ? 'es' : lang;
+  const copy = translations[normalizedLang] || translations.es;
+  document.title = t(copy, 'pageTitle');
+  root.lang = normalizedLang;
 
   document.querySelectorAll('[data-i18n]').forEach((node) => {
     const key = node.dataset.i18n;
-    if (copy[key]) {
-      node.textContent = copy[key];
+    const value = t(copy, key);
+    if (typeof value === 'string') {
+      node.textContent = value;
     }
   });
 
-  renderInsightGrid(offerCards, copy.offerCards, 'offer-card');
-  renderInsightGrid(strategyCards, copy.strategyCards, 'insight-card');
-  renderInsightGrid(proofCards, copy.proofCards, 'proof-card');
+  renderInsightGrid(offerCards, t(copy, 'offerCards'), 'offer-card');
+  renderInsightGrid(strategyCards, t(copy, 'strategyCards'), 'insight-card');
+  renderInsightGrid(proofCards, t(copy, 'proofCards'), 'proof-card');
   renderReferenceCards(copy);
-  renderScript(copy.starterScript);
-  renderList(creatorChecklist, copy.creatorChecklist);
-  renderList(hookList, copy.hookList);
-  renderList(ctaList, copy.ctaList);
-  renderList(productBullets, copy.productBullets);
-  renderList(brandBullets, copy.brandBullets);
+  renderVideoBreakdowns(copy);
+  renderScriptBreakdowns(copy);
+  renderScript(t(copy, 'starterScript'));
+  renderList(creatorChecklist, t(copy, 'creatorChecklist'));
+  renderList(hookList, t(copy, 'hookList'));
+  renderList(ctaList, t(copy, 'ctaList'));
+  renderList(productBullets, t(copy, 'productBullets'));
+  renderList(brandBullets, t(copy, 'brandBullets'));
 
   languageButtons.forEach((button) => {
-    button.classList.toggle('active', button.dataset.lang === lang);
+    button.classList.toggle('active', button.dataset.lang === normalizedLang);
   });
 
-  localStorage.setItem('nature-spell-lang', lang);
+  localStorage.setItem('nature-spell-lang', normalizedLang);
 }
 
 languageButtons.forEach((button) => {
   button.addEventListener('click', () => setLanguage(button.dataset.lang));
 });
 
-setLanguage(localStorage.getItem('nature-spell-lang') || 'zh');
+const savedLanguage = localStorage.getItem('nature-spell-lang');
+setLanguage(savedLanguage === 'zh' ? 'es' : savedLanguage || 'es');
