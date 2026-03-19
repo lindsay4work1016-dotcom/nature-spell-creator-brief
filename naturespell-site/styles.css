@@ -421,6 +421,20 @@ h3 {
   margin: 0 auto;
 }
 
+.ai-screenshot-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.78fr) minmax(0, 1.22fr);
+  gap: 20px;
+}
+
+.screenshot-stage {
+  min-height: auto;
+}
+
+.screenshot-tip-card {
+  align-self: stretch;
+}
+
 .action-card-soft {
   background: rgba(246, 191, 212, 0.12);
 }
@@ -1127,6 +1141,7 @@ li {
   .topbar,
   .creator-grid,
   .script-now-card,
+  .ai-screenshot-layout,
   .reference-detail-top,
   .reference-mini-grid,
   .start-grid,

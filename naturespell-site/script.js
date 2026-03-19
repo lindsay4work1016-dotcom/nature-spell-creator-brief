@@ -38,6 +38,43 @@ const translations = {
       "Bundle: €24.99",
       "Hashtags ES: #Ofertasdeprimavera #GlowUpdeprimavera"
     ],
+    screenshotEyebrow: "AI Screenshot",
+    screenshotTitle: "Haz screenshot de esto para tu video",
+    screenshotIntro: "Usa este screenshot en los primeros 1-2 segundos. Está ya en el idioma correcto para tu mercado.",
+    screenshotTipTitle: "Cómo usarlo",
+    screenshotTips: [
+      "Haz screenshot y ponlo al inicio del video.",
+      "No leas todo. Resume solo una idea.",
+      "Después pasa directo a tu demo real."
+    ],
+    aiMockup: {
+      appTitle: "AI Hair Review",
+      header: "Possible benefits of rosemary hair oil",
+      sections: [
+        {
+          title: "1. Más brillo y suavidad",
+          lines: [
+            "Puede ayudar a que el pelo se vea",
+            "más suave y con más brillo."
+          ]
+        },
+        {
+          title: "2. Menos frizz visible",
+          lines: [
+            "Puede ayudar a que el pelo se vea",
+            "menos seco y más controlado."
+          ]
+        },
+        {
+          title: "3. Rutina más fácil",
+          lines: [
+            "El beneficio más fuerte suele ser:",
+            "simple de usar y fácil de repetir."
+          ]
+        }
+      ],
+      input: "Ask about hair oil..."
+    },
     scriptLibraryEyebrow: "3 Scripts",
     scriptLibraryTitle: "Hoy empieza con uno de estos tres",
     scriptLibraryIntro: "Elige solo uno. Grábalo hoy. Si luego quieres aprender más, bajas y miras el resto.",
@@ -584,6 +621,43 @@ const translations = {
       "Bundle: €24.99",
       "Hashtags IE: #SpringDealsDays #SpringGlowUp"
     ],
+    screenshotEyebrow: "AI Screenshot",
+    screenshotTitle: "Screenshot this for your video",
+    screenshotIntro: "Use this screenshot in the first 1-2 seconds. It is already localized for your market.",
+    screenshotTipTitle: "How to use it",
+    screenshotTips: [
+      "Screenshot it and place it at the start of the video.",
+      "Do not read everything. Summarize one idea only.",
+      "Then cut straight into your real demo."
+    ],
+    aiMockup: {
+      appTitle: "AI Hair Review",
+      header: "Possible benefits of rosemary hair oil",
+      sections: [
+        {
+          title: "1. More shine and smoother hair",
+          lines: [
+            "It may help hair look smoother",
+            "and feel less rough visually."
+          ]
+        },
+        {
+          title: "2. Less visible frizz",
+          lines: [
+            "It may help hair look calmer,",
+            "less dry, and more controlled."
+          ]
+        },
+        {
+          title: "3. Easier scalp routine",
+          lines: [
+            "The strongest message is usually:",
+            "easy to use and easy to keep using."
+          ]
+        }
+      ],
+      input: "Ask about hair oil..."
+    },
     scriptLibraryEyebrow: "3 Scripts",
     scriptLibraryTitle: "Start with one of these three today",
     scriptLibraryIntro: "Pick only one. Film it today. If you want more training later, scroll down after.",
@@ -1128,6 +1202,43 @@ const translations = {
       "Bundle: €24.99",
       "Hashtags IT: #Offertediprimavera #SpringGlowUp"
     ],
+    screenshotEyebrow: "AI Screenshot",
+    screenshotTitle: "Fai screenshot di questo per il video",
+    screenshotIntro: "Usa questo screenshot nei primi 1-2 secondi. E gia nella lingua giusta per il tuo mercato.",
+    screenshotTipTitle: "Come usarlo",
+    screenshotTips: [
+      "Fai screenshot e mettilo all'inizio del video.",
+      "Non leggere tutto. Riassumi una sola idea.",
+      "Poi passa subito alla tua demo reale."
+    ],
+    aiMockup: {
+      appTitle: "AI Hair Review",
+      header: "Possibili benefici dell'olio al rosmarino",
+      sections: [
+        {
+          title: "1. Piu lucentezza e morbidezza",
+          lines: [
+            "Puo aiutare i capelli a sembrare",
+            "piu morbidi e piu luminosi."
+          ]
+        },
+        {
+          title: "2. Meno crespo visibile",
+          lines: [
+            "Puo aiutare i capelli a sembrare",
+            "meno secchi e piu ordinati."
+          ]
+        },
+        {
+          title: "3. Routine piu facile",
+          lines: [
+            "Il messaggio piu forte e spesso:",
+            "facile da usare e facile da ripetere."
+          ]
+        }
+      ],
+      input: "Ask about hair oil..."
+    },
     scriptLibraryEyebrow: "3 Script",
     scriptLibraryTitle: "Oggi parti da uno di questi tre",
     scriptLibraryIntro: "Scegline solo uno. Giralo oggi. Se poi vuoi piu training, scorri dopo.",
@@ -1525,6 +1636,43 @@ const translations = {
       "Bundle: €24.99",
       "Hashtags DE: #FrühjahrsDeals #FrühlingsGlowUp"
     ],
+    screenshotEyebrow: "AI Screenshot",
+    screenshotTitle: "Mach hiervon einen Screenshot fur dein Video",
+    screenshotIntro: "Nutze diesen Screenshot in den ersten 1-2 Sekunden. Er ist schon in der richtigen Sprache fur deinen Markt.",
+    screenshotTipTitle: "So nutzt du ihn",
+    screenshotTips: [
+      "Mach einen Screenshot und setze ihn an den Anfang.",
+      "Lies nicht alles vor. Nimm nur eine Aussage.",
+      "Danach direkt in deine echte Demo schneiden."
+    ],
+    aiMockup: {
+      appTitle: "AI Hair Review",
+      header: "Moegliche Vorteile von Rosmarin-Haaroel",
+      sections: [
+        {
+          title: "1. Mehr Glanz und glatteres Haar",
+          lines: [
+            "Es kann helfen, dass Haare glatter",
+            "und optisch glanzender wirken."
+          ]
+        },
+        {
+          title: "2. Weniger sichtbarer Frizz",
+          lines: [
+            "Es kann helfen, dass Haare weniger",
+            "trocken und ruhiger aussehen."
+          ]
+        },
+        {
+          title: "3. Einfachere Routine",
+          lines: [
+            "Die staerkste Botschaft ist oft:",
+            "leicht zu nutzen und leicht durchzuhalten."
+          ]
+        }
+      ],
+      input: "Ask about hair oil..."
+    },
     scriptLibraryEyebrow: "3 Skripte",
     scriptLibraryTitle: "Starte heute mit einem von diesen drei",
     scriptLibraryIntro: "Wahle nur eins. Dreh es heute. Fur mehr Training kannst du danach runterscrollen.",
@@ -1921,6 +2069,43 @@ const translations = {
       "Bundle: €24.99",
       "Hashtags FR: #Offresdeprintemps #MénageDePrintemps"
     ],
+    screenshotEyebrow: "AI Screenshot",
+    screenshotTitle: "Fais une capture de ceci pour ta video",
+    screenshotIntro: "Utilise cette capture dans les 1-2 premieres secondes. Elle est deja dans la bonne langue pour ton marche.",
+    screenshotTipTitle: "Comment l'utiliser",
+    screenshotTips: [
+      "Fais une capture et mets-la au debut de la video.",
+      "Ne lis pas tout. Garde une seule idee.",
+      "Puis passe tout de suite a ta vraie demo."
+    ],
+    aiMockup: {
+      appTitle: "AI Hair Review",
+      header: "Benefices possibles de l'huile au romarin",
+      sections: [
+        {
+          title: "1. Plus de brillance et de douceur",
+          lines: [
+            "Cela peut aider les cheveux a paraitre",
+            "plus lisses et plus brillants."
+          ]
+        },
+        {
+          title: "2. Moins de frisottis visibles",
+          lines: [
+            "Cela peut aider les cheveux a paraitre",
+            "moins secs et plus nets."
+          ]
+        },
+        {
+          title: "3. Routine plus simple",
+          lines: [
+            "Le message le plus fort est souvent :",
+            "facile a utiliser et facile a refaire."
+          ]
+        }
+      ],
+      input: "Ask about hair oil..."
+    },
     scriptLibraryEyebrow: "3 Scripts",
     scriptLibraryTitle: "Aujourd'hui commence avec un de ces trois",
     scriptLibraryIntro: "Choisis-en un seul. Filme-le aujourd'hui. Si tu veux plus de training, descends apres.",
@@ -2287,6 +2472,8 @@ const translations = {
 const root = document.documentElement;
 const languageButtons = document.querySelectorAll('.lang-btn');
 const guidePills = document.getElementById('guidePills');
+const aiScreenshotImage = document.getElementById('aiScreenshotImage');
+const screenshotTipList = document.getElementById('screenshotTipList');
 const productIntroList = document.getElementById('productIntroList');
 const promoList = document.getElementById('promoList');
 const scriptNowCards = document.getElementById('scriptNowCards');
@@ -2317,6 +2504,78 @@ const fallbackLanguage = translations.en;
 
 function t(copy, key) {
   return copy[key] ?? fallbackLanguage[key] ?? translations.es[key];
+}
+
+function escapeXml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&apos;');
+}
+
+function renderAiScreenshot(copy) {
+  const mockup = t(copy, 'aiMockup');
+  if (!aiScreenshotImage || !mockup) {
+    return;
+  }
+
+  const sectionBlocks = mockup.sections
+    .map((section, index) => {
+      const baseY = 230 + index * 126;
+      return `
+        <text x="84" y="${baseY}" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="20" font-weight="700">${escapeXml(section.title)}</text>
+        ${section.lines
+          .map(
+            (line, lineIndex) => `
+              <text x="96" y="${baseY + 32 + lineIndex * 26}" fill="#D5D8DD" font-family="Arial, sans-serif" font-size="15">${escapeXml(line)}</text>
+            `
+          )
+          .join('')}
+      `;
+    })
+    .join('');
+
+  const svg = `
+    <svg width="440" height="860" viewBox="0 0 440 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="phoneBg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#1C1F22"/>
+          <stop offset="100%" stop-color="#090A0B"/>
+        </linearGradient>
+        <linearGradient id="screenGlow" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#20252A"/>
+          <stop offset="100%" stop-color="#111315"/>
+        </linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+        </filter>
+      </defs>
+
+      <rect x="22" y="20" width="396" height="820" rx="56" fill="url(#phoneBg)" filter="url(#shadow)"/>
+      <rect x="54" y="92" width="332" height="664" rx="28" fill="url(#screenGlow)" stroke="#2A2E33" stroke-width="2"/>
+      <rect x="165" y="42" width="110" height="18" rx="9" fill="#0C0D0E"/>
+      <circle cx="84" cy="128" r="6" fill="#F5F5F5" opacity="0.75"/>
+      <circle cx="104" cy="128" r="6" fill="#F5F5F5" opacity="0.45"/>
+      <text x="166" y="134" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="22" font-weight="700">${escapeXml(mockup.appTitle)}</text>
+
+      <circle cx="89" cy="184" r="11" fill="#38C172"/>
+      <text x="112" y="192" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="18" font-weight="700">${escapeXml(mockup.header)}</text>
+
+      ${sectionBlocks}
+
+      <rect x="74" y="684" width="292" height="50" rx="24" fill="#1B1F23" stroke="#2F343A"/>
+      <text x="102" y="715" fill="#8A9098" font-family="Arial, sans-serif" font-size="18">${escapeXml(mockup.input)}</text>
+      <circle cx="344" cy="709" r="18" fill="#F6F6F6"/>
+      <path d="M339 709H349" stroke="#111315" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M344 704V714" stroke="#111315" stroke-width="2.4" stroke-linecap="round"/>
+
+      <rect x="183" y="776" width="74" height="6" rx="3" fill="#F0F0F0" opacity="0.7"/>
+    </svg>
+  `;
+
+  aiScreenshotImage.src = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
 function renderList(target, items) {
@@ -2574,6 +2833,8 @@ function setLanguage(lang) {
   });
 
   renderGuidePills(copy);
+  renderAiScreenshot(copy);
+  renderList(screenshotTipList, t(copy, 'screenshotTips'));
   renderList(productIntroList, t(copy, 'productIntroList'));
   renderList(promoList, t(copy, 'promoList'));
   renderScriptNowCards(copy);
