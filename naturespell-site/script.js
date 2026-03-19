@@ -197,7 +197,7 @@ const translations = {
         kicker: "Referencia 01",
         duration: "0:50",
         title: "AI Screenshot Hook",
-        subtitle: "Toma prestado el proof device, no el claim del otro producto.",
+        subtitle: "No es el mismo producto. Copia solo esta forma de abrir.",
         flow: [
           "I asked AI what actually helps hair look smoother and less dry.",
           "This is the angle that made the most sense to me.",
@@ -215,7 +215,7 @@ const translations = {
           "Traduce la captura a una sola idea simple; no la leas entera."
         ],
         note:
-          "Este video no vende el mismo producto, pero el formato de captura estilo ChatGPT sí es exactamente el trigger que vale la pena tomar. Usa la pantalla como proof device y mantén todas tus claims dentro del wording aprobado.",
+          "No copies el producto ni el claim. Copia solo esto: screenshot AI al inicio, una frase simple y luego tu propia demo.",
         table: [
           {
             beat: "0 a 3 sec hook",
@@ -618,7 +618,7 @@ const translations = {
         kicker: "Reference 01",
         duration: "0:50",
         title: "AI Screenshot Hook",
-        subtitle: "Borrow the proof device, not the other product claim.",
+        subtitle: "This is not the same product. Copy only this opening structure.",
         flow: [
           "I asked AI what actually helps hair look smoother and less dry.",
           "This is the angle that made the most sense to me.",
@@ -636,7 +636,7 @@ const translations = {
           "Translate the screenshot into one simple takeaway instead of reading it word for word."
         ],
         note:
-          "This video is not selling the same product, but the ChatGPT-style screenshot is exactly the trigger worth borrowing. Use the screenshot as a proof device only, and keep all spoken claims inside approved wording.",
+          "Do not copy the product or the claim. Copy only this: AI screenshot first, one simple line, then your own demo.",
         table: [
           {
             beat: "0 to 3 sec hook",
@@ -849,11 +849,38 @@ const translations = {
     heroTitle: "Usare uno screenshot AI come prova, cosi Nature Spell sembra una scoperta vera",
     heroIntro: "Questa prima bozza e pensata per il giorno uno: il creator deve poter aprire la pagina e iniziare subito a filmare. La struttura da spingere ora e semplice: screenshot AI, spiegazione personale, demo facile e CTA morbida.",
     heroNote: "Il video di riferimento non vende lo stesso prodotto Nature Spell, e questo e scritto chiaramente nella pagina. Riprendiamo il formato e la sensazione di prova, non i claim dell'altro prodotto.",
+    guideEyebrow: "Usa Questa Pagina Cosi",
+    guideTitle: "Scegli una strada e filma semplice",
+    guideBody: "Scegli un riferimento, copia il flow corto, giralo con la tua voce e torna sotto solo se vuoi migliorarlo.",
+    guideNote: "Questa pagina serve per partire subito, non per studiare troppo.",
+    guidePills: [
+      "Un link pubblico semplice",
+      "Nessun embed esterno",
+      "Lettura veloce mobile"
+    ],
     focusLabel: "Focus Attuale",
     focusText: "Aprire con lo screenshot stile ChatGPT per dare subito credibilita e novita.",
     goalLabel: "Obiettivo Creator",
     goalText: "Far partire i creator con la versione piu semplice, poi aggiungere varianti e selling point.",
     mockupLabel: "Mockup AI sostituibile",
+    jumpEyebrow: "Vai Diretto",
+    jumpIntro: "Apri subito la parte che ti serve: struttura veloce, regole o riferimenti completi.",
+    jumpLinks: [
+      { href: "#start", label: "Inizia" },
+      { href: "#rules", label: "Regole" },
+      { href: "#brief-table", label: "Script" },
+      { href: "#references", label: "Riferimenti" },
+      { href: "#proof-notes", label: "Proof" }
+    ],
+    startEyebrow: "Inizia Qui",
+    startTitle: "Se ricordi solo quattro cose, ricorda queste",
+    startIntro: "Nel primo video non servono troppe idee. Basta una idea, una prova, una demo e una chiusura morbida.",
+    startSteps: [
+      { title: "Step 1. Apri con un problema", body: "Di una frase semplice su crespo, punte secche, cute o radici piu piene." },
+      { title: "Step 2. Mostra una prova", body: "Usa solo una prova: screenshot AI, commento, vecchia foto o risultato attuale." },
+      { title: "Step 3. Fai la routine veloce", body: "Cute, massaggio, movimento capelli o bottle shot. Deve capirsi subito." },
+      { title: "Step 4. Chiudi morbido", body: "Chiudi con una frase calma tipo questa e la routine che sto usando ora." }
+    ],
     offerEyebrow: "Creator Offer",
     offerTitle: "Perche i creator possono provarlo subito",
     offerIntro: "L'immagine brand che hai inviato aiuta molto, quindi questa versione include gia incentivi e prove di marca.",
@@ -861,6 +888,24 @@ const translations = {
       { kicker: "Guadagno", title: "18% commissione", body: "Un incentivo chiaro da mettere in alto nel brief." },
       { kicker: "Supporto", title: "Campioni gratuiti + budget adv", body: "Riduce la barriera di ingresso e aiuta il testing continuo." },
       { kicker: "Fiducia", title: "VIP group + autorevolezza TikTok UK", body: "Il brand appare gia strutturato e affidabile." }
+    ],
+    rulesEyebrow: "Fai Questo / Non Fare Questo",
+    rulesTitle: "Tieni il video facile da guardare",
+    doTitle: "Fai Questo",
+    dontTitle: "Evita Questo",
+    doList: [
+      "Parla come se avessi trovato una routine utile.",
+      "Tieni l'apertura semplice: una idea, una prova, una demo.",
+      "Lascia lo screenshot o il commento abbastanza a lungo sullo schermo.",
+      "Se il risultato e leggero, usa lucentezza, riga, texture e movimento.",
+      "Usa parole sicure come piu liscio, piu facile, meno secco."
+    ],
+    dontList: [
+      "Non leggere tutto lo screenshot.",
+      "Non mettere tutti i fact brand in un solo video.",
+      "Non sembrare una trainer o una venditrice.",
+      "Non rendere il primo video troppo perfetto.",
+      "Non promettere risultati che non si vedono."
     ],
     strategyEyebrow: "Why This Works",
     strategyTitle: "Perche questo angolo puo fermare lo scroll",
@@ -974,6 +1019,108 @@ const translations = {
           "La parte riutilizzabile e l'energia da scoperta personale. Si abbina molto bene all'apertura con screenshot AI e a benefit wording prudenti."
       }
     ],
+    referenceDetailEyebrow: "Riferimenti Completi",
+    referenceDetailTitle: "Cosa copiare e come girarlo",
+    referenceDetailIntro: "Qui trovi il flow semplice: cosa dire, cosa filmare e perche funziona.",
+    referenceFlowTitle: "Copia Questo Flow",
+    referenceWhyTitle: "Perche Funziona",
+    referenceCopyTitle: "Copia Queste Parti",
+    referenceNoteTitle: "Nota",
+    referenceTableBeat: "Beat",
+    referenceTableWhy: "Perche c'e",
+    referenceTableSay: "Cosa dire",
+    referenceTableFilm: "Cosa filmare",
+    referenceTableTip: "Tip",
+    referenceDetails: [
+      {
+        videoKey: "aiHook",
+        kicker: "Riferimento 01",
+        duration: "0:50",
+        title: "AI Screenshot Hook",
+        subtitle: "Non e lo stesso prodotto. Copia solo questo modo di aprire.",
+        flow: [
+          "Ho chiesto all'AI cosa aiuta davvero i capelli a sembrare piu lisci.",
+          "Questo e l'angolo che aveva piu senso per me.",
+          "Per questo sto usando questo olio al rosmarino gia pre-diluito.",
+          "Se vuoi una routine cute semplice, puoi partire da qui."
+        ],
+        whyBullets: [
+          "Lo screenshot sembra ricerca, non pubblicita.",
+          "La prova arriva prima della spiegazione lunga.",
+          "Il viewer capisce subito dove guardare."
+        ],
+        copyBullets: [
+          "Metti lo screenshot nei primi 1-3 secondi.",
+          "Riassumi una sola idea, non leggere tutto.",
+          "Passa subito a bottle o routine."
+        ],
+        note: "Questo video non e dello stesso prodotto. Prendi solo la struttura: screenshot AI, frase breve, demo rapida.",
+        table: [
+          { beat: "0-3 sec", why: "Fermare lo scroll", say: "Ho chiesto all'AI cosa aiuta davvero i capelli a sembrare piu lisci.", film: "Faccia + screenshot", tip: "Lascia leggere lo schermo." },
+          { beat: "3-8 sec", why: "Rendere la prova personale", say: "Questo e l'angolo che aveva piu senso per me.", film: "Indica una riga e poi taglia al bottle.", tip: "Una takeaway basta." },
+          { beat: "8-18 sec", why: "Collegare prova e routine", say: "Per questo sto usando questo olio gia pre-diluito.", film: "Cute, massaggio o punte.", tip: "Mostra subito un gesto reale." },
+          { beat: "18 sec+", why: "Chiudere morbido", say: "Se vuoi una routine cute semplice, puoi partire da qui.", film: "Bottle in hand o mirror shot.", tip: "Non oversell." }
+        ]
+      },
+      {
+        videoKey: "replyRoutine",
+        kicker: "Riferimento 02",
+        duration: "2:38",
+        title: "Reply-to-Comment Routine",
+        subtitle: "Trasforma una domanda vera in una routine completa.",
+        flow: [
+          "I miei capelli prima erano cosi, quindi ti mostro la routine che mi ha aiutata.",
+          "Inizio spazzolando, poi preparo gli oli.",
+          "Lo applico sezione per sezione e massaggio.",
+          "Lo faccio due volte a settimana e poi lavo."
+        ],
+        whyBullets: [
+          "Il commento da un motivo vero al video.",
+          "Ogni step si vede chiaramente.",
+          "La routine sembra utile e ripetibile."
+        ],
+        copyBullets: [
+          "Usa una domanda reale.",
+          "Fai vedere l'ordine: brush, apply, massage, wait, wash.",
+          "Spiega in modo semplice."
+        ],
+        note: "Questo formato funziona perche sembra utile. Il commento apre il video e la routine lunga da valore.",
+        table: [
+          { beat: "0-4 sec", why: "Mostrare problema e cambiamento", say: "I miei capelli prima erano cosi, quindi ti mostro la routine che mi ha aiutata.", film: "Risultato attuale + old photo/testo.", tip: "Apri con il cambiamento." },
+          { beat: "4-20 sec", why: "Spiegare la setup", say: "Inizio spazzolando, poi preparo gli oli.", film: "Brush, bottle, mix.", tip: "Le mani che lavorano aiutano." },
+          { beat: "20-70 sec", why: "Far vedere il metodo", say: "Lo applico sezione per sezione e massaggio.", film: "Cute, applicatore, massaggio.", tip: "Mantieni l'ordine chiaro." },
+          { beat: "70 sec+", why: "Chiudere la storia", say: "Lo faccio due volte a settimana e poi lavo.", film: "Wash plan e risultato finale.", tip: "Riassumi bene, non correre." }
+        ]
+      },
+      {
+        videoKey: "resultProof",
+        kicker: "Riferimento 03",
+        duration: "0:07",
+        title: "Healthy Hair Result Tease",
+        subtitle: "Usa un clip corto se vuoi mostrare solo il risultato.",
+        flow: [
+          "Questo e il tipo di risultato lucido che voglio da una routine semplice.",
+          "Tengo la routine semplice per essere costante.",
+          "Questa e la texture che cerco dopo il wash day."
+        ],
+        whyBullets: [
+          "Il movimento dei capelli fa capire il risultato.",
+          "Funziona come intro o finale.",
+          "Serve quando vuoi parlare poco."
+        ],
+        copyBullets: [
+          "Usalo tra hook e demo.",
+          "Punta su movimento e shine.",
+          "Voce molto breve."
+        ],
+        note: "Non tutti i video devono essere lunghi. Questo tipo di clip puo essere solo proof visivo.",
+        table: [
+          { beat: "0-2 sec", why: "Mostrare il risultato", say: "Questo e il tipo di risultato lucido che cerco.", film: "Hair flip o shine shot.", tip: "Apri con movimento." },
+          { beat: "2-5 sec", why: "Collegare a una routine semplice", say: "Tengo la routine semplice per essere costante.", film: "Mani nei capelli o close-up.", tip: "Una frase basta." },
+          { beat: "5 sec+", why: "Lasciare un'impressione chiara", say: "Questa e la texture che cerco dopo il wash day.", film: "Final glossy shot.", tip: "Usalo come supporto visivo." }
+        ]
+      }
+    ],
     nextEyebrow: "Next Build",
     nextTitle: "Le prossime tre cose da aggiungere",
     nextBlockOneTitle: "Claim consentiti",
@@ -989,11 +1136,38 @@ const translations = {
     heroTitle: "Ein AI-Screenshot als Beweis, damit Nature Spell wie ein echter Fund wirkt",
     heroIntro: "Diese erste Fassung ist fur Tag eins gebaut: Creator sollen die Seite offnen und direkt filmen konnen. Die Struktur ist bewusst einfach: AI-Screenshot, personliche Erklarung, leichte Demo, softer CTA.",
     heroNote: "Das Referenzvideo verkauft nicht dasselbe Nature-Spell-Produkt. Genau das wird auf der Seite klar benannt. Wir ubernehmen die Proof-Struktur, nicht die Claims des anderen Produkts.",
+    guideEyebrow: "So Nutzt Du Diese Seite",
+    guideTitle: "Wahle eine Route und filme sie einfach",
+    guideBody: "Wahle eine Referenz, kopiere den kurzen Flow, filme in deiner eigenen Stimme und komm spater fur Details zuruck.",
+    guideNote: "Diese Seite soll dir helfen sofort zu drehen, nicht lange zu lesen.",
+    guidePills: [
+      "Ein einfacher oeffentlicher Link",
+      "Keine externen Embeds",
+      "Schnell auf Mobile lesbar"
+    ],
     focusLabel: "Aktueller Fokus",
     focusText: "Mit dem ChatGPT-ahnlichen Screenshot starten, damit das Video sofort glaubwurdig und neu wirkt.",
     goalLabel: "Creator-Ziel",
     goalText: "Creator sollen mit der einfachsten Version starten und spater mehr Varianten bekommen.",
     mockupLabel: "Austauschbares AI-Mockup",
+    jumpEyebrow: "Direkt Springen",
+    jumpIntro: "Geh direkt zu Struktur, Regeln oder kompletten Referenzen.",
+    jumpLinks: [
+      { href: "#start", label: "Start" },
+      { href: "#rules", label: "Regeln" },
+      { href: "#brief-table", label: "Skripte" },
+      { href: "#references", label: "Referenzen" },
+      { href: "#proof-notes", label: "Proof" }
+    ],
+    startEyebrow: "Start Hier",
+    startTitle: "Wenn du nur vier Dinge behaltst, dann diese",
+    startIntro: "Fur das erste Video reichen eine Idee, ein Proof-Device, eine Demo und ein softer Schluss.",
+    startSteps: [
+      { title: "Schritt 1. Starte mit einem Problem", body: "Sag einen einfachen Satz uber Frizz, trockene Spitzen, Kopfhaut oder voller wirkende Ansatze." },
+      { title: "Schritt 2. Zeig einen Beweis", body: "Nutze nur einen Beweis: AI-Screenshot, Kommentar, altes Foto oder aktuelles Ergebnis." },
+      { title: "Schritt 3. Zeig die Routine schnell", body: "Kopfhaut, Massage, Hair Movement oder Bottle Shot. Es muss sofort klar sein." },
+      { title: "Schritt 4. Ende weich", body: "Schliesse mit einer ruhigen Zeile wie das ist die Routine, die ich gerade nutze." }
+    ],
     offerEyebrow: "Creator Offer",
     offerTitle: "Warum Creator das schnell testen konnen",
     offerIntro: "Dein Brand-Visual war sehr hilfreich, deshalb enthalt diese Version schon Incentives und Markenbeweise.",
@@ -1001,6 +1175,24 @@ const translations = {
       { kicker: "Einnahmen", title: "18% Provision", body: "Ein klarer Creator-Vorteil fur den oberen Teil des Briefs." },
       { kicker: "Support", title: "Gratisproben + Ad Budget", body: "Das senkt die Einstiegshurde und erleichtert Testing." },
       { kicker: "Vertrauen", title: "VIP Gruppen + starke TikTok-UK-Position", body: "So wirkt die Marke bereits etabliert und ressource-stark." }
+    ],
+    rulesEyebrow: "Mach Das / Mach Das Nicht",
+    rulesTitle: "Halte das Video leicht verstaendlich",
+    doTitle: "Mach Das",
+    dontTitle: "Vermeide Das",
+    doList: [
+      "Sprich wie bei einer nuttzlichen Entdeckung.",
+      "Halte den Start einfach: eine Idee, ein Beweis, eine Demo.",
+      "Lass Screenshot oder Kommentar lange genug stehen.",
+      "Wenn das Ergebnis fein ist, nutze Glanz, Scheitel, Textur und Bewegung.",
+      "Nutze sichere Worte wie glatter, leichter, weniger trocken."
+    ],
+    dontList: [
+      "Lies nicht den ganzen Screenshot vor.",
+      "Pack nicht alle Brand-Facts in ein Video.",
+      "Klinge nicht wie Trainer oder harter Seller.",
+      "Mach das erste Video nicht zu perfekt.",
+      "Versprich nichts, was man nicht sieht."
     ],
     strategyEyebrow: "Why This Works",
     strategyTitle: "Warum dieser Ansatz den Scroll stoppen kann",
@@ -1113,6 +1305,108 @@ const translations = {
           "Der wiederverwendbare Teil ist die ehrliche Discovery-Energie. Das passt besonders gut zu einem AI-Screenshot-Hook und vorsichtiger Benefit-Sprache."
       }
     ],
+    referenceDetailEyebrow: "Komplette Referenzen",
+    referenceDetailTitle: "Was du kopieren kannst und wie du es drehst",
+    referenceDetailIntro: "Hier ist der einfache Flow: was sagen, was filmen und warum es funktioniert.",
+    referenceFlowTitle: "Kopiere Diesen Flow",
+    referenceWhyTitle: "Warum Es Funktioniert",
+    referenceCopyTitle: "Kopiere Diese Teile",
+    referenceNoteTitle: "Merke",
+    referenceTableBeat: "Beat",
+    referenceTableWhy: "Warum",
+    referenceTableSay: "Was sagen",
+    referenceTableFilm: "Was filmen",
+    referenceTableTip: "Tip",
+    referenceDetails: [
+      {
+        videoKey: "aiHook",
+        kicker: "Referenz 01",
+        duration: "0:50",
+        title: "AI Screenshot Hook",
+        subtitle: "Nicht dasselbe Produkt. Kopiere nur diese Eroffnung.",
+        flow: [
+          "Ich habe AI gefragt, was Haare glatter aussehen lasst.",
+          "Das war der Angle, der fur mich am meisten Sinn gemacht hat.",
+          "Deshalb greife ich zu diesem vorgemischten Rosmarinol.",
+          "Wenn du eine einfache Kopfhaut-Routine willst, fang hier an."
+        ],
+        whyBullets: [
+          "Der Screenshot wirkt wie Recherche, nicht wie Werbung.",
+          "Der Beweis kommt vor der langen Erklarung.",
+          "Der Viewer weiss sofort, wohin er schauen soll."
+        ],
+        copyBullets: [
+          "Zeig den Screenshot in den ersten 1-3 Sekunden.",
+          "Sag nur eine kurze Takeaway.",
+          "Wechsle schnell zu Bottle oder Routine."
+        ],
+        note: "Das ist nicht dasselbe Produkt. Nimm nur die Struktur: AI-Screenshot, kurzer Satz, schnelle Demo.",
+        table: [
+          { beat: "0-3 Sek.", why: "Scroll stoppen", say: "Ich habe AI gefragt, was Haare glatter aussehen lasst.", film: "Gesicht + Screenshot", tip: "Lass den Screen kurz stehen." },
+          { beat: "3-8 Sek.", why: "Proof personlich machen", say: "Das war der Angle, der fur mich am meisten Sinn gemacht hat.", film: "Auf eine Zeile zeigen, dann zum Bottle cutten.", tip: "Eine Takeaway reicht." },
+          { beat: "8-18 Sek.", why: "Proof mit Routine verbinden", say: "Deshalb greife ich zu diesem vorgemischten Rosmarinol.", film: "Kopfhaut, Massage oder Spitzen.", tip: "Zeig sofort echte Aktion." },
+          { beat: "18 Sek.+", why: "Soft schliessen", say: "Wenn du eine einfache Kopfhaut-Routine willst, fang hier an.", film: "Bottle in Hand oder Mirror Shot.", tip: "Nicht oversellen." }
+        ]
+      },
+      {
+        videoKey: "replyRoutine",
+        kicker: "Referenz 02",
+        duration: "2:38",
+        title: "Reply-to-Comment Routine",
+        subtitle: "Mach aus einer echten Frage eine klare Routine-Antwort.",
+        flow: [
+          "Meine Haare sahen fruher so aus, deshalb zeige ich dir die Routine.",
+          "Ich starte mit dem Bursten und bereite dann die Ole vor.",
+          "Ich trage es Strahne fur Strahne auf und massiere es ein.",
+          "Ich mache das zweimal pro Woche und wasche dann aus."
+        ],
+        whyBullets: [
+          "Der Kommentar gibt dem Video einen echten Grund.",
+          "Jeder Schritt ist klar sichtbar.",
+          "Die Routine wirkt nutzlich und wiederholbar."
+        ],
+        copyBullets: [
+          "Nutze eine echte Frage.",
+          "Zeig die Reihenfolge: brush, apply, massage, wait, wash.",
+          "Erklar kurz und klar."
+        ],
+        note: "Dieses Format funktioniert, weil es nutzlich wirkt. Der Kommentar offnet das Video und die Routine liefert Wert.",
+        table: [
+          { beat: "0-4 Sek.", why: "Problem und Wandel zeigen", say: "Meine Haare sahen fruher so aus, deshalb zeige ich dir die Routine.", film: "Aktuelles Resultat + altes Foto/Text.", tip: "Starte mit Veranderung." },
+          { beat: "4-20 Sek.", why: "Setup klar machen", say: "Ich starte mit dem Bursten und bereite dann die Ole vor.", film: "Brush, Bottle, Mix.", tip: "Hande in Aktion helfen." },
+          { beat: "20-70 Sek.", why: "Methode beweisen", say: "Ich trage es Strahne fur Strahne auf und massiere es ein.", film: "Kopfhaut, Applicator, Massage.", tip: "Halte die Reihenfolge klar." },
+          { beat: "70 Sek.+", why: "Geschichte fertig machen", say: "Ich mache das zweimal pro Woche und wasche dann aus.", film: "Wash plan und Endresultat.", tip: "Lieber klar zusammenfassen." }
+        ]
+      },
+      {
+        videoKey: "resultProof",
+        kicker: "Referenz 03",
+        duration: "0:07",
+        title: "Healthy Hair Result Tease",
+        subtitle: "Nutze einen kurzen Clip, wenn du nur das Ergebnis zeigen willst.",
+        flow: [
+          "So soll gesundes, glanzendes Haar fur mich aussehen.",
+          "Ich halte die Routine einfach, damit ich dranbleibe.",
+          "Genau diese Textur will ich nach dem Waschtag."
+        ],
+        whyBullets: [
+          "Bewegung macht das Ergebnis sofort lesbar.",
+          "Funktioniert als Intro oder Ende.",
+          "Gut, wenn du wenig sprechen willst."
+        ],
+        copyBullets: [
+          "Nutze es zwischen Hook und Demo.",
+          "Setze auf Bewegung und Glanz.",
+          "Die Voiceover-Zeile sehr kurz halten."
+        ],
+        note: "Nicht jedes Video muss lang sein. So ein Clip kann einfach visueller Proof sein.",
+        table: [
+          { beat: "0-2 Sek.", why: "Resultat schnell zeigen", say: "So soll glanziges gesundes Haar aussehen.", film: "Hair flip oder shine shot.", tip: "Mit Bewegung offnen." },
+          { beat: "2-5 Sek.", why: "Mit einfacher Routine verbinden", say: "Ich halte die Routine einfach, damit ich dranbleibe.", film: "Hande im Haar oder Close-up.", tip: "Ein Satz reicht." },
+          { beat: "5 Sek.+", why: "Klare Wirkung hinterlassen", say: "Genau diese Textur will ich nach dem Waschtag.", film: "Glossy final shot.", tip: "Als visuellen Support nutzen." }
+        ]
+      }
+    ],
     nextEyebrow: "Next Build",
     nextTitle: "Diese drei Dinge als Nachstes erganzen",
     nextBlockOneTitle: "Brand-sichere Claims",
@@ -1128,11 +1422,38 @@ const translations = {
     heroTitle: "Utiliser une capture AI comme preuve pour que Nature Spell ressemble a une vraie decouverte",
     heroIntro: "Cette premiere version est construite pour le jour un : les createurs doivent pouvoir ouvrir la page et filmer tout de suite. La structure a pousser maintenant est simple : capture AI, explication personnelle, demo facile, CTA doux.",
     heroNote: "La video de reference ne vend pas le meme produit Nature Spell. Cette precision est clairement affichee sur la page. Nous reprenons la structure de preuve, pas les claims de l'autre produit.",
+    guideEyebrow: "Utilise Cette Page Comme Ca",
+    guideTitle: "Choisis une route et filme simple",
+    guideBody: "Choisis une reference, copie le flow court, filme avec ta propre voix, puis reviens plus bas si tu veux plus de detail.",
+    guideNote: "Cette page sert a faire tourner vite, pas a compliquer la tache.",
+    guidePills: [
+      "Un lien public simple",
+      "Aucun embed externe",
+      "Lecture rapide sur mobile"
+    ],
     focusLabel: "Focus Actuel",
     focusText: "Commencer avec une capture style ChatGPT pour donner tout de suite credibilite et nouveaute.",
     goalLabel: "Objectif Createur",
     goalText: "Faire demarrer les createurs avec la version la plus simple, puis ajouter des variantes ensuite.",
     mockupLabel: "Mockup AI remplacable",
+    jumpEyebrow: "Aller Plus Vite",
+    jumpIntro: "Va directement a la structure, aux regles ou aux references completes.",
+    jumpLinks: [
+      { href: "#start", label: "Commencer" },
+      { href: "#rules", label: "Regles" },
+      { href: "#brief-table", label: "Scripts" },
+      { href: "#references", label: "References" },
+      { href: "#proof-notes", label: "Proof" }
+    ],
+    startEyebrow: "Commence Ici",
+    startTitle: "Si tu ne retiens que quatre choses, retiens celles-ci",
+    startIntro: "Pour le premier post, une idee, une preuve, une demo et une fin douce suffisent.",
+    startSteps: [
+      { title: "Etape 1. Ouvre avec un probleme", body: "Dis une phrase simple sur les frisottis, les pointes seches, le cuir chevelu ou les racines." },
+      { title: "Etape 2. Montre une preuve", body: "Utilise une seule preuve : capture AI, commentaire, ancienne photo ou resultat actuel." },
+      { title: "Etape 3. Montre la routine vite", body: "Cuir chevelu, massage, mouvement des cheveux ou bottle shot. Il faut comprendre vite." },
+      { title: "Etape 4. Termine doucement", body: "Ferme avec une phrase calme comme c'est la routine que j'utilise en ce moment." }
+    ],
     offerEyebrow: "Creator Offer",
     offerTitle: "Pourquoi les createurs peuvent tester cela rapidement",
     offerIntro: "Ton visuel de marque aide beaucoup, donc cette version inclut deja les incentives et les preuves de marque importantes.",
@@ -1140,6 +1461,24 @@ const translations = {
       { kicker: "Gain", title: "18 % de commission", body: "Un avantage clair a montrer en haut du brief." },
       { kicker: "Support", title: "Echantillons gratuits + budget pub", body: "Cela reduit la barriere d'entree et facilite les tests." },
       { kicker: "Confiance", title: "Groupes VIP + force TikTok UK", body: "La marque parait deja structuree et credibilisee." }
+    ],
+    rulesEyebrow: "Fais Ca / Ne Fais Pas Ca",
+    rulesTitle: "Garde la video facile a regarder",
+    doTitle: "Fais Ca",
+    dontTitle: "Evite Ca",
+    doList: [
+      "Parle comme si tu avais trouve une routine utile.",
+      "Garde l'ouverture simple : une idee, une preuve, une demo.",
+      "Laisse la capture ou le commentaire assez longtemps a l'ecran.",
+      "Si le resultat est subtil, montre brillance, raie, texture et mouvement.",
+      "Utilise des mots prudents comme plus lisse, plus facile, moins sec."
+    ],
+    dontList: [
+      "Ne lis pas toute la capture mot pour mot.",
+      "Ne mets pas tous les facts de marque dans une seule video.",
+      "Ne sonne pas comme une formatrice ou une vendeuse agressive.",
+      "Ne rends pas le premier post trop parfait.",
+      "Ne promets pas un resultat qu'on ne voit pas."
     ],
     strategyEyebrow: "Why This Works",
     strategyTitle: "Pourquoi cet angle peut stopper le scroll",
@@ -1250,6 +1589,108 @@ const translations = {
         ],
         takeaway:
           "La partie reutilisable est l'energie de decouverte personnelle. Cela marche tres bien avec une ouverture sur capture AI et un wording benefice plus prudent."
+      }
+    ],
+    referenceDetailEyebrow: "References Completes",
+    referenceDetailTitle: "Quoi copier et comment le filmer",
+    referenceDetailIntro: "Ici tu as le flow simple : quoi dire, quoi filmer et pourquoi cela marche.",
+    referenceFlowTitle: "Copie Ce Flow",
+    referenceWhyTitle: "Pourquoi Ca Marche",
+    referenceCopyTitle: "Copie Ces Parties",
+    referenceNoteTitle: "Note",
+    referenceTableBeat: "Beat",
+    referenceTableWhy: "Pourquoi",
+    referenceTableSay: "Quoi dire",
+    referenceTableFilm: "Quoi filmer",
+    referenceTableTip: "Tip",
+    referenceDetails: [
+      {
+        videoKey: "aiHook",
+        kicker: "Reference 01",
+        duration: "0:50",
+        title: "AI Screenshot Hook",
+        subtitle: "Ce n'est pas le meme produit. Copie seulement cette ouverture.",
+        flow: [
+          "J'ai demande a l'AI ce qui aide vraiment les cheveux a paraitre plus lisses.",
+          "C'est l'angle qui avait le plus de sens pour moi.",
+          "C'est pour ca que je prends cette huile au romarin deja pre-diluee.",
+          "Si tu veux une routine cuir chevelu simple, commence ici."
+        ],
+        whyBullets: [
+          "La capture ressemble a une recherche, pas a une pub.",
+          "La preuve arrive avant la longue explication.",
+          "Le viewer sait tout de suite ou regarder."
+        ],
+        copyBullets: [
+          "Mets la capture dans les 1 a 3 premieres secondes.",
+          "Donne une seule idee simple.",
+          "Passe vite au produit ou a la routine."
+        ],
+        note: "Cette video n'est pas pour le meme produit. Garde seulement la structure : capture AI, phrase courte, demo rapide.",
+        table: [
+          { beat: "0-3 sec", why: "Arreter le scroll", say: "J'ai demande a l'AI ce qui aide vraiment les cheveux a paraitre plus lisses.", film: "Visage + capture", tip: "Laisse le temps de lire." },
+          { beat: "3-8 sec", why: "Rendre la preuve personnelle", say: "C'est l'angle qui avait le plus de sens pour moi.", film: "Pointer une ligne puis couper vers le produit.", tip: "Une seule takeaway suffit." },
+          { beat: "8-18 sec", why: "Relier preuve et routine", say: "C'est pour ca que je prends cette huile deja pre-diluee.", film: "Cuir chevelu, massage ou pointes.", tip: "Montre vite une action reelle." },
+          { beat: "18 sec+", why: "Finir en douceur", say: "Si tu veux une routine cuir chevelu simple, commence ici.", film: "Bottle in hand ou mirror shot.", tip: "Ne survends pas." }
+        ]
+      },
+      {
+        videoKey: "replyRoutine",
+        kicker: "Reference 02",
+        duration: "2:38",
+        title: "Reply-to-Comment Routine",
+        subtitle: "Transforme une vraie question en routine claire.",
+        flow: [
+          "Mes cheveux etaient comme ca avant, donc je te montre la routine qui m'a aidee.",
+          "Je commence par brosser, puis je prepare les huiles.",
+          "Je l'applique section par section et je masse.",
+          "Je fais ca deux fois par semaine puis je lave."
+        ],
+        whyBullets: [
+          "Le commentaire donne une vraie raison a la video.",
+          "Chaque etape se voit clairement.",
+          "La routine parait utile et facile a refaire."
+        ],
+        copyBullets: [
+          "Utilise une vraie question.",
+          "Montre l'ordre : brush, apply, massage, wait, wash.",
+          "Explique simplement."
+        ],
+        note: "Ce format marche parce qu'il semble utile. Le commentaire ouvre la video et la routine apporte la valeur.",
+        table: [
+          { beat: "0-4 sec", why: "Montrer probleme et changement", say: "Mes cheveux etaient comme ca avant, donc je te montre la routine.", film: "Resultat actuel + vieille photo/texte.", tip: "Ouvre avec le changement." },
+          { beat: "4-20 sec", why: "Installer la routine", say: "Je commence par brosser, puis je prepare les huiles.", film: "Brush, bottle, mix.", tip: "Les mains en action aident." },
+          { beat: "20-70 sec", why: "Prouver la methode", say: "Je l'applique section par section et je masse.", film: "Cuir chevelu, applicateur, massage.", tip: "Garde l'ordre clair." },
+          { beat: "70 sec+", why: "Finir l'histoire", say: "Je fais ca deux fois par semaine puis je lave.", film: "Wash plan et resultat final.", tip: "Resume clairement." }
+        ]
+      },
+      {
+        videoKey: "resultProof",
+        kicker: "Reference 03",
+        duration: "0:07",
+        title: "Healthy Hair Result Tease",
+        subtitle: "Utilise un clip court si tu veux juste montrer le resultat.",
+        flow: [
+          "C'est le type de resultat brillant que je veux avec une routine simple.",
+          "Je garde la routine simple pour rester constante.",
+          "C'est cette texture que je cherche apres le wash day."
+        ],
+        whyBullets: [
+          "Le mouvement des cheveux montre le resultat tout de suite.",
+          "Ca marche comme intro ou fin.",
+          "Utile si tu veux peu parler."
+        ],
+        copyBullets: [
+          "Utilise-le entre le hook et la demo.",
+          "Priorise mouvement et brillance.",
+          "Voix tres courte."
+        ],
+        note: "Toutes les videos n'ont pas besoin d'etre longues. Ce type de clip peut juste servir de preuve visuelle.",
+        table: [
+          { beat: "0-2 sec", why: "Montrer vite le resultat", say: "Voila le type de resultat brillant que je veux.", film: "Hair flip ou shine shot.", tip: "Ouvre avec le mouvement." },
+          { beat: "2-5 sec", why: "Relier a une routine simple", say: "Je garde la routine simple pour rester constante.", film: "Mains dans les cheveux ou close-up.", tip: "Une phrase suffit." },
+          { beat: "5 sec+", why: "Laisser une image claire", say: "C'est cette texture que je cherche apres le wash day.", film: "Glossy final shot.", tip: "Utilise-le comme support visuel." }
+        ]
       }
     ],
     nextEyebrow: "Next Build",

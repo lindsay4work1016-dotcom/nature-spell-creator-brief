@@ -123,9 +123,15 @@ h3 {
 
 .language-switcher {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
   justify-content: flex-start;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.language-switcher::-webkit-scrollbar {
+  display: none;
 }
 
 .lang-btn {
@@ -136,6 +142,8 @@ h3 {
   padding: 10px 14px;
   font: inherit;
   cursor: pointer;
+  flex: 0 0 auto;
+  white-space: nowrap;
   transition: transform 160ms ease, background 160ms ease, color 160ms ease;
 }
 
