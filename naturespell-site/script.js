@@ -23,6 +23,81 @@ const translations = {
     goalLabel: "Tu Objetivo",
     goalText: "Graba primero la versión más fácil de ejecutar; después añade close-ups, más proof visual y más variaciones.",
     mockupLabel: "Mockup AI reemplazable",
+    productIntroEyebrow: "Producto y Marca",
+    productIntroTitle: "Qué estás grabando",
+    productIntroList: [
+      "Nature Spell Rosemary Oil: aceite de romero pre-diluido para cuero cabelludo y rutina fácil.",
+      "Marca fuerte en TikTok Shop UK con soporte para creadores y samples.",
+      "Habla como si hubieras encontrado una rutina útil, no como anuncio duro."
+    ],
+    promoEyebrow: "Spring Promo",
+    promoTitle: "Oferta del 24 de marzo al 1 de abril de 2026",
+    promoIntro: "Si te encaja, mete la promo de forma natural al final o en el texto.",
+    promoList: [
+      "Single: 12.99",
+      "Bundle: 24.99",
+      "Hashtags ES: #Ofertasdeprimavera #GlowUpdeprimavera"
+    ],
+    scriptLibraryEyebrow: "3 Scripts",
+    scriptLibraryTitle: "Hoy empieza con uno de estos tres",
+    scriptLibraryIntro: "Elige solo uno. Grábalo hoy. Si luego quieres aprender más, bajas y miras el resto.",
+    scriptFlowLabel: "Qué decir",
+    scriptFilmLabel: "Qué filmar",
+    scriptBrandLabel: "Frase de marca",
+    scriptEndLabel: "Cómo cerrar",
+    scriptNowCards: [
+      {
+        kicker: "Script 1",
+        title: "AI screenshot opener",
+        steps: [
+          "Llevaba días intentando entender qué ayuda de verdad con el cuero cabelludo y el frizz.",
+          "Le pasé este tipo de aceite al AI antes de probarlo yo.",
+          "Eso fue lo que me llevó a probar este de Nature Spell."
+        ],
+        film: [
+          "Cara a cámara",
+          "Screenshot AI",
+          "Aplicación en cuero cabelludo",
+          "Masaje y puntas"
+        ],
+        brand: "Este ya viene pre-diluido, así que se siente más fácil de usar de verdad.",
+        end: "Si quieres una rutina simple para cuero cabelludo, empieza por aquí."
+      },
+      {
+        kicker: "Script 2",
+        title: "Routine demo",
+        steps: [
+          "Esta es la rutina que más estoy usando ahora mismo.",
+          "Primero aplico en cuero cabelludo y masajeo.",
+          "Luego te enseño cómo se ve al final."
+        ],
+        film: [
+          "Bottle shot",
+          "Aplicación",
+          "Masaje",
+          "Resultado final"
+        ],
+        brand: "Me gusta porque no complica la rutina y la puedo repetir con facilidad.",
+        end: "Yo esto lo haría dos veces por semana y ya."
+      },
+      {
+        kicker: "Script 3",
+        title: "Hair update",
+        steps: [
+          "Este es el estado real de mi pelo antes de arreglarlo.",
+          "Esto es lo que más me está funcionando ahora mismo.",
+          "Te enseño el antes, la aplicación y el resultado."
+        ],
+        film: [
+          "Antes real",
+          "Uso natural del producto",
+          "Secado o brillo final",
+          "Movimiento del pelo"
+        ],
+        brand: "Nature Spell ya lo deja muy fácil porque viene listo para usar.",
+        end: "Si tienes el mismo problema, este es el primero que yo miraría."
+      }
+    ],
     quickEyebrow: "Graba Esto Hoy",
     quickTitle: "Elige 1 guion y graba 1 video",
     quickIntro: "No lo compliques. Elige una ruta, copia la estructura y envía una primera versión hoy.",
@@ -67,8 +142,8 @@ const translations = {
       "Habla natural; no hace falta que esté perfecto.",
       "Manda una primera versión hoy y luego ya iteramos."
     ],
-    jumpEyebrow: "Salta a la Parte Importante",
-    jumpIntro: "Ve directo a la ruta que necesitas ahora: estructura rápida, reglas básicas o referencias completas.",
+    jumpEyebrow: "Aprende Más",
+    jumpIntro: "Si quieres más contexto, más ejemplos o más técnica, aquí empieza la parte de referencia y training.",
     jumpLinks: [
       { href: "#start", label: "Empieza aquí" },
       { href: "#rules", label: "Reglas" },
@@ -488,6 +563,81 @@ const translations = {
     goalLabel: "Your Goal",
     goalText: "Film the easiest version first, then add more close-ups, more proof, and more variations once it works.",
     mockupLabel: "Replaceable AI screenshot mockup",
+    productIntroEyebrow: "Product and Brand",
+    productIntroTitle: "What you are filming",
+    productIntroList: [
+      "Nature Spell Rosemary Oil: a pre-diluted rosemary scalp oil built for an easy routine.",
+      "Strong TikTok Shop UK haircare brand with creator support and samples.",
+      "Speak like you found a useful routine, not like you are reading an ad."
+    ],
+    promoEyebrow: "Spring Promo",
+    promoTitle: "Promo runs from March 24, 2026 to April 1, 2026",
+    promoIntro: "If it fits naturally, add the promo near the end or in on-screen text.",
+    promoList: [
+      "Single: 12.99",
+      "Bundle: 24.99",
+      "Hashtags IE: #SpringDealsDays #SpringGlowUp"
+    ],
+    scriptLibraryEyebrow: "3 Scripts",
+    scriptLibraryTitle: "Start with one of these three today",
+    scriptLibraryIntro: "Pick only one. Film it today. If you want more training later, scroll down after.",
+    scriptFlowLabel: "What to say",
+    scriptFilmLabel: "What to film",
+    scriptBrandLabel: "Brand line",
+    scriptEndLabel: "How to end",
+    scriptNowCards: [
+      {
+        kicker: "Script 1",
+        title: "AI screenshot opener",
+        steps: [
+          "I had been trying to figure out what actually helps with scalp care and frizz.",
+          "I even ran this type of hair oil through AI before trying it myself.",
+          "That is what led me to try this Nature Spell one."
+        ],
+        film: [
+          "Face to camera",
+          "AI screenshot",
+          "Scalp application",
+          "Massage and ends"
+        ],
+        brand: "This one is already pre-diluted, so it feels easier to actually use.",
+        end: "If you want a simple scalp routine, start here."
+      },
+      {
+        kicker: "Script 2",
+        title: "Routine demo",
+        steps: [
+          "This is the routine I have been using most lately.",
+          "First I apply it to my scalp and massage it in.",
+          "Then I show how my hair looks after."
+        ],
+        film: [
+          "Bottle shot",
+          "Application",
+          "Massage",
+          "Final result"
+        ],
+        brand: "I like it because it keeps the routine easy and repeatable.",
+        end: "I would do this twice a week and keep it simple."
+      },
+      {
+        kicker: "Script 3",
+        title: "Hair update",
+        steps: [
+          "This is what my hair actually looks like before I fix it.",
+          "This is what has been working best for me lately.",
+          "I will show you the before, the application, and the result."
+        ],
+        film: [
+          "Real before",
+          "Natural product use",
+          "Dry result or shine",
+          "Hair movement"
+        ],
+        brand: "Nature Spell makes it easy because it already comes ready to use.",
+        end: "If you have the same issue, this is the one I would look at first."
+      }
+    ],
     quickEyebrow: "Film This Today",
     quickTitle: "Choose 1 script and film 1 video",
     quickIntro: "Do not overthink it. Pick one route, copy the structure, and send a first version today.",
@@ -532,8 +682,8 @@ const translations = {
       "Keep the delivery natural; it does not need to be perfect.",
       "Send a first version today and improve later."
     ],
-    jumpEyebrow: "Jump Through The Page",
-    jumpIntro: "Go straight to the part you need now: quick structure, core rules, or full reference breakdowns.",
+    jumpEyebrow: "Learn More",
+    jumpIntro: "If you want more context, more examples, or more filming technique, the training library starts below.",
     jumpLinks: [
       { href: "#start", label: "Start here" },
       { href: "#rules", label: "Rules" },
@@ -951,6 +1101,66 @@ const translations = {
     goalLabel: "Obiettivo Creator",
     goalText: "Far partire i creator con la versione piu semplice, poi aggiungere varianti e selling point.",
     mockupLabel: "Mockup AI sostituibile",
+    productIntroEyebrow: "Prodotto e Brand",
+    productIntroTitle: "Cosa stai filmando",
+    productIntroList: [
+      "Nature Spell Rosemary Oil: olio al rosmarino pre-diluito per una routine cute semplice.",
+      "Brand forte su TikTok Shop UK con supporto creator e samples.",
+      "Parla come una scoperta utile, non come una pubblicita."
+    ],
+    promoEyebrow: "Spring Promo",
+    promoTitle: "Promo dal 24 marzo 2026 al 1 aprile 2026",
+    promoIntro: "Se entra in modo naturale, aggiungi la promo alla fine o nel testo.",
+    promoList: [
+      "Single: 12.99",
+      "Bundle: 24.99",
+      "Hashtags IT: #Offertediprimavera #SpringGlowUp"
+    ],
+    scriptLibraryEyebrow: "3 Script",
+    scriptLibraryTitle: "Oggi parti da uno di questi tre",
+    scriptLibraryIntro: "Scegline solo uno. Giralo oggi. Se poi vuoi piu training, scorri dopo.",
+    scriptFlowLabel: "Cosa dire",
+    scriptFilmLabel: "Cosa filmare",
+    scriptBrandLabel: "Frase brand",
+    scriptEndLabel: "Come chiudere",
+    scriptNowCards: [
+      {
+        kicker: "Script 1",
+        title: "AI screenshot opener",
+        steps: [
+          "Stavo cercando di capire cosa aiuta davvero cute e crespo.",
+          "Ho persino fatto controllare questo tipo di olio all'AI.",
+          "E questo mi ha portata a provare Nature Spell."
+        ],
+        film: ["Viso", "Screenshot AI", "Cute", "Massaggio e punte"],
+        brand: "Questo e gia pre-diluito, quindi e molto piu facile da usare davvero.",
+        end: "Se vuoi una routine cute semplice, parti da qui."
+      },
+      {
+        kicker: "Script 2",
+        title: "Routine demo",
+        steps: [
+          "Questa e la routine che sto usando di piu adesso.",
+          "Prima applico sulla cute e massaggio.",
+          "Poi ti faccio vedere il risultato."
+        ],
+        film: ["Bottle shot", "Applicazione", "Massaggio", "Risultato finale"],
+        brand: "Mi piace perche rende la routine facile e ripetibile.",
+        end: "Io lo farei due volte a settimana e basta."
+      },
+      {
+        kicker: "Script 3",
+        title: "Hair update",
+        steps: [
+          "Questo e lo stato reale dei miei capelli prima di sistemarli.",
+          "Questo e quello che mi sta aiutando di piu adesso.",
+          "Ti mostro prima, applicazione e risultato."
+        ],
+        film: ["Prima reale", "Uso naturale", "Asciutto o shine", "Movimento capelli"],
+        brand: "Nature Spell lo rende facile perche arriva gia pronto all'uso.",
+        end: "Se hai lo stesso problema, questo e il primo che guarderei."
+      }
+    ],
     quickEyebrow: "Filma Questo Oggi",
     quickTitle: "Scegli 1 script e gira 1 video",
     quickIntro: "Non complicarti. Scegli una strada, copia la struttura e manda una prima versione oggi.",
@@ -995,8 +1205,8 @@ const translations = {
       "Tono naturale, non deve essere perfetto.",
       "Manda una prima versione oggi e poi la miglioriamo."
     ],
-    jumpEyebrow: "Vai Diretto",
-    jumpIntro: "Apri subito la parte che ti serve: struttura veloce, regole o riferimenti completi.",
+    jumpEyebrow: "Scopri Di Piu",
+    jumpIntro: "Se vuoi piu contesto, piu esempi o piu tecnica, qui sotto inizia la libreria.",
     jumpLinks: [
       { href: "#start", label: "Inizia" },
       { href: "#rules", label: "Regole" },
@@ -1282,6 +1492,66 @@ const translations = {
     goalLabel: "Creator-Ziel",
     goalText: "Creator sollen mit der einfachsten Version starten und spater mehr Varianten bekommen.",
     mockupLabel: "Austauschbares AI-Mockup",
+    productIntroEyebrow: "Produkt und Marke",
+    productIntroTitle: "Was du drehst",
+    productIntroList: [
+      "Nature Spell Rosemary Oil: vorgemischtes Rosmarin-Kopfhautoel fur eine einfache Routine.",
+      "Starke TikTok Shop UK Marke mit Creator-Support und Samples.",
+      "Sprich wie bei einer nuttzlichen Entdeckung, nicht wie in einer Werbung."
+    ],
+    promoEyebrow: "Spring Promo",
+    promoTitle: "Promo von 24. Marz 2026 bis 1. April 2026",
+    promoIntro: "Wenn es naturlich passt, setze die Promo ans Ende oder in den Text.",
+    promoList: [
+      "Single: 12.99",
+      "Bundle: 24.99",
+      "Hashtags DE: #FrühjahrsDeals #FrühlingsGlowUp"
+    ],
+    scriptLibraryEyebrow: "3 Skripte",
+    scriptLibraryTitle: "Starte heute mit einem von diesen drei",
+    scriptLibraryIntro: "Wahle nur eins. Dreh es heute. Fur mehr Training kannst du danach runterscrollen.",
+    scriptFlowLabel: "Was sagen",
+    scriptFilmLabel: "Was filmen",
+    scriptBrandLabel: "Brand-Zeile",
+    scriptEndLabel: "Wie enden",
+    scriptNowCards: [
+      {
+        kicker: "Skript 1",
+        title: "AI screenshot opener",
+        steps: [
+          "Ich wollte verstehen, was wirklich bei Kopfhaut und Frizz hilft.",
+          "Ich habe diese Art Oel sogar erst durch AI gecheckt.",
+          "Dadurch bin ich bei Nature Spell gelandet."
+        ],
+        film: ["Gesicht", "AI-Screenshot", "Kopfhaut", "Massage und Spitzen"],
+        brand: "Dieses hier ist schon vorgemischt und deshalb leichter im Alltag zu nutzen.",
+        end: "Wenn du eine einfache Kopfhaut-Routine willst, fang hier an."
+      },
+      {
+        kicker: "Skript 2",
+        title: "Routine demo",
+        steps: [
+          "Das ist die Routine, die ich gerade am meisten nutze.",
+          "Zuerst trage ich es auf die Kopfhaut auf und massiere es ein.",
+          "Danach zeige ich dir das Ergebnis."
+        ],
+        film: ["Bottle shot", "Auftragen", "Massage", "Endergebnis"],
+        brand: "Ich mag es, weil die Routine einfach und wiederholbar bleibt.",
+        end: "Ich wurde das zweimal pro Woche machen und einfach halten."
+      },
+      {
+        kicker: "Skript 3",
+        title: "Hair update",
+        steps: [
+          "So sehen meine Haare wirklich aus, bevor ich sie mache.",
+          "Das hilft mir im Moment am meisten.",
+          "Ich zeige dir Vorher, Anwendung und Ergebnis."
+        ],
+        film: ["Echtes Vorher", "Natürliche Anwendung", "Trockenes Ergebnis oder Glanz", "Haarbewegung"],
+        brand: "Nature Spell macht es leicht, weil es direkt nutzbar ist.",
+        end: "Wenn du dasselbe Problem hast, ware das mein erster Blick."
+      }
+    ],
     quickEyebrow: "Dreh Das Heute",
     quickTitle: "Wahle 1 Skript und drehe 1 Video",
     quickIntro: "Mach es nicht kompliziert. Wahle eine Route, kopiere die Struktur und schick heute eine erste Version.",
@@ -1326,8 +1596,8 @@ const translations = {
       "Sprich naturlich; es muss nicht perfekt sein.",
       "Schick heute eine erste Version, dann verbessern wir spaeter."
     ],
-    jumpEyebrow: "Direkt Springen",
-    jumpIntro: "Geh direkt zu Struktur, Regeln oder kompletten Referenzen.",
+    jumpEyebrow: "Mehr Lernen",
+    jumpIntro: "Wenn du mehr Kontext, mehr Beispiele oder mehr Technik willst, beginnt die Bibliothek weiter unten.",
     jumpLinks: [
       { href: "#start", label: "Start" },
       { href: "#rules", label: "Regeln" },
@@ -1612,6 +1882,66 @@ const translations = {
     goalLabel: "Objectif Createur",
     goalText: "Faire demarrer les createurs avec la version la plus simple, puis ajouter des variantes ensuite.",
     mockupLabel: "Mockup AI remplacable",
+    productIntroEyebrow: "Produit et Marque",
+    productIntroTitle: "Ce que tu filmes",
+    productIntroList: [
+      "Nature Spell Rosemary Oil : huile au romarin pre-diluee pour une routine cuir chevelu simple.",
+      "Marque forte sur TikTok Shop UK avec support creator et samples.",
+      "Parle comme une decouverte utile, pas comme une pub."
+    ],
+    promoEyebrow: "Spring Promo",
+    promoTitle: "Promo du 24 mars 2026 au 1 avril 2026",
+    promoIntro: "Si cela rentre naturellement, ajoute la promo a la fin ou en texte ecran.",
+    promoList: [
+      "Single: 12.99",
+      "Bundle: 24.99",
+      "Hashtags FR: #Offresdeprintemps #MénageDePrintemps"
+    ],
+    scriptLibraryEyebrow: "3 Scripts",
+    scriptLibraryTitle: "Aujourd'hui commence avec un de ces trois",
+    scriptLibraryIntro: "Choisis-en un seul. Filme-le aujourd'hui. Si tu veux plus de training, descends apres.",
+    scriptFlowLabel: "Quoi dire",
+    scriptFilmLabel: "Quoi filmer",
+    scriptBrandLabel: "Phrase marque",
+    scriptEndLabel: "Comment finir",
+    scriptNowCards: [
+      {
+        kicker: "Script 1",
+        title: "AI screenshot opener",
+        steps: [
+          "J'essayais de comprendre ce qui aide vraiment le cuir chevelu et les frisottis.",
+          "J'ai meme fait verifier ce type d'huile par l'AI.",
+          "C'est ce qui m'a amenee vers Nature Spell."
+        ],
+        film: ["Visage", "Capture AI", "Cuir chevelu", "Massage et pointes"],
+        brand: "Celui-ci est deja pre-dilue, donc il est plus simple a utiliser pour de vrai.",
+        end: "Si tu veux une routine cuir chevelu simple, commence ici."
+      },
+      {
+        kicker: "Script 2",
+        title: "Routine demo",
+        steps: [
+          "C'est la routine que j'utilise le plus en ce moment.",
+          "D'abord j'applique sur le cuir chevelu et je masse.",
+          "Ensuite je te montre le resultat."
+        ],
+        film: ["Bottle shot", "Application", "Massage", "Resultat final"],
+        brand: "Je l'aime parce que la routine reste simple et repetable.",
+        end: "Je ferais cela deux fois par semaine, simplement."
+      },
+      {
+        kicker: "Script 3",
+        title: "Hair update",
+        steps: [
+          "Voila l'etat reel de mes cheveux avant de les arranger.",
+          "C'est ce qui m'aide le plus en ce moment.",
+          "Je te montre l'avant, l'application et le resultat."
+        ],
+        film: ["Avant reel", "Usage naturel", "Resultat sec ou brillance", "Mouvement des cheveux"],
+        brand: "Nature Spell rend cela facile parce que c'est deja pret a l'emploi.",
+        end: "Si tu as le meme probleme, c'est celui que je regarderais d'abord."
+      }
+    ],
     quickEyebrow: "Filme Ca Aujourd'hui",
     quickTitle: "Choisis 1 script et filme 1 video",
     quickIntro: "Ne complique pas. Choisis une route, copie la structure et envoie une premiere version aujourd'hui.",
@@ -1656,8 +1986,8 @@ const translations = {
       "Parle naturellement, pas besoin que ce soit parfait.",
       "Envoie une premiere version aujourd'hui, on ajustera ensuite."
     ],
-    jumpEyebrow: "Aller Plus Vite",
-    jumpIntro: "Va directement a la structure, aux regles ou aux references completes.",
+    jumpEyebrow: "Aller Plus Loin",
+    jumpIntro: "Si tu veux plus de contexte, plus d'exemples ou plus de technique, la bibliotheque commence plus bas.",
     jumpLinks: [
       { href: "#start", label: "Commencer" },
       { href: "#rules", label: "Regles" },
@@ -1927,9 +2257,9 @@ const translations = {
 const root = document.documentElement;
 const languageButtons = document.querySelectorAll('.lang-btn');
 const guidePills = document.getElementById('guidePills');
-const quickRoutes = document.getElementById('quickRoutes');
-const mustFilmList = document.getElementById('mustFilmList');
-const deliveryList = document.getElementById('deliveryList');
+const productIntroList = document.getElementById('productIntroList');
+const promoList = document.getElementById('promoList');
+const scriptNowCards = document.getElementById('scriptNowCards');
 const jumpChips = document.getElementById('jumpChips');
 const startCards = document.getElementById('startCards');
 const offerCards = document.getElementById('offerCards');
@@ -2033,27 +2363,35 @@ function renderStartCards(copy) {
     .join('');
 }
 
-function renderQuickRoutes(copy) {
-  const items = t(copy, 'quickRoutes');
-  if (!quickRoutes || !Array.isArray(items)) {
+function renderScriptNowCards(copy) {
+  const items = t(copy, 'scriptNowCards');
+  if (!scriptNowCards || !Array.isArray(items)) {
     return;
   }
-  quickRoutes.innerHTML = items
+  scriptNowCards.innerHTML = items
     .map(
       (item) => `
-        <article class="quick-route-card">
+        <article class="script-now-card">
           <p class="offer-kicker">${item.kicker}</p>
           <h3>${item.title}</h3>
-          <div class="quick-route-block">
-            <strong>${t(copy, 'quickHookLabel')}</strong>
-            <p>${item.hook}</p>
+          <div class="script-now-block">
+            <strong>${t(copy, 'scriptFlowLabel')}</strong>
+            <ul>
+              ${item.steps.map((step) => `<li>${step}</li>`).join('')}
+            </ul>
           </div>
-          <div class="quick-route-block">
-            <strong>${t(copy, 'quickFilmLabel')}</strong>
-            <p>${item.film}</p>
+          <div class="script-now-block">
+            <strong>${t(copy, 'scriptFilmLabel')}</strong>
+            <ul>
+              ${item.film.map((shot) => `<li>${shot}</li>`).join('')}
+            </ul>
           </div>
-          <div class="quick-route-block">
-            <strong>${t(copy, 'quickEndLabel')}</strong>
+          <div class="script-now-block">
+            <strong>${t(copy, 'scriptBrandLabel')}</strong>
+            <p>${item.brand}</p>
+          </div>
+          <div class="script-now-block">
+            <strong>${t(copy, 'scriptEndLabel')}</strong>
             <p>${item.end}</p>
           </div>
         </article>
@@ -2199,9 +2537,9 @@ function setLanguage(lang) {
   });
 
   renderGuidePills(copy);
-  renderQuickRoutes(copy);
-  renderList(mustFilmList, t(copy, 'mustFilmList'));
-  renderList(deliveryList, t(copy, 'deliveryList'));
+  renderList(productIntroList, t(copy, 'productIntroList'));
+  renderList(promoList, t(copy, 'promoList'));
+  renderScriptNowCards(copy);
   renderJumpChips(copy);
   renderStartCards(copy);
   renderInsightGrid(offerCards, t(copy, 'offerCards'), 'offer-card');

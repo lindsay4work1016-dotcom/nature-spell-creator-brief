@@ -331,22 +331,23 @@ h3 {
   gap: 20px;
 }
 
-.quick-film-grid,
-.front-action-grid {
+.front-summary-grid,
+.script-launch-grid {
   display: grid;
   gap: 18px;
 }
 
-.quick-film-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.front-action-grid {
+.front-summary-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 24px;
 }
 
-.quick-route-card,
+.script-launch-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 24px;
+}
+
+.script-now-card,
 .action-card {
   padding: 22px;
   border-radius: 26px;
@@ -355,26 +356,31 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-.quick-route-card h3 {
+.script-now-card h3 {
   margin-bottom: 14px;
   font-size: 1.42rem;
 }
 
-.quick-route-block + .quick-route-block {
+.script-now-block + .script-now-block {
   margin-top: 14px;
 }
 
-.quick-route-block strong {
+.script-now-block strong {
   display: inline-block;
   margin-bottom: 6px;
   color: var(--brand-deep);
 }
 
-.quick-route-block p,
+.script-now-block p,
+.script-now-block li,
 .action-card li {
   margin: 0;
   color: var(--muted);
   line-height: 1.78;
+}
+
+.script-now-block ul {
+  padding-left: 18px;
 }
 
 .action-card-soft {
@@ -1073,8 +1079,8 @@ li {
   .insight-grid,
   .proof-grid,
   .next-grid,
-  .quick-film-grid,
-  .front-action-grid,
+  .front-summary-grid,
+  .script-launch-grid,
   .product-layout,
   .reference-grid,
   .breakdown-grid,
