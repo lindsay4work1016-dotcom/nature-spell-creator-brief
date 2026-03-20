@@ -1,7 +1,7 @@
 const translations = {
   es: {
     pageTitle: "Nature Spell Creator Brief",
-    brandEyebrow: "Powerfully Natural Rituals",
+    brandEyebrow: "Todo lo Que Necesitas Saber",
     heroTitle: "Empieza tu video como un descubrimiento real",
     heroIntro:
       "Abre con una captura estilo ChatGPT en los primeros 1-2 segundos, di lo que descubriste en una frase y pasa directo a la demo. No necesitas sonar técnico: necesitas sonar creíble, simple y fácil de copiar.",
@@ -27,8 +27,9 @@ const translations = {
     productIntroTitle: "Qué estás grabando",
     productIntroList: [
       "Nature Spell Rosemary Oil: aceite de romero pre-diluido para cuero cabelludo y rutina fácil.",
+      "La fórmula se siente más natural y con menos ingredientes innecesarios, así que es un ángulo fácil de explicar.",
       "Marca fuerte en TikTok Shop UK con soporte para creadores y samples.",
-      "Habla como si hubieras encontrado una rutina útil, no como anuncio duro."
+      "Habla como si hubieras encontrado una rutina útil, más limpia y fácil de confiar, no como anuncio duro."
     ],
     promoEyebrow: "Spring Promo",
     promoTitle: "Oferta del 24 de marzo al 1 de abril de 2026",
@@ -83,7 +84,7 @@ const translations = {
           "Aplicación en cuero cabelludo",
           "Masaje y puntas"
         ],
-        brand: "Este ya viene pre-diluido, así que se siente más fácil de usar de verdad.",
+        brand: "Este ya viene pre-diluido y se siente más natural, con menos cosas raras en la fórmula.",
         end: "Si quieres una rutina simple para cuero cabelludo, empieza por aquí."
       },
       {
@@ -101,7 +102,7 @@ const translations = {
           "Masaje",
           "Resultado final"
         ],
-        brand: "Me gusta porque no complica la rutina y la puedo repetir con facilidad.",
+        brand: "Me gusta porque no complica la rutina y no se siente cargado de ingredientes raros.",
         end: "Yo esto lo haría dos veces por semana y ya."
       },
       {
@@ -119,7 +120,7 @@ const translations = {
           "Secado o brillo final",
           "Movimiento del pelo"
         ],
-        brand: "Nature Spell ya lo deja muy fácil porque viene listo para usar.",
+        brand: "Nature Spell ya lo deja muy fácil porque viene listo para usar y se siente más limpio en fórmula.",
         end: "Si tienes el mismo problema, este es el primero que yo miraría."
       }
     ],
@@ -264,6 +265,7 @@ const translations = {
     hookList: [
       "Llevaba días intentando entender qué ayuda de verdad con el cuero cabelludo y el frizz.",
       "Estoy usando AI para filtrar productos capilares que suenan increíbles pero luego nadie mantiene.",
+      "Me llamó la atención que este se siente más natural y menos cargado que otros aceites capilares.",
       "Si tus puntas se ponen secas y como hinchadas, prueba este ángulo.",
       "No quería comprar otro aceite a ciegas, así que lo revisé primero."
     ],
@@ -571,7 +573,7 @@ const translations = {
   },
   en: {
     pageTitle: "Nature Spell Viral Breakdown",
-    brandEyebrow: "Powerfully Natural Rituals",
+    brandEyebrow: "All You Need To Know",
     heroTitle: "Open like a real discovery, not like an ad",
     heroIntro: "Start with an AI-style screenshot in the first 1-2 seconds, say what you found in one line, then move straight into the demo. You do not need to sound technical. You need to sound believable, easy, and worth copying.",
     heroNote: "Do not copy another product's claims. Borrow the proof and discovery feeling instead, then keep your wording inside safe lines like smoother-looking, fuller-looking, shinier, and less dry-looking.",
@@ -595,8 +597,9 @@ const translations = {
     productIntroTitle: "What you are filming",
     productIntroList: [
       "Nature Spell Rosemary Oil: a pre-diluted rosemary scalp oil built for an easy routine.",
+      "The formula feels more natural and less loaded with unnecessary extras, which is an easy creator talking point.",
       "Strong TikTok Shop UK haircare brand with creator support and samples.",
-      "Speak like you found a useful routine, not like you are reading an ad."
+      "Speak like you found a useful, cleaner-feeling routine, not like you are reading an ad."
     ],
     promoEyebrow: "Spring Promo",
     promoTitle: "Promo runs from March 24, 2026 to April 1, 2026",
@@ -651,7 +654,7 @@ const translations = {
           "Scalp application",
           "Massage and ends"
         ],
-        brand: "This one is already pre-diluted, so it feels easier to actually use.",
+        brand: "This one is already pre-diluted and feels more natural, with fewer unnecessary extras in it.",
         end: "If you want a simple scalp routine, start here."
       },
       {
@@ -669,7 +672,7 @@ const translations = {
           "Massage",
           "Final result"
         ],
-        brand: "I like it because it keeps the routine easy and repeatable.",
+        brand: "I like it because it keeps the routine easy and does not feel loaded with random extra ingredients.",
         end: "I would do this twice a week and keep it simple."
       },
       {
@@ -687,7 +690,7 @@ const translations = {
           "Dry result or shine",
           "Hair movement"
         ],
-        brand: "Nature Spell makes it easy because it already comes ready to use.",
+        brand: "Nature Spell makes it easy because it already comes ready to use and feels cleaner in the formula.",
         end: "If you have the same issue, this is the one I would look at first."
       }
     ],
@@ -832,6 +835,7 @@ const translations = {
     hookList: [
       "I was literally trying to figure out what actually helps with scalp care and frizz.",
       "I started using AI to filter out hair products that sound amazing but are too much work.",
+      "What stood out to me is that this one feels more natural and less overloaded than a lot of other hair oils.",
       "If your hair gets dry and puffy at the ends, try this angle.",
       "I did not want to blind-buy another hair oil, so I checked it first."
     ],
@@ -1139,7 +1143,7 @@ const translations = {
   },
   it: {
     pageTitle: "Analisi Viral Nature Spell",
-    brandEyebrow: "Powerfully Natural Rituals",
+    brandEyebrow: "Tutto Quello Che Serve",
     heroTitle: "Usare uno screenshot AI come prova, cosi Nature Spell sembra una scoperta vera",
     heroIntro: "Questa prima bozza e pensata per il giorno uno: il creator deve poter aprire la pagina e iniziare subito a filmare. La struttura da spingere ora e semplice: screenshot AI, spiegazione personale, demo facile e CTA morbida.",
     heroNote: "Il video di riferimento non vende lo stesso prodotto Nature Spell, e questo e scritto chiaramente nella pagina. Riprendiamo il formato e la sensazione di prova, non i claim dell'altro prodotto.",
@@ -1161,8 +1165,9 @@ const translations = {
     productIntroTitle: "Cosa stai filmando",
     productIntroList: [
       "Nature Spell Rosemary Oil: olio al rosmarino pre-diluito per una routine cute semplice.",
+      "La formula sembra piu naturale e meno piena di ingredienti inutili, quindi e un selling point facile da dire.",
       "Brand forte su TikTok Shop UK con supporto creator e samples.",
-      "Parla come una scoperta utile, non come una pubblicita."
+      "Parla come una scoperta utile, piu pulita e facile da fidarsi, non come una pubblicita."
     ],
     promoEyebrow: "Spring Promo",
     promoTitle: "Promo dal 24 marzo 2026 al 1 aprile 2026",
@@ -1212,7 +1217,7 @@ const translations = {
           "E questo mi ha portata a provare Nature Spell."
         ],
         film: ["Viso", "Screenshot AI", "Cute", "Massaggio e punte"],
-        brand: "Questo e gia pre-diluito, quindi e molto piu facile da usare davvero.",
+        brand: "Questo e gia pre-diluito e sembra piu naturale, con meno ingredienti superflui nella formula.",
         end: "Se vuoi una routine cute semplice, parti da qui."
       },
       {
@@ -1225,7 +1230,7 @@ const translations = {
           "Poi ti faccio vedere il risultato."
         ],
         film: ["Bottle shot", "Applicazione", "Massaggio", "Risultato finale"],
-        brand: "Mi piace perche rende la routine facile e ripetibile.",
+        brand: "Mi piace perche rende la routine facile e non sembra carica di ingredienti strani.",
         end: "Io lo farei due volte a settimana e basta."
       },
       {
@@ -1238,7 +1243,7 @@ const translations = {
           "Ti mostro prima, applicazione e risultato."
         ],
         film: ["Prima reale", "Uso naturale", "Asciutto o shine", "Movimento capelli"],
-        brand: "Nature Spell lo rende facile perche arriva gia pronto all'uso.",
+        brand: "Nature Spell lo rende facile perche arriva gia pronto all'uso e con una formula piu pulita.",
         end: "Se hai lo stesso problema, questo e il primo che guarderei."
       }
     ],
@@ -1383,6 +1388,7 @@ const translations = {
     hookList: [
       "Stavo cercando di capire cosa aiuta davvero il cuoio capelluto e il crespo.",
       "Sto usando l'AI per filtrare i prodotti capelli che sembrano fortissimi ma sono troppo complicati.",
+      "Quello che mi ha colpita e che questo sembra piu naturale e meno carico di altri oli capelli.",
       "Se le tue punte diventano secche e gonfie, prova questo angolo.",
       "Non volevo comprare un altro olio alla cieca, quindi ho controllato prima."
     ],
@@ -1558,7 +1564,7 @@ const translations = {
   },
   de: {
     pageTitle: "Nature Spell Viral Analyse",
-    brandEyebrow: "Powerfully Natural Rituals",
+    brandEyebrow: "Alles Was Du Wissen Musst",
     heroTitle: "Ein AI-Screenshot als Beweis, damit Nature Spell wie ein echter Fund wirkt",
     heroIntro: "Diese erste Fassung ist fur Tag eins gebaut: Creator sollen die Seite offnen und direkt filmen konnen. Die Struktur ist bewusst einfach: AI-Screenshot, personliche Erklarung, leichte Demo, softer CTA.",
     heroNote: "Das Referenzvideo verkauft nicht dasselbe Nature-Spell-Produkt. Genau das wird auf der Seite klar benannt. Wir ubernehmen die Proof-Struktur, nicht die Claims des anderen Produkts.",
@@ -1580,8 +1586,9 @@ const translations = {
     productIntroTitle: "Was du drehst",
     productIntroList: [
       "Nature Spell Rosemary Oil: vorgemischtes Rosmarin-Kopfhautoel fur eine einfache Routine.",
+      "Die Formel wirkt naturlicher und nicht mit unnotigen Zusatzstoffen uberladen, was ein leichter Creator-Punkt ist.",
       "Starke TikTok Shop UK Marke mit Creator-Support und Samples.",
-      "Sprich wie bei einer nuttzlichen Entdeckung, nicht wie in einer Werbung."
+      "Sprich wie bei einer nuetzlichen, saubereren Entdeckung und nicht wie in einer Werbung."
     ],
     promoEyebrow: "Spring Promo",
     promoTitle: "Promo von 24. Marz 2026 bis 1. April 2026",
@@ -1609,7 +1616,7 @@ const translations = {
         "Kopfhautmassage kann die Durchblutung unterstuetzen und gesuender wirkendes Haar foerdern.",
         "Kann die Kopfhaut beruhigen und Trockenheit oder Juckreiz lindern.",
         "Kann helfen, das Haar vor Hitze, Styling und Umwelteinfluessen zu schuetzen.",
-        "Kann mehr Glanz geben und Haarbruch, Knoten und spröde Spitzen reduzieren."
+        "Kann mehr Glanz geben und Haarbruch, Knoten und sproede Spitzen reduzieren."
       ],
       input: "Ask about hair oil..."
     },
@@ -1631,7 +1638,7 @@ const translations = {
           "Dadurch bin ich bei Nature Spell gelandet."
         ],
         film: ["Gesicht", "AI-Screenshot", "Kopfhaut", "Massage und Spitzen"],
-        brand: "Dieses hier ist schon vorgemischt und deshalb leichter im Alltag zu nutzen.",
+        brand: "Dieses hier ist schon vorgemischt und wirkt naturlicher, mit weniger unnotigen Extras in der Formel.",
         end: "Wenn du eine einfache Kopfhaut-Routine willst, fang hier an."
       },
       {
@@ -1644,7 +1651,7 @@ const translations = {
           "Danach zeige ich dir das Ergebnis."
         ],
         film: ["Bottle shot", "Auftragen", "Massage", "Endergebnis"],
-        brand: "Ich mag es, weil die Routine einfach und wiederholbar bleibt.",
+        brand: "Ich mag es, weil die Routine einfach bleibt und nicht mit zufalligen Zusatzstoffen uberladen wirkt.",
         end: "Ich wurde das zweimal pro Woche machen und einfach halten."
       },
       {
@@ -1657,7 +1664,7 @@ const translations = {
           "Ich zeige dir Vorher, Anwendung und Ergebnis."
         ],
         film: ["Echtes Vorher", "Natürliche Anwendung", "Trockenes Ergebnis oder Glanz", "Haarbewegung"],
-        brand: "Nature Spell macht es leicht, weil es direkt nutzbar ist.",
+        brand: "Nature Spell macht es leicht, weil es direkt nutzbar ist und sauberer in der Formel wirkt.",
         end: "Wenn du dasselbe Problem hast, ware das mein erster Blick."
       }
     ],
@@ -1739,7 +1746,7 @@ const translations = {
     doTitle: "Mach Das",
     dontTitle: "Vermeide Das",
     doList: [
-      "Sprich wie bei einer nuttzlichen Entdeckung.",
+      "Sprich wie bei einer nuetzlichen Entdeckung.",
       "Halte den Start einfach: eine Idee, ein Beweis, eine Demo.",
       "Lass Screenshot oder Kommentar lange genug stehen.",
       "Wenn das Ergebnis fein ist, nutze Glanz, Scheitel, Textur und Bewegung.",
@@ -1802,6 +1809,7 @@ const translations = {
     hookList: [
       "Ich wollte einfach wissen, was wirklich bei Kopfhautpflege und Frizz hilft.",
       "Ich nutze AI gerade, um Haarprodukte rauszufiltern, die toll klingen, aber zu kompliziert sind.",
+      "Mir ist aufgefallen, dass sich dieses Oel naturlicher und weniger uberladen anfuhlt als viele andere.",
       "Wenn deine Spitzen trocken und puffig werden, probier diesen Angle.",
       "Ich wollte nicht noch ein Haarol blind kaufen, also habe ich es erst gecheckt."
     ],
@@ -1975,8 +1983,8 @@ const translations = {
     nextBlockThreeBody: "Schick weitere Beispiele und ich baue daraus eine vollstandige Bibliothek mit Patterns, Skripten und mehrsprachigen Seiten."
   },
   fr: {
-    pageTitle: "Analyse Viral Nature Spell",
-    brandEyebrow: "Powerfully Natural Rituals",
+    pageTitle: "Analyse Virale Nature Spell",
+    brandEyebrow: "Tout Ce Qu'il Faut Savoir",
     heroTitle: "Utiliser une capture AI comme preuve pour que Nature Spell ressemble a une vraie decouverte",
     heroIntro: "Cette premiere version est construite pour le jour un : les createurs doivent pouvoir ouvrir la page et filmer tout de suite. La structure a pousser maintenant est simple : capture AI, explication personnelle, demo facile, CTA doux.",
     heroNote: "La video de reference ne vend pas le meme produit Nature Spell. Cette precision est clairement affichee sur la page. Nous reprenons la structure de preuve, pas les claims de l'autre produit.",
@@ -1998,8 +2006,9 @@ const translations = {
     productIntroTitle: "Ce que tu filmes",
     productIntroList: [
       "Nature Spell Rosemary Oil : huile au romarin pre-diluee pour une routine cuir chevelu simple.",
+      "La formule parait plus naturelle et moins chargee en ingredients inutiles, donc c'est un angle facile a raconter.",
       "Marque forte sur TikTok Shop UK avec support creator et samples.",
-      "Parle comme une decouverte utile, pas comme une pub."
+      "Parle comme une decouverte utile, plus clean et facile a croire, pas comme une pub."
     ],
     promoEyebrow: "Spring Promo",
     promoTitle: "Promo du 24 mars 2026 au 1 avril 2026",
@@ -2007,7 +2016,7 @@ const translations = {
     promoList: [
       "Single: €12.99",
       "Bundle: €24.99",
-      "Hashtags FR: #Offresdeprintemps #MénageDePrintemps"
+      "Hashtags FR: #Offresdeprintemps #GlowUpdeprintemps"
     ],
     screenshotEyebrow: "AI Screenshot",
     screenshotTitle: "Fais une capture de ceci pour ta video",
@@ -2049,7 +2058,7 @@ const translations = {
           "C'est ce qui m'a amenee vers Nature Spell."
         ],
         film: ["Visage", "Capture AI", "Cuir chevelu", "Massage et pointes"],
-        brand: "Celui-ci est deja pre-dilue, donc il est plus simple a utiliser pour de vrai.",
+        brand: "Celui-ci est deja pre-dilue et parait plus naturel, avec moins d'extras inutiles dans la formule.",
         end: "Si tu veux une routine cuir chevelu simple, commence ici."
       },
       {
@@ -2062,7 +2071,7 @@ const translations = {
           "Ensuite je te montre le resultat."
         ],
         film: ["Bottle shot", "Application", "Massage", "Resultat final"],
-        brand: "Je l'aime parce que la routine reste simple et repetable.",
+        brand: "Je l'aime parce que la routine reste simple et ne semble pas chargee de plein d'ingredients bizarres.",
         end: "Je ferais cela deux fois par semaine, simplement."
       },
       {
@@ -2075,7 +2084,7 @@ const translations = {
           "Je te montre l'avant, l'application et le resultat."
         ],
         film: ["Avant reel", "Usage naturel", "Resultat sec ou brillance", "Mouvement des cheveux"],
-        brand: "Nature Spell rend cela facile parce que c'est deja pret a l'emploi.",
+        brand: "Nature Spell rend cela facile parce que c'est deja pret a l'emploi et plus clean dans la formule.",
         end: "Si tu as le meme probleme, c'est celui que je regarderais d'abord."
       }
     ],
@@ -2220,6 +2229,7 @@ const translations = {
     hookList: [
       "J'essayais juste de comprendre ce qui aide vraiment pour le cuir chevelu et les frisottis.",
       "J'utilise l'AI pour eliminer les produits capillaires qui ont l'air incroyables mais trop compliques.",
+      "Ce qui m'a marque, c'est que celui-ci parait plus naturel et moins surcharge que beaucoup d'autres huiles.",
       "Si tes pointes deviennent seches et gonflees, teste cet angle.",
       "Je ne voulais pas acheter une autre huile capillaire a l'aveugle, donc j'ai verifie d'abord."
     ],
@@ -2394,27 +2404,404 @@ const translations = {
   }
 };
 
+const layoutCopy = {
+  en: {
+    pageTitle: "Nature Spell Info Center",
+    siteTitle: "Nature Spell Info Center",
+    siteIntro:
+      "All you need to know for creators: can this earn, what exactly are you filming, and what is the easiest version to shoot first?",
+    heroTags: [
+      {
+        title: "Can it earn?",
+        body: "Lead with payout, support, and trust early so creators immediately understand why this brief matters."
+      },
+      {
+        title: "What are you filming?",
+        body: "Keep the product story tight: Nature Spell rosemary oil, easy routine, believable discovery tone."
+      },
+      {
+        title: "How should you shoot it?",
+        body: "Teach hook, value, and CTA first, then show three complete video styles without repeating the same AI material."
+      }
+    ],
+    overviewEyebrow: "Start Here",
+    overviewTitle: "Can creators earn with this, and what are they actually filming?",
+    overviewIntro:
+      "Move the money, product story, and creator angle up front. This page should read like an action-ready info center, not a long internal deck.",
+    payoutTitle: "Why creators have a reason to test this",
+    benchmarkEyebrow: "UK Creator Reference",
+    benchmarkTitle: "Use Fleur Green as the creator benchmark",
+    benchmarkIntro:
+      "She is a useful reference for both performance and collaboration fit: believable on camera, proof-led, and naturally good at making a routine feel easy to copy.",
+    benchmarkLinkLabel: "Open Fleur Green on TikTok",
+    benchmarkList: [
+      "Her strongest trait is that the content feels like a real hair update, not a polished ad read.",
+      "She shows visible proof early and then makes the routine feel easy enough to try.",
+      "This is the collaboration bar to point at when introducing Nature Spell potential to creators."
+    ],
+    filmingEyebrow: "How To Film",
+    filmingTitle: "Explain the viral logic before the examples",
+    filmingIntro:
+      "Start by teaching hook, value, and CTA. Then show the exact lines, shots, and proof devices creators can copy today.",
+    logicCards: [
+      {
+        title: "Hook",
+        body: "Open with one real problem, question, or discovery so the first second feels useful instead of branded."
+      },
+      {
+        title: "Value",
+        body: "Give one proof device and one easy routine step so the viewer learns something concrete fast."
+      },
+      {
+        title: "CTA",
+        body: "Close softly. Make the next step feel easy to try, not like a hard sell or pressure line."
+      }
+    ],
+    stylesEyebrow: "3 Video Styles",
+    stylesTitle: "Show each style once, fully, without repeating the same AI material",
+    stylesIntro:
+      "Each block below is a complete creator format: what it is, what to say, what to film, and why it works.",
+    styleSayTitle: "What to say",
+    styleFilmTitle: "What to film",
+    styleWhyTitle: "Why this style works",
+    styleBrandTitle: "Use this brand line",
+    styleCloseTitle: "Soft close",
+    screenshotAction: "switch language and screenshot this",
+    screenshotNote: "Use the market language, then screenshot the phone mockup.",
+    screenshotCardTitle: "AI screenshot to use",
+    screenshotCardNote: "Make this feel like a real iPhone ChatGPT screenshot, then cut straight into the demo.",
+    policyEyebrow: "Platform & Claims",
+    policyTitle: "Finish with platform rules and medical-claim guardrails",
+    policyIntro:
+      "Keep the page practical and safe: platform guidance first, then clear medical claim dos and don'ts.",
+    platformRulesEyebrow: "Platform Rules",
+    platformRulesTitle: "Creator-safe platform guidance",
+    medicalEyebrow: "Medical Claims",
+    medicalDoTitle: "Medical claim dos",
+    medicalDontTitle: "Medical claim don'ts"
+  },
+  es: {
+    pageTitle: "Nature Spell Centro de Informacion",
+    siteTitle: "Nature Spell Centro de Informacion",
+    siteIntro:
+      "Todo lo que un creator necesita saber: si esto puede convertir, que estan grabando exactamente y cual es la version mas facil de grabar primero.",
+    heroTags: [
+      {
+        title: "Puede dar dinero?",
+        body: "Pon incentivo, soporte y confianza arriba para que el creator entienda rapido por que vale la pena probar este brief."
+      },
+      {
+        title: "Que estas grabando?",
+        body: "Deja la historia del producto simple: aceite de romero Nature Spell, rutina facil y tono de descubrimiento creible."
+      },
+      {
+        title: "Como deberias grabarlo?",
+        body: "Explica hook, value y CTA primero, y luego ensena tres estilos completos sin repetir el mismo material AI."
+      }
+    ],
+    overviewEyebrow: "Empieza Aqui",
+    overviewTitle: "Puede darte dinero esto y que estan grabando exactamente?",
+    overviewIntro:
+      "Sube al principio la historia de dinero, producto y angulo creator. Esta pagina tiene que sentirse como centro de accion, no como deck interno largo.",
+    payoutTitle: "Por que vale la pena testearlo",
+    benchmarkEyebrow: "Referencia UK",
+    benchmarkTitle: "Usa a Fleur Green como referencia creator",
+    benchmarkIntro:
+      "Es una buena referencia tanto por performance como por potencial de colaboracion: creible en camara, con proof, y muy natural para hacer que una rutina parezca facil de copiar.",
+    benchmarkLinkLabel: "Abrir Fleur Green en TikTok",
+    benchmarkList: [
+      "Su punto fuerte es que el contenido se siente como hair update real, no como lectura pulida de anuncio.",
+      "Ensenya proof visual pronto y luego hace que la rutina parezca suficientemente facil de probar.",
+      "Esta es la barra de colaboracion para presentar el potencial de Nature Spell a creators."
+    ],
+    filmingEyebrow: "Como Grabar",
+    filmingTitle: "Explica la logica viral antes de ensenar ejemplos",
+    filmingIntro:
+      "Primero ensena hook, value y CTA. Luego baja a lineas, planos y proof devices que el creator puede copiar hoy.",
+    logicCards: [
+      {
+        title: "Hook",
+        body: "Abre con un problema, pregunta o descubrimiento real para que el primer segundo se sienta util y no branded."
+      },
+      {
+        title: "Value",
+        body: "Da una prueba y un paso de rutina facil para que la persona aprenda algo concreto rapido."
+      },
+      {
+        title: "CTA",
+        body: "Cierra suave. Haz que el siguiente paso parezca facil de probar, no una frase de presion."
+      }
+    ],
+    stylesEyebrow: "3 Estilos de Video",
+    stylesTitle: "Ensenya cada estilo una sola vez, completo y sin repetir el mismo material AI",
+    stylesIntro:
+      "Cada bloque de abajo es un formato creator completo: que es, que decir, que filmar y por que funciona.",
+    styleSayTitle: "Que decir",
+    styleFilmTitle: "Que filmar",
+    styleWhyTitle: "Por que funciona",
+    styleBrandTitle: "Usa esta linea de marca",
+    styleCloseTitle: "Cierre suave",
+    screenshotAction: "Cambia idioma y haz screenshot",
+    screenshotNote: "Pon el idioma del mercado y luego haz screenshot del mockup del telefono.",
+    screenshotCardTitle: "Screenshot AI para usar",
+    screenshotCardNote: "Haz que esto parezca un screenshot real de ChatGPT en iPhone y luego corta directo a la demo.",
+    policyEyebrow: "Plataforma y Claims",
+    policyTitle: "Termina con reglas de plataforma y guardrails de medical claim",
+    policyIntro:
+      "Manten la pagina practica y segura: primero reglas de plataforma y luego dos y don'ts claros sobre claims medicos.",
+    platformRulesEyebrow: "Reglas de Plataforma",
+    platformRulesTitle: "Guia segura para creators",
+    medicalEyebrow: "Medical Claims",
+    medicalDoTitle: "Que si hacer",
+    medicalDontTitle: "Que no hacer"
+  },
+  it: {
+    pageTitle: "Nature Spell Centro Informazioni",
+    siteTitle: "Nature Spell Centro Informazioni",
+    siteIntro:
+      "Tutto quello che serve a un creator: se questo puo convertire, cosa si sta filmando davvero e qual e la versione piu facile da girare per prima.",
+    heroTags: [
+      {
+        title: "Puo far guadagnare?",
+        body: "Metti subito incentivo, supporto e fiducia cosi il creator capisce subito perche vale la pena testare questo brief."
+      },
+      {
+        title: "Cosa stai filmando?",
+        body: "Tieni la storia prodotto stretta: olio al rosmarino Nature Spell, routine facile e tono di scoperta credibile."
+      },
+      {
+        title: "Come dovresti girarlo?",
+        body: "Spiega hook, value e CTA prima, poi mostra tre stili completi senza ripetere lo stesso materiale AI."
+      }
+    ],
+    overviewEyebrow: "Parti Da Qui",
+    overviewTitle: "Questo puo far guadagnare e cosa stanno filmando davvero?",
+    overviewIntro:
+      "Porta subito in alto la parte soldi, prodotto e angolo creator. Questa pagina deve sembrare un centro operativo, non un deck interno lungo.",
+    payoutTitle: "Perche vale la pena testarlo",
+    benchmarkEyebrow: "Riferimento UK",
+    benchmarkTitle: "Usa Fleur Green come riferimento creator",
+    benchmarkIntro:
+      "E un riferimento utile sia come performance sia come potenziale collaborazione: credibile in camera, proof-led e naturale nel far sembrare una routine facile da copiare.",
+    benchmarkLinkLabel: "Apri Fleur Green su TikTok",
+    benchmarkList: [
+      "Il suo punto forte e che il contenuto sembra un vero hair update, non una lettura pubblicitaria pulita.",
+      "Mostra prova visiva presto e poi rende la routine facile abbastanza da provare.",
+      "Questa e la barra di collaborazione da citare quando presenti il potenziale Nature Spell ai creator."
+    ],
+    filmingEyebrow: "Come Girare",
+    filmingTitle: "Spiega la logica virale prima degli esempi",
+    filmingIntro:
+      "Prima insegna hook, value e CTA. Poi fai scendere il creator dentro linee, riprese e proof device da copiare oggi.",
+    logicCards: [
+      {
+        title: "Hook",
+        body: "Apri con un problema, una domanda o una scoperta reale cosi il primo secondo sembra utile e non brandizzato."
+      },
+      {
+        title: "Value",
+        body: "Dai una prova e un passaggio routine facile cosi la persona capisce qualcosa di concreto subito."
+      },
+      {
+        title: "CTA",
+        body: "Chiudi morbido. Fai sembrare il passo dopo facile da provare, non una frase di pressione."
+      }
+    ],
+    stylesEyebrow: "3 Stili Video",
+    stylesTitle: "Mostra ogni stile una sola volta, completo, senza ripetere lo stesso materiale AI",
+    stylesIntro:
+      "Ogni blocco qui sotto e un formato creator completo: cos'e, cosa dire, cosa filmare e perche funziona.",
+    styleSayTitle: "Cosa dire",
+    styleFilmTitle: "Cosa filmare",
+    styleWhyTitle: "Perche funziona",
+    styleBrandTitle: "Usa questa linea brand",
+    styleCloseTitle: "Chiusura morbida",
+    screenshotAction: "Cambia lingua e fai screenshot",
+    screenshotNote: "Imposta la lingua del mercato e poi fai screenshot del mockup telefono.",
+    screenshotCardTitle: "Screenshot AI da usare",
+    screenshotCardNote: "Fallo sembrare un vero screenshot ChatGPT su iPhone e poi passa subito alla demo.",
+    policyEyebrow: "Piattaforma e Claims",
+    policyTitle: "Chiudi con regole piattaforma e guardrail sui medical claim",
+    policyIntro:
+      "Tieni la pagina pratica e sicura: prima linee guida piattaforma, poi do e don't chiari sui claim medici.",
+    platformRulesEyebrow: "Regole Piattaforma",
+    platformRulesTitle: "Guida sicura per creator",
+    medicalEyebrow: "Medical Claims",
+    medicalDoTitle: "Cosa fare",
+    medicalDontTitle: "Cosa evitare"
+  },
+  de: {
+    pageTitle: "Nature Spell Info Center",
+    siteTitle: "Nature Spell Info Center",
+    siteIntro:
+      "Alles, was Creator wissen muessen: kann das Umsatz bringen, was wird hier genau gefilmt und was ist die einfachste Version fuer den ersten Dreh?",
+    heroTags: [
+      {
+        title: "Kann das Geld bringen?",
+        body: "Stell Incentive, Support und Vertrauen direkt nach oben, damit Creator sofort verstehen, warum dieses Brief wichtig ist."
+      },
+      {
+        title: "Was filmst du eigentlich?",
+        body: "Halte die Produktstory eng: Nature Spell Rosmarinoel, einfache Routine und glaubwuerdiger Discovery-Ton."
+      },
+      {
+        title: "Wie solltest du es drehen?",
+        body: "Erklaere zuerst Hook, Value und CTA und zeige dann drei komplette Stilrichtungen ohne das gleiche AI-Material zu wiederholen."
+      }
+    ],
+    overviewEyebrow: "Starte Hier",
+    overviewTitle: "Kann das Umsatz bringen und was filmen Creator hier genau?",
+    overviewIntro:
+      "Hol Geld, Produkt und Creator-Fit direkt nach oben. Die Seite soll wie ein klares Info Center wirken und nicht wie ein langes internes Deck.",
+    payoutTitle: "Warum es sich zu testen lohnt",
+    benchmarkEyebrow: "UK Referenz",
+    benchmarkTitle: "Nutze Fleur Green als Creator-Referenz",
+    benchmarkIntro:
+      "Sie ist eine hilfreiche Referenz fuer Performance und Kollaborationspotenzial: glaubwuerdig vor der Kamera, proof-led und natuerlich darin, eine Routine leicht kopierbar wirken zu lassen.",
+    benchmarkLinkLabel: "Fleur Green auf TikTok oeffnen",
+    benchmarkList: [
+      "Ihre staerkste Qualitaet ist, dass der Content wie ein echtes Hair Update wirkt und nicht wie ein polierter Ad-Read.",
+      "Sie zeigt frueh sichtbaren Proof und macht die Routine dann leicht genug zum Nachmachen.",
+      "Das ist der Kollaborations-Massstab, auf den du bei Nature Spell Potenzial verweisen kannst."
+    ],
+    filmingEyebrow: "So Filmst Du",
+    filmingTitle: "Erklaere zuerst die virale Logik und dann die Beispiele",
+    filmingIntro:
+      "Zeig zuerst Hook, Value und CTA. Danach kommen die Lines, Shots und Proof Devices, die Creator heute direkt kopieren koennen.",
+    logicCards: [
+      {
+        title: "Hook",
+        body: "Starte mit einem echten Problem, einer Frage oder einer Entdeckung, damit die erste Sekunde nuetzlich statt gebrandet wirkt."
+      },
+      {
+        title: "Value",
+        body: "Gib ein Proof-Element und einen einfachen Routinen-Schritt, damit der Mehrwert schnell konkret wird."
+      },
+      {
+        title: "CTA",
+        body: "Schliesse weich. Der naechste Schritt soll leicht testbar wirken, nicht wie Druck oder Sales-Sprache."
+      }
+    ],
+    stylesEyebrow: "3 Video-Stile",
+    stylesTitle: "Zeige jeden Stil einmal komplett, ohne das gleiche AI-Material zu wiederholen",
+    stylesIntro:
+      "Jeder Block unten ist ein kompletter Creator-Ansatz: was es ist, was man sagt, was man filmt und warum es funktioniert.",
+    styleSayTitle: "Was sagen",
+    styleFilmTitle: "Was filmen",
+    styleWhyTitle: "Warum es funktioniert",
+    styleBrandTitle: "Diese Brand-Line nutzen",
+    styleCloseTitle: "Weicher Abschluss",
+    screenshotAction: "Sprache wechseln und Screenshot machen",
+    screenshotNote: "Erst die Marktsprache einstellen, dann den Handy-Mockup screenshotten.",
+    screenshotCardTitle: "AI-Screenshot zum Nutzen",
+    screenshotCardNote: "Das sollte wie ein echter iPhone-ChatGPT-Screenshot wirken und dann direkt in die Demo schneiden.",
+    policyEyebrow: "Plattform & Claims",
+    policyTitle: "Beende die Seite mit Plattformregeln und Medical-Claim-Grenzen",
+    policyIntro:
+      "Halte die Seite praktisch und sicher: zuerst Plattformregeln, dann klare Dos und Don'ts fuer medizinische Claims.",
+    platformRulesEyebrow: "Plattformregeln",
+    platformRulesTitle: "Creatorsichere Plattform-Hinweise",
+    medicalEyebrow: "Medical Claims",
+    medicalDoTitle: "Das ist okay",
+    medicalDontTitle: "Das vermeiden"
+  },
+  fr: {
+    pageTitle: "Nature Spell Centre d'Information",
+    siteTitle: "Nature Spell Centre d'Information",
+    siteIntro:
+      "Tout ce qu'un createur doit savoir : est-ce que cela peut convertir, qu'est-ce qu'on filme exactement et quelle est la version la plus facile a tourner d'abord ?",
+    heroTags: [
+      {
+        title: "Est-ce que ca peut rapporter ?",
+        body: "Mets incentive, support et confiance tout en haut pour que le createur comprenne vite pourquoi ce brief vaut le test."
+      },
+      {
+        title: "Qu'est-ce qu'on filme ?",
+        body: "Garde l'histoire produit simple : huile de romarin Nature Spell, routine facile et ton de decouverte credible."
+      },
+      {
+        title: "Comment faut-il le tourner ?",
+        body: "Explique hook, value et CTA d'abord, puis montre trois styles complets sans repeter le meme materiel AI."
+      }
+    ],
+    overviewEyebrow: "Commence Ici",
+    overviewTitle: "Est-ce que cela peut rapporter et qu'est-ce qu'ils filment vraiment ?",
+    overviewIntro:
+      "Remonte tout de suite l'angle argent, produit et createur. La page doit ressembler a un centre d'action, pas a un long deck interne.",
+    payoutTitle: "Pourquoi cela vaut le test",
+    benchmarkEyebrow: "Reference UK",
+    benchmarkTitle: "Utilise Fleur Green comme reference createur",
+    benchmarkIntro:
+      "C'est une bonne reference autant pour la performance que pour le potentiel de collaboration : credible a l'ecran, proof-led, et naturelle pour rendre une routine facile a copier.",
+    benchmarkLinkLabel: "Ouvrir Fleur Green sur TikTok",
+    benchmarkList: [
+      "Sa plus grande force est que le contenu ressemble a une vraie hair update, pas a une lecture pub trop polie.",
+      "Elle montre une preuve visuelle tres tot puis rend la routine assez simple pour etre testee.",
+      "C'est la barre de collaboration a montrer quand on parle du potentiel Nature Spell aux createurs."
+    ],
+    filmingEyebrow: "Comment Filmer",
+    filmingTitle: "Explique la logique virale avant les exemples",
+    filmingIntro:
+      "Commence par hook, value et CTA. Ensuite seulement, descends dans les lignes, les plans et les preuves que le createur peut copier aujourd'hui.",
+    logicCards: [
+      {
+        title: "Hook",
+        body: "Ouvre avec un vrai probleme, une question ou une decouverte pour que la premiere seconde semble utile et non brandee."
+      },
+      {
+        title: "Value",
+        body: "Donne une preuve et un geste routine simple pour que la personne comprenne vite quelque chose de concret."
+      },
+      {
+        title: "CTA",
+        body: "Ferme doucement. L'etape suivante doit paraitre facile a essayer, pas comme une ligne de pression."
+      }
+    ],
+    stylesEyebrow: "3 Styles de Video",
+    stylesTitle: "Montre chaque style une seule fois, complet, sans repeter le meme materiel AI",
+    stylesIntro:
+      "Chaque bloc ci-dessous est un format createur complet : ce que c'est, quoi dire, quoi filmer et pourquoi cela marche.",
+    styleSayTitle: "Quoi dire",
+    styleFilmTitle: "Quoi filmer",
+    styleWhyTitle: "Pourquoi ca marche",
+    styleBrandTitle: "Utilise cette ligne marque",
+    styleCloseTitle: "Fermeture douce",
+    screenshotAction: "Changer la langue et faire le screenshot",
+    screenshotNote: "Mets la langue du marche puis fais le screenshot du mockup telephone.",
+    screenshotCardTitle: "Screenshot AI a utiliser",
+    screenshotCardNote: "Fais ressentir un vrai screenshot ChatGPT sur iPhone puis coupe directement vers la demo.",
+    policyEyebrow: "Plateforme & Claims",
+    policyTitle: "Finis avec les regles plateforme et les garde-fous medical claim",
+    policyIntro:
+      "Garde la page pratique et sure : d'abord les regles plateforme, puis des dos et don'ts clairs sur les claims medicaux.",
+    platformRulesEyebrow: "Regles Plateforme",
+    platformRulesTitle: "Guide plateforme sur pour createurs",
+    medicalEyebrow: "Medical Claims",
+    medicalDoTitle: "Ce qu'il faut faire",
+    medicalDontTitle: "Ce qu'il faut eviter"
+  }
+};
+
 const root = document.documentElement;
 const languageButtons = document.querySelectorAll('.lang-btn');
 const guidePills = document.getElementById('guidePills');
-const aiScreenshotImage = document.getElementById('aiScreenshotImage');
-const screenshotTipList = document.getElementById('screenshotTipList');
+const heroTags = document.getElementById('heroTags');
 const productIntroList = document.getElementById('productIntroList');
 const promoList = document.getElementById('promoList');
-const scriptNowCards = document.getElementById('scriptNowCards');
-const jumpChips = document.getElementById('jumpChips');
-const startCards = document.getElementById('startCards');
 const offerCards = document.getElementById('offerCards');
-const doList = document.getElementById('doList');
-const dontList = document.getElementById('dontList');
-const referenceDetailCards = document.getElementById('referenceDetailCards');
-const starterScript = document.getElementById('starterScript');
-const creatorChecklist = document.getElementById('creatorChecklist');
+const benchmarkList = document.getElementById('benchmarkList');
+const benchmarkLink = document.getElementById('benchmarkLink');
+const logicCards = document.getElementById('logicCards');
+const startCards = document.getElementById('startCards');
 const hookList = document.getElementById('hookList');
 const ctaList = document.getElementById('ctaList');
-const scriptBreakdowns = document.getElementById('scriptBreakdowns');
-const productBullets = document.getElementById('productBullets');
-const brandBullets = document.getElementById('brandBullets');
+const doList = document.getElementById('doList');
+const dontList = document.getElementById('dontList');
+const styleSections = document.getElementById('styleSections');
+const platformRuleList = document.getElementById('platformRuleList');
+const medicalDoList = document.getElementById('medicalDoList');
+const medicalDontList = document.getElementById('medicalDontList');
+const languageOrder = ['en', 'es', 'it', 'de', 'fr'];
 const videoAssetMap = {
   aiHook: '../naturespell_assets/video_references/ai-screenshot-hook.mp4',
   replyRoutine: '../naturespell_assets/video_references/reply-to-comment-routine.mp4',
@@ -2426,9 +2813,109 @@ const posterAssetMap = {
   resultProof: '../naturespell_assets/new_reference_frames/testimonial.jpg'
 };
 const fallbackLanguage = translations.en;
+const policyLists = {
+  en: {
+    platform: [
+      "Keep the first video simple: one angle, one proof device, one demo, one soft close.",
+      "Make the value obvious in the first seconds. Do not bury the useful part under brand setup.",
+      "If the creator tone is stronger in comments or voiceover, let the edit stay light and natural.",
+      "Use promo and price lower in the page or later in the script, not as the first thing on screen."
+    ],
+    medicalDo: [
+      "Stay with visible, everyday wording like smoother-looking, shinier, less dry-looking, or easier to keep in routine.",
+      "Talk about scalp care, massage, wash-day routine, and hair appearance rather than treatment language.",
+      "Make sure any stronger result claim is supported by what the creator can actually show on camera."
+    ],
+    medicalDont: [
+      "Do not claim to treat hair loss, regrow hair, heal the scalp, or fix a medical condition.",
+      "Do not use disease, inflammation, or clinical language unless the team gives approved wording.",
+      "Do not turn subtle creator results into guaranteed outcomes or before-after promises."
+    ]
+  },
+  es: {
+    platform: [
+      "Haz el primer video simple: un angulo, una prueba, una demo y un cierre suave.",
+      "Haz que el value se entienda en los primeros segundos. No entierres lo util debajo de setup de marca.",
+      "Si el tono del creator funciona mejor con comentario o voiceover, deja el edit ligero y natural.",
+      "Deja promo y precio mas abajo en la pagina o mas tarde en el guion, no al principio."
+    ],
+    medicalDo: [
+      "Quédate con wording visual y cotidiano como se ve mas suave, con mas brillo, menos seco o mas facil de mantener en rutina.",
+      "Habla de scalp care, masaje, wash day y aspecto del pelo en vez de lenguaje de tratamiento.",
+      "Asegura que cualquier claim mas fuerte este respaldado por algo que de verdad se vea en camara."
+    ],
+    medicalDont: [
+      "No digas que trata caida del pelo, regenera cabello, cura el cuero cabelludo o arregla una condicion medica.",
+      "No uses lenguaje de enfermedad, inflamacion o clinico si el equipo no te dio wording aprobado.",
+      "No conviertas resultados sutiles del creator en promesas garantizadas o before-after exagerado."
+    ]
+  },
+  it: {
+    platform: [
+      "Tieni il primo video semplice: un angolo, una prova, una demo e una chiusura morbida.",
+      "Rendi il value chiaro nei primi secondi. Non nascondere la parte utile sotto setup di brand.",
+      "Se il tono creator funziona meglio in commento o voiceover, lascia l'edit leggero e naturale.",
+      "Prezzo e promo meglio piu in basso nella pagina o piu tardi nello script, non come prima cosa."
+    ],
+    medicalDo: [
+      "Resta su wording visibile e quotidiano come piu morbido, piu lucido, meno secco o piu facile da tenere in routine.",
+      "Parla di scalp care, massaggio, wash day e aspetto dei capelli invece di linguaggio da trattamento.",
+      "Assicurati che ogni claim piu forte sia supportato da qualcosa che il creator puo mostrare davvero in camera."
+    ],
+    medicalDont: [
+      "Non dire che tratta hair loss, fa ricrescere i capelli, cura il cuoio capelluto o risolve una condizione medica.",
+      "Non usare linguaggio di malattia, infiammazione o clinico senza wording approvato dal team.",
+      "Non trasformare risultati sottili del creator in promesse garantite o before-after forzati."
+    ]
+  },
+  de: {
+    platform: [
+      "Halte das erste Video einfach: ein Winkel, ein Proof Device, eine Demo und ein weicher Abschluss.",
+      "Der Mehrwert muss in den ersten Sekunden klar sein. Verstecke ihn nicht unter Brand-Setup.",
+      "Wenn der Creator-Ton in Kommentar oder Voiceover besser funktioniert, lass den Edit leicht und natuerlich.",
+      "Preis und Promo lieber weiter unten auf der Seite oder spaeter im Script zeigen, nicht ganz am Anfang."
+    ],
+    medicalDo: [
+      "Bleib bei sichtbarem Alltags-Wording wie glatter wirkend, glaenzender, weniger trocken wirkend oder leichter in der Routine.",
+      "Sprich ueber Scalp Care, Massage, Wash Day und das Aussehen der Haare statt ueber Behandlungssprache.",
+      "Staerkere Claims nur dann nutzen, wenn der Creator sie wirklich sichtbar vor der Kamera zeigen kann."
+    ],
+    medicalDont: [
+      "Nicht behaupten, dass es Haarausfall behandelt, Haare nachwachsen laesst, die Kopfhaut heilt oder ein medizinisches Problem loest.",
+      "Keine Krankheits-, Entzuendungs- oder Klinik-Sprache ohne freigegebenes Wording vom Team.",
+      "Subtile Creator-Ergebnisse nicht in Garantien oder ueberzogene Before-After-Versprechen verwandeln."
+    ]
+  },
+  fr: {
+    platform: [
+      "Garde la premiere video simple : un angle, une preuve, une demo et une fermeture douce.",
+      "Le value doit etre clair dans les premieres secondes. Ne cache pas l'utile sous du setup de marque.",
+      "Si le ton createur marche mieux en commentaire ou en voiceover, garde le montage leger et naturel.",
+      "Mets promo et prix plus bas dans la page ou plus tard dans le script, pas comme premier element."
+    ],
+    medicalDo: [
+      "Reste sur un wording visuel et quotidien comme plus lisse, plus brillant, moins sec ou plus facile a garder dans la routine.",
+      "Parle de scalp care, massage, wash day et apparence des cheveux plutot que de langage de traitement.",
+      "Assure-toi que tout claim plus fort soit soutenu par quelque chose que le createur peut vraiment montrer a l'ecran."
+    ],
+    medicalDont: [
+      "Ne dis pas que cela traite la chute de cheveux, fait repousser les cheveux, soigne le cuir chevelu ou regle une condition medicale.",
+      "N'utilise pas de langage de maladie, d'inflammation ou clinique sans wording approuve par l'equipe.",
+      "Ne transforme pas des resultats createur subtils en promesses garanties ou en before-after exagere."
+    ]
+  }
+};
+const scriptVariantByVideo = {
+  aiHook: 0,
+  resultProof: 1
+};
 
 function t(copy, key) {
   return copy[key] ?? fallbackLanguage[key] ?? translations.es[key];
+}
+
+function l(lang, key) {
+  return layoutCopy[lang]?.[key] ?? layoutCopy.en[key];
 }
 
 function escapeXml(value) {
@@ -2473,99 +2960,116 @@ function svgTextBlock({ x, y, lines, fill, fontSize, fontWeight = '400', lineHei
 }
 
 function renderAiScreenshot(copy) {
+  const aiScreenshotImage = document.getElementById('aiScreenshotImage');
   const mockup = t(copy, 'aiMockup');
   if (!aiScreenshotImage || !mockup) {
     return;
   }
 
-  const promptLines = wrapText(mockup.prompt, 27);
-  const responseTitleLines = wrapText(mockup.responseTitle, 24);
-  const bulletLines = mockup.bullets.map((bullet) => wrapText(bullet, 27));
+  const promptLines = wrapText(mockup.prompt, 22);
+  const responseTitleLines = wrapText(mockup.responseTitle, 22);
+  const bulletLines = mockup.bullets.map((bullet) => wrapText(bullet, 24));
 
-  const promptHeight = 22 + promptLines.length * 20;
-  const promptY = 148;
-  const promptRectY = promptY - 18;
-  const promptRectHeight = promptHeight + 18;
-  const responseHeaderY = promptRectY + promptRectHeight + 34;
+  const promptLineHeight = 18;
+  const promptTextY = 212;
+  const promptHeight = 28 + promptLines.length * promptLineHeight;
+  const promptRectY = 184;
+  const promptRectHeight = promptHeight + 12;
 
-  let currentY = responseHeaderY + 32;
+  let currentY = promptRectY + promptRectHeight + 48;
   const bulletBlocks = bulletLines
     .map((lines) => {
       const block = `
-        <circle cx="96" cy="${currentY - 7}" r="4.5" fill="#D5D8DD"/>
+        <circle cx="86" cy="${currentY - 7}" r="3.5" fill="#C6CDD6"/>
         ${svgTextBlock({
-          x: 110,
+          x: 100,
           y: currentY,
           lines,
-          fill: '#D5D8DD',
-          fontSize: 15,
-          lineHeight: 22
+          fill: '#C9D1D9',
+          fontSize: 13.5,
+          lineHeight: 19
         })}
       `;
-      currentY += lines.length * 22 + 18;
+      currentY += lines.length * 19 + 18;
       return block;
     })
     .join('');
 
-  const responseRectY = responseHeaderY + 14;
-  const responseRectHeight = currentY - responseRectY + 16;
-
+  const responseTitleY = promptRectY + promptRectHeight + 52;
   const svg = `
-    <svg width="440" height="860" viewBox="0 0 440 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="430" height="900" viewBox="0 0 430 900" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="phoneBg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="#1C1F22"/>
-          <stop offset="100%" stop-color="#090A0B"/>
+        <linearGradient id="phoneBody" x1="38" y1="24" x2="390" y2="874" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#2B2E33"/>
+          <stop offset="1" stop-color="#070809"/>
         </linearGradient>
-        <linearGradient id="screenGlow" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#20252A"/>
-          <stop offset="100%" stop-color="#111315"/>
+        <linearGradient id="screenBg" x1="215" y1="58" x2="215" y2="842" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#20252C"/>
+          <stop offset="1" stop-color="#111315"/>
         </linearGradient>
-        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-          <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+        <filter id="deviceShadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.35"/>
         </filter>
       </defs>
 
-      <rect x="22" y="20" width="396" height="820" rx="56" fill="url(#phoneBg)" filter="url(#shadow)"/>
-      <rect x="54" y="92" width="332" height="664" rx="28" fill="url(#screenGlow)" stroke="#2A2E33" stroke-width="2"/>
-      <rect x="165" y="42" width="110" height="18" rx="9" fill="#0C0D0E"/>
-      <circle cx="84" cy="128" r="6" fill="#F5F5F5" opacity="0.75"/>
-      <circle cx="104" cy="128" r="6" fill="#F5F5F5" opacity="0.45"/>
-      <text x="184" y="134" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="22" font-weight="700">${escapeXml(mockup.appTitle)}</text>
+      <rect x="20" y="16" width="390" height="852" rx="62" fill="url(#phoneBody)" filter="url(#deviceShadow)"/>
+      <rect x="44" y="42" width="342" height="804" rx="42" fill="url(#screenBg)" stroke="#2E333A" stroke-width="2"/>
 
-      <rect x="126" y="${promptRectY}" width="228" height="${promptRectHeight}" rx="22" fill="#2A2E33"/>
+      <text x="74" y="82" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">9:41</text>
+      <rect x="156" y="58" width="118" height="32" rx="16" fill="#050607"/>
+      <rect x="318" y="66" width="24" height="12" rx="6" stroke="#F7F7F7" stroke-width="1.8"/>
+      <rect x="343" y="70" width="2.5" height="4.5" rx="1.25" fill="#F7F7F7"/>
+      <rect x="320.5" y="68.5" width="17" height="7" rx="3.5" fill="#F7F7F7"/>
+      <path d="M287 78C289 74 292 72 296 72C300 72 303 74 305 78" stroke="#F7F7F7" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M280 81C283.2 75.8 288.4 73 294.5 73" stroke="#F7F7F7" stroke-width="1.8" stroke-linecap="round"/>
+      <rect x="268" y="70" width="3.5" height="10" rx="1.2" fill="#F7F7F7"/>
+      <rect x="262" y="72" width="3.5" height="8" rx="1.2" fill="#F7F7F7"/>
+      <rect x="256" y="74" width="3.5" height="6" rx="1.2" fill="#F7F7F7"/>
+
+      <text x="215" y="130" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">${escapeXml(
+        mockup.appTitle
+      )}</text>
+      <path d="M86 126L74 138L86 150" stroke="#F7F7F7" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="346" cy="138" r="3" fill="#F7F7F7"/>
+      <circle cx="358" cy="138" r="3" fill="#F7F7F7"/>
+      <circle cx="370" cy="138" r="3" fill="#F7F7F7"/>
+      <line x1="64" y1="162" x2="366" y2="162" stroke="#2B3138" stroke-width="1.2"/>
+
+      <rect x="146" y="${promptRectY}" width="196" height="${promptRectHeight}" rx="24" fill="#2C3238"/>
       ${svgTextBlock({
-        x: 146,
-        y: promptY,
+        x: 164,
+        y: promptTextY,
         lines: promptLines,
         fill: '#F7F7F7',
-        fontSize: 15,
+        fontSize: 14,
         fontWeight: '600',
-        lineHeight: 20
+        lineHeight: promptLineHeight
       })}
 
-      <circle cx="88" cy="${responseHeaderY}" r="12" fill="#38C172"/>
-      <text x="110" y="${responseHeaderY + 6}" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="16" font-weight="700">ChatGPT</text>
-
-      <rect x="74" y="${responseRectY}" width="292" height="${responseRectHeight}" rx="24" fill="#1B1F23" stroke="#2F343A"/>
+      <circle cx="80" cy="${responseTitleY - 8}" r="11" fill="#19C37D"/>
+      <path d="M75 111.5C75 109.6 76.6 108 78.5 108H81.5C83.4 108 85 109.6 85 111.5V114.5C85 116.4 83.4 118 81.5 118H78.5C76.6 118 75 116.4 75 114.5V111.5Z" fill="#0F1F18" opacity="0.35"/>
+      <text x="100" y="${responseTitleY - 2}" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="16" font-weight="700">ChatGPT</text>
       ${svgTextBlock({
-        x: 90,
-        y: responseHeaderY + 30,
+        x: 74,
+        y: responseTitleY + 28,
         lines: responseTitleLines,
         fill: '#F7F7F7',
-        fontSize: 18,
+        fontSize: 17,
         fontWeight: '700',
         lineHeight: 22
       })}
       ${bulletBlocks}
 
-      <rect x="74" y="684" width="292" height="50" rx="24" fill="#1B1F23" stroke="#2F343A"/>
-      <text x="102" y="715" fill="#8A9098" font-family="Arial, sans-serif" font-size="18">${escapeXml(mockup.input)}</text>
-      <circle cx="344" cy="709" r="18" fill="#F6F6F6"/>
-      <path d="M339 709H349" stroke="#111315" stroke-width="2.4" stroke-linecap="round"/>
-      <path d="M344 704V714" stroke="#111315" stroke-width="2.4" stroke-linecap="round"/>
+      <rect x="64" y="744" width="302" height="58" rx="29" fill="#181C21" stroke="#313740"/>
+      <circle cx="94" cy="773" r="12" stroke="#8F98A3" stroke-width="1.8"/>
+      <path d="M94 767V779" stroke="#8F98A3" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M88 773H100" stroke="#8F98A3" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="118" y="779" fill="#8F98A3" font-family="Arial, sans-serif" font-size="15">${escapeXml(mockup.input)}</text>
+      <circle cx="338" cy="773" r="16" fill="#F3F5F7"/>
+      <path d="M332 773H344" stroke="#111315" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M338 767V779" stroke="#111315" stroke-width="2.2" stroke-linecap="round"/>
 
-      <rect x="183" y="776" width="74" height="6" rx="3" fill="#F0F0F0" opacity="0.7"/>
+      <rect x="178" y="820" width="74" height="6" rx="3" fill="#F2F2F2" opacity="0.72"/>
     </svg>
   `;
 
@@ -2579,40 +3083,6 @@ function renderList(target, items) {
   target.innerHTML = items.map((item) => `<li>${item}</li>`).join('');
 }
 
-function renderScript(items) {
-  if (!starterScript || !Array.isArray(items)) {
-    return;
-  }
-  starterScript.innerHTML = items
-    .map(
-      (item) => `
-        <div class="script-line">
-          <div class="script-index">${item.index}</div>
-          <p>${item.body}</p>
-        </div>
-      `
-    )
-    .join('');
-}
-
-function renderInsightGrid(target, items, type) {
-  if (!target || !Array.isArray(items)) {
-    return;
-  }
-  target.innerHTML = items
-    .map(
-      (item, index) => `
-        <article class="${type}">
-          <span class="${type === 'offer-card' ? 'offer-index' : type === 'proof-card' ? 'proof-index' : 'insight-index'}">${String(index + 1).padStart(2, '0')}</span>
-          ${item.kicker ? `<p class="offer-kicker">${item.kicker}</p>` : ''}
-          <h3>${item.title}</h3>
-          <p>${item.body}</p>
-        </article>
-      `
-    )
-    .join('');
-}
-
 function renderGuidePills(copy) {
   const items = t(copy, 'guidePills');
   if (!guidePills || !Array.isArray(items)) {
@@ -2621,12 +3091,63 @@ function renderGuidePills(copy) {
   guidePills.innerHTML = items.map((item) => `<div class="guide-pill">${item}</div>`).join('');
 }
 
-function renderJumpChips(copy) {
-  const items = t(copy, 'jumpLinks');
-  if (!jumpChips || !Array.isArray(items)) {
+function renderHeroTags(lang) {
+  const items = l(lang, 'heroTags');
+  if (!heroTags || !Array.isArray(items)) {
     return;
   }
-  jumpChips.innerHTML = items.map((item) => `<a class="jump-chip" href="${item.href}">${item.label}</a>`).join('');
+
+  heroTags.innerHTML = items
+    .map(
+      (item) => `
+        <article class="hero-tag">
+          <strong>${item.title}</strong>
+          <p>${item.body}</p>
+        </article>
+      `
+    )
+    .join('');
+}
+
+function renderOfferCards(copy) {
+  const items = t(copy, 'offerCards');
+  if (!offerCards || !Array.isArray(items)) {
+    return;
+  }
+
+  offerCards.innerHTML = items
+    .map(
+      (item) => `
+        <article class="offer-card">
+          <p class="mini-label">${item.kicker}</p>
+          <h3>${item.title}</h3>
+          <p>${item.body}</p>
+        </article>
+      `
+    )
+    .join('');
+}
+
+function renderBenchmarkList(lang) {
+  renderList(benchmarkList, l(lang, 'benchmarkList'));
+}
+
+function renderLogicCards(lang) {
+  const items = l(lang, 'logicCards');
+  if (!logicCards || !Array.isArray(items)) {
+    return;
+  }
+
+  logicCards.innerHTML = items
+    .map(
+      (item) => `
+        <article class="logic-card">
+          <p class="mini-label">${item.title}</p>
+          <p>${item.body}</p>
+        </article>
+      `
+    )
+    .join('');
 }
 
 function renderStartCards(copy) {
@@ -2634,6 +3155,7 @@ function renderStartCards(copy) {
   if (!startCards || !Array.isArray(items)) {
     return;
   }
+
   startCards.innerHTML = items
     .map(
       (item) => `
@@ -2646,176 +3168,124 @@ function renderStartCards(copy) {
     .join('');
 }
 
-function renderScriptNowCards(copy) {
+function renderStyleSections(copy, lang) {
   const items = t(copy, 'scriptNowCards');
-  if (!scriptNowCards || !Array.isArray(items)) {
+  const detailItems = t(copy, 'referenceDetails') || [];
+  const variantItems = t(copy, 'scriptBreakdowns') || [];
+  if (!styleSections || !Array.isArray(items)) {
     return;
   }
-  scriptNowCards.innerHTML = items
-    .map(
-      (item) => `
-        <article class="script-now-card">
-          <div class="script-now-copy">
-            <p class="offer-kicker">${item.kicker}</p>
-            <h3>${item.title}</h3>
-            <div class="script-now-block">
-              <strong>${t(copy, 'scriptFlowLabel')}</strong>
-              <ul>
-                ${item.steps.map((step) => `<li>${step}</li>`).join('')}
-              </ul>
-            </div>
-            <div class="script-now-block">
-              <strong>${t(copy, 'scriptFilmLabel')}</strong>
-              <ul>
-                ${item.film.map((shot) => `<li>${shot}</li>`).join('')}
-              </ul>
-            </div>
-            <div class="script-now-block">
-              <strong>${t(copy, 'scriptBrandLabel')}</strong>
-              <p>${item.brand}</p>
-            </div>
-            <div class="script-now-block">
-              <strong>${t(copy, 'scriptEndLabel')}</strong>
-              <p>${item.end}</p>
-            </div>
-          </div>
-          <div class="script-now-media">
-            <video class="script-now-video" controls preload="metadata" playsinline poster="${posterAssetMap[item.videoKey]}">
-              <source src="${videoAssetMap[item.videoKey]}" type="video/mp4" />
-            </video>
-          </div>
-        </article>
-      `
-    )
-    .join('');
-}
 
-function renderReferenceDetailCards(copy) {
-  const items = t(copy, 'referenceDetails');
-  if (!referenceDetailCards || !Array.isArray(items)) {
-    return;
-  }
-  referenceDetailCards.innerHTML = items
-    .map(
-      (item) => `
-        <article class="reference-detail-card">
-          <div class="reference-detail-top">
-            <div class="reference-detail-video-column">
-              <div class="reference-detail-headline">
-                <span class="reference-badge">${item.kicker}</span>
-                <span class="reference-duration">${item.duration}</span>
-              </div>
+  const detailsByVideo = Object.fromEntries(detailItems.map((item) => [item.videoKey, item]));
+
+  styleSections.innerHTML = items
+    .map((item) => {
+      const detail = detailsByVideo[item.videoKey];
+      const variant = variantItems[scriptVariantByVideo[item.videoKey]];
+      const sayLines = variant?.lines || detail?.flow || item.steps;
+      const whyBullets = detail?.whyBullets || [];
+      const screenshotTips = item.videoKey === 'aiHook' ? t(copy, 'screenshotTips') : null;
+
+      return `
+        <article class="style-card">
+          <div class="style-header">
+            <div>
+              <p class="mini-label">${item.kicker}</p>
               <h3>${item.title}</h3>
-              <p class="reference-detail-subtitle">${item.subtitle}</p>
-              <div class="reference-video-shell">
-                <video class="reference-video" controls preload="metadata" playsinline poster="${posterAssetMap[item.videoKey]}">
-                  <source src="${videoAssetMap[item.videoKey]}" type="video/mp4" />
-                </video>
-              </div>
-              <div class="reference-note-box">
-                <h4>${t(copy, 'referenceNoteTitle')}</h4>
-                <p>${item.note}</p>
-              </div>
+              <p class="style-subtitle">${detail?.subtitle || item.end}</p>
             </div>
-            <div class="reference-detail-copy-column">
-              <div class="flow-box">
-                <p class="eyebrow">${t(copy, 'referenceFlowTitle')}</p>
-                <div class="flow-lines">
-                  ${item.flow.map((line, index) => `<div class="flow-line">${index + 1}. "${line}"</div>`).join('')}
-                </div>
-              </div>
-              <div class="reference-mini-grid">
-                <article class="reference-mini-card">
-                  <h4>${t(copy, 'referenceWhyTitle')}</h4>
-                  <ul>${item.whyBullets.map((bullet) => `<li>${bullet}</li>`).join('')}</ul>
-                </article>
-                <article class="reference-mini-card">
-                  <h4>${t(copy, 'referenceCopyTitle')}</h4>
-                  <ul>${item.copyBullets.map((bullet) => `<li>${bullet}</li>`).join('')}</ul>
-                </article>
-              </div>
+            <div class="style-meta">
+              ${detail?.duration ? `<span class="style-chip">${detail.duration}</span>` : ''}
+              ${variant?.use ? `<span class="style-chip">${variant.use}</span>` : ''}
             </div>
           </div>
-          <div class="reference-table-wrap">
-            <table class="reference-table">
-              <thead>
-                <tr>
-                  <th>${t(copy, 'referenceTableBeat')}</th>
-                  <th>${t(copy, 'referenceTableWhy')}</th>
-                  <th>${t(copy, 'referenceTableSay')}</th>
-                  <th>${t(copy, 'referenceTableFilm')}</th>
-                  <th>${t(copy, 'referenceTableTip')}</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${item.table
+
+          <div class="style-grid">
+            <div class="style-media-stack">
+              ${
+                item.videoKey === 'aiHook'
+                  ? `
+                    <article class="style-media-card">
+                      <div class="screenshot-panel-head">
+                        <div>
+                          <p class="mini-label">${l(lang, 'screenshotCardTitle')}</p>
+                        </div>
+                        <button class="screenshot-action" type="button" data-cycle-language>${l(lang, 'screenshotAction')}</button>
+                      </div>
+                      <p class="style-note">${l(lang, 'screenshotCardNote')}</p>
+                      <p class="style-note">${l(lang, 'screenshotNote')}</p>
+                      <div class="phone-stage">
+                        <img id="aiScreenshotImage" class="phone-image" alt="Localized AI screenshot mockup" />
+                      </div>
+                      <div class="summary-blocks">
+                        <div class="summary-block">
+                          <strong>${t(copy, 'screenshotTipTitle')}</strong>
+                          <ul>${screenshotTips.map((tip) => `<li>${tip}</li>`).join('')}</ul>
+                        </div>
+                      </div>
+                    </article>
+                  `
+                  : ''
+              }
+
+              <article class="style-media-card">
+                <p class="mini-label">${detail?.kicker || item.kicker}</p>
+                <div class="video-shell">
+                  <video class="style-video" controls preload="metadata" playsinline poster="${posterAssetMap[item.videoKey]}">
+                    <source src="${videoAssetMap[item.videoKey]}" type="video/mp4" />
+                  </video>
+                </div>
+              </article>
+            </div>
+
+            <article class="style-list-card">
+              <h4>${l(lang, 'styleSayTitle')}</h4>
+              <div class="script-lines">
+                ${sayLines
                   .map(
-                    (row) => `
-                      <tr>
-                        <td>${row.beat}</td>
-                        <td>${row.why}</td>
-                        <td>${row.say}</td>
-                        <td>${row.film}</td>
-                        <td>${row.tip}</td>
-                      </tr>
+                    (line, index) => `
+                      <div class="script-line-item">
+                        <div class="script-line-number">${String(index + 1).padStart(2, '0')}</div>
+                        <p>${line}</p>
+                      </div>
                     `
                   )
                   .join('')}
-              </tbody>
-            </table>
-          </div>
-        </article>
-      `
-    )
-    .join('');
-}
-
-function renderScriptBreakdowns(copy) {
-  const items = t(copy, 'scriptBreakdowns');
-  if (!scriptBreakdowns || !Array.isArray(items)) {
-    return;
-  }
-  scriptBreakdowns.innerHTML = items
-    .map(
-      (item) => `
-        <article class="script-breakdown-card">
-          <div class="script-breakdown-copy">
-            <div>
-              <p class="offer-kicker">${item.kicker}</p>
-              <h3>${item.title}</h3>
-            </div>
-            <div class="script-meta">
-              <span class="script-chip"><strong>${t(copy, 'scriptUseLabel')}:</strong>&nbsp;${item.use}</span>
-            </div>
-            <div class="script-line-block">
-              ${item.lines
-                .map(
-                  (line, index) => `
-                    <div class="script-line-item">
-                      <div class="script-line-number">${String(index + 1).padStart(2, '0')}</div>
-                      <p>${line}</p>
-                    </div>
-                  `
-                )
-                .join('')}
-            </div>
-            <div class="script-support-grid">
-              <div class="script-block">
-                <h4>${t(copy, 'scriptSwapLabel')}</h4>
-                <p>${item.swap}</p>
               </div>
-            </div>
+            </article>
+
+            <article class="style-list-card">
+              <div class="summary-blocks">
+                <div class="summary-block">
+                  <strong>${l(lang, 'styleFilmTitle')}</strong>
+                  <ul>${item.film.map((shot) => `<li>${shot}</li>`).join('')}</ul>
+                </div>
+                <div class="summary-block">
+                  <strong>${l(lang, 'styleWhyTitle')}</strong>
+                  <ul>${whyBullets.map((bullet) => `<li>${bullet}</li>`).join('')}</ul>
+                </div>
+                <div class="summary-block">
+                  <strong>${l(lang, 'styleBrandTitle')}</strong>
+                  <p>${item.brand}</p>
+                </div>
+                <div class="summary-block">
+                  <strong>${l(lang, 'styleCloseTitle')}</strong>
+                  <p>${item.end}</p>
+                </div>
+              </div>
+            </article>
           </div>
         </article>
-      `
-    )
+      `;
+    })
     .join('');
 }
 
 function setLanguage(lang) {
-  const normalizedLang = lang === 'zh' ? 'es' : lang;
-  const copy = translations[normalizedLang] || translations.es;
-  document.title = t(copy, 'pageTitle');
+  const normalizedLang = languageOrder.includes(lang) ? lang : 'en';
+  const copy = translations[normalizedLang] || fallbackLanguage;
+  const policies = policyLists[normalizedLang] || policyLists.en;
+  document.title = l(normalizedLang, 'pageTitle');
   root.lang = normalizedLang;
 
   document.querySelectorAll('[data-i18n]').forEach((node) => {
@@ -2826,25 +3296,34 @@ function setLanguage(lang) {
     }
   });
 
+  document.querySelectorAll('[data-layout]').forEach((node) => {
+    const key = node.dataset.layout;
+    const value = l(normalizedLang, key);
+    if (typeof value === 'string') {
+      node.textContent = value;
+    }
+  });
+
   renderGuidePills(copy);
-  renderAiScreenshot(copy);
-  renderList(screenshotTipList, t(copy, 'screenshotTips'));
+  renderHeroTags(normalizedLang);
+  renderOfferCards(copy);
+  renderBenchmarkList(normalizedLang);
+  if (benchmarkLink) {
+    benchmarkLink.textContent = l(normalizedLang, 'benchmarkLinkLabel');
+  }
+  renderLogicCards(normalizedLang);
   renderList(productIntroList, t(copy, 'productIntroList'));
   renderList(promoList, t(copy, 'promoList'));
-  renderScriptNowCards(copy);
-  renderJumpChips(copy);
   renderStartCards(copy);
-  renderInsightGrid(offerCards, t(copy, 'offerCards'), 'offer-card');
-  renderList(doList, t(copy, 'doList'));
-  renderList(dontList, t(copy, 'dontList'));
-  renderReferenceDetailCards(copy);
-  renderScriptBreakdowns(copy);
-  renderScript(t(copy, 'starterScript'));
-  renderList(creatorChecklist, t(copy, 'creatorChecklist'));
   renderList(hookList, t(copy, 'hookList'));
   renderList(ctaList, t(copy, 'ctaList'));
-  renderList(productBullets, t(copy, 'productBullets'));
-  renderList(brandBullets, t(copy, 'brandBullets'));
+  renderList(doList, t(copy, 'doList'));
+  renderList(dontList, t(copy, 'dontList'));
+  renderStyleSections(copy, normalizedLang);
+  renderAiScreenshot(copy);
+  renderList(platformRuleList, policies.platform);
+  renderList(medicalDoList, policies.medicalDo);
+  renderList(medicalDontList, policies.medicalDont);
 
   languageButtons.forEach((button) => {
     button.classList.toggle('active', button.dataset.lang === normalizedLang);
@@ -2857,5 +3336,16 @@ languageButtons.forEach((button) => {
   button.addEventListener('click', () => setLanguage(button.dataset.lang));
 });
 
+document.addEventListener('click', (event) => {
+  const actionButton = event.target.closest('[data-cycle-language]');
+  if (!actionButton) {
+    return;
+  }
+
+  const currentIndex = languageOrder.indexOf(root.lang);
+  const nextLang = languageOrder[(currentIndex + 1) % languageOrder.length];
+  setLanguage(nextLang);
+});
+
 const savedLanguage = localStorage.getItem('nature-spell-lang');
-setLanguage(savedLanguage === 'zh' ? 'es' : savedLanguage || 'es');
+setLanguage(savedLanguage === 'zh' ? 'en' : savedLanguage || 'en');

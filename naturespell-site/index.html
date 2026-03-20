@@ -1,38 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nature Spell Creator Brief</title>
+    <title>Nature Spell Info Center</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="page-shell">
-      <header class="topbar">
-        <div class="topbar-copy">
+      <header class="hero" id="top">
+        <div class="hero-main">
           <p class="eyebrow" data-i18n="brandEyebrow"></p>
-          <h1 data-i18n="heroTitle"></h1>
-          <p class="lede topbar-lede" data-i18n="heroIntro"></p>
-
-          <div class="hero-cards">
-            <article class="mini-card">
-              <span class="mini-label" data-i18n="focusLabel"></span>
-              <p data-i18n="focusText"></p>
-            </article>
-            <article class="mini-card">
-              <span class="mini-label" data-i18n="goalLabel"></span>
-              <p data-i18n="goalText"></p>
-            </article>
-            <article class="mini-card">
-              <span class="mini-label" data-i18n="mockupLabel"></span>
-              <p data-i18n="heroNote"></p>
-            </article>
-          </div>
+          <h1 data-layout="siteTitle"></h1>
+          <p class="lede hero-lede" data-layout="siteIntro"></p>
+          <div class="hero-tag-grid" id="heroTags"></div>
         </div>
-        <div class="topbar-side">
+
+        <aside class="hero-side">
           <div class="language-switcher" aria-label="Language switcher">
-            <button class="lang-btn active" data-lang="es">Español</button>
-            <button class="lang-btn" data-lang="en">English</button>
+            <button class="lang-btn active" data-lang="en">English</button>
+            <button class="lang-btn" data-lang="es">Español</button>
             <button class="lang-btn" data-lang="it">Italiano</button>
             <button class="lang-btn" data-lang="de">Deutsch</button>
             <button class="lang-btn" data-lang="fr">Français</button>
@@ -45,191 +32,144 @@
             <p class="guide-note" data-i18n="guideNote"></p>
             <div class="guide-pill-grid" id="guidePills"></div>
           </article>
-        </div>
+        </aside>
       </header>
 
       <main>
-        <section class="front-summary-grid">
-          <article class="section action-card">
-            <div class="section-heading">
-              <p class="eyebrow" data-i18n="productIntroEyebrow"></p>
-              <h2 data-i18n="productIntroTitle"></h2>
-            </div>
-            <ul id="productIntroList"></ul>
-          </article>
-
-          <article class="section action-card action-card-soft">
-            <div class="section-heading">
-              <p class="eyebrow" data-i18n="promoEyebrow"></p>
-              <h2 data-i18n="promoTitle"></h2>
-              <p class="section-copy" data-i18n="promoIntro"></p>
-            </div>
-            <ul id="promoList"></ul>
-          </article>
-        </section>
-
-        <section class="section ai-screenshot-section" id="ai-shot">
+        <section class="section" id="overview">
           <div class="section-heading">
-            <p class="eyebrow" data-i18n="screenshotEyebrow"></p>
-            <h2 data-i18n="screenshotTitle"></h2>
-            <p class="section-copy" data-i18n="screenshotIntro"></p>
+            <p class="eyebrow" data-layout="overviewEyebrow"></p>
+            <h2 data-layout="overviewTitle"></h2>
+            <p class="section-copy" data-layout="overviewIntro"></p>
           </div>
-          <div class="ai-screenshot-layout">
-            <div class="phone-stage screenshot-stage">
-              <img id="aiScreenshotImage" class="phone-image" alt="Localized AI screenshot mockup" />
-            </div>
-            <article class="tip-card screenshot-tip-card">
-              <h3 data-i18n="screenshotTipTitle"></h3>
-              <ul id="screenshotTipList"></ul>
-            </article>
-          </div>
-        </section>
 
-        <section class="section quick-film-section" id="shoot-now">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="scriptLibraryEyebrow"></p>
-            <h2 data-i18n="scriptLibraryTitle"></h2>
-            <p class="section-copy" data-i18n="scriptLibraryIntro"></p>
-          </div>
-          <div class="script-launch-grid" id="scriptNowCards"></div>
-        </section>
-
-        <section class="section library-divider" id="knowledge-library">
-          <p class="eyebrow" data-i18n="libraryEyebrow"></p>
-          <h2 data-i18n="libraryTitle"></h2>
-          <p class="section-copy" data-i18n="libraryIntro"></p>
-        </section>
-
-        <section class="jump-strip section">
-          <div class="jump-copy">
-            <p class="eyebrow" data-i18n="jumpEyebrow"></p>
-            <p class="section-copy" data-i18n="jumpIntro"></p>
-          </div>
-          <div class="jump-links" id="jumpChips"></div>
-        </section>
-
-        <section class="section start-section" id="start">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="startEyebrow"></p>
-            <h2 data-i18n="startTitle"></h2>
-            <p class="section-copy" data-i18n="startIntro"></p>
-          </div>
-          <div class="start-grid" id="startCards"></div>
-        </section>
-
-        <section class="creator-grid">
-          <article class="section offer-panel" id="proof-notes">
-            <div class="section-heading">
-              <p class="eyebrow" data-i18n="offerEyebrow"></p>
-              <h2 data-i18n="offerTitle"></h2>
-              <p class="section-copy" data-i18n="offerIntro"></p>
-            </div>
-            <div class="offer-grid" id="offerCards"></div>
-          </article>
-
-          <article class="section rules-panel" id="rules">
-            <div class="section-heading">
-              <p class="eyebrow" data-i18n="rulesEyebrow"></p>
-              <h2 data-i18n="rulesTitle"></h2>
-            </div>
-            <div class="rules-card-grid">
-              <article class="rule-card">
-                <h3 data-i18n="doTitle"></h3>
-                <ul id="doList"></ul>
-              </article>
-              <article class="rule-card rule-card-soft">
-                <h3 data-i18n="dontTitle"></h3>
-                <ul id="dontList"></ul>
-              </article>
-            </div>
-          </article>
-        </section>
-
-        <section class="section reference-detail-section" id="references">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="referenceDetailEyebrow"></p>
-            <h2 data-i18n="referenceDetailTitle"></h2>
-            <p class="section-copy" data-i18n="referenceDetailIntro"></p>
-          </div>
-          <div class="reference-detail-grid" id="referenceDetailCards"></div>
-        </section>
-
-        <section class="section section-alt" id="brief-table">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="scriptBreakdownEyebrow"></p>
-            <h2 data-i18n="scriptBreakdownTitle"></h2>
-            <p class="section-copy" data-i18n="scriptBreakdownIntro"></p>
-          </div>
-          <div class="script-breakdown-grid" id="scriptBreakdowns"></div>
-        </section>
-
-        <section class="section section-alt">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="starterEyebrow"></p>
-            <h2 data-i18n="starterTitle"></h2>
-            <p class="section-copy" data-i18n="starterIntro"></p>
-          </div>
-          <div class="starter-layout">
-            <article class="script-card">
-              <div class="script-card-header">
-                <span data-i18n="scriptLabel"></span>
+          <div class="overview-grid">
+            <article class="panel">
+              <div class="panel-header">
+                <p class="mini-label" data-layout="payoutTitle"></p>
+                <h3 data-i18n="offerTitle"></h3>
+                <p class="panel-copy" data-i18n="offerIntro"></p>
               </div>
-              <div id="starterScript"></div>
+              <div class="offer-grid compact-grid" id="offerCards"></div>
             </article>
-            <article class="tip-card">
-              <h3 data-i18n="creatorChecklistTitle"></h3>
-              <ul id="creatorChecklist"></ul>
+
+            <article class="panel">
+              <div class="panel-header">
+                <p class="mini-label" data-i18n="productIntroEyebrow"></p>
+                <h3 data-i18n="productIntroTitle"></h3>
+              </div>
+              <ul id="productIntroList"></ul>
+
+              <div class="promo-box">
+                <p class="mini-label" data-i18n="promoEyebrow"></p>
+                <p class="promo-title" data-i18n="promoTitle"></p>
+                <p class="panel-copy" data-i18n="promoIntro"></p>
+                <ul id="promoList"></ul>
+              </div>
+            </article>
+
+            <article class="panel panel-teal">
+              <div class="panel-header">
+                <p class="mini-label" data-layout="benchmarkEyebrow"></p>
+                <h3 data-layout="benchmarkTitle"></h3>
+              </div>
+              <p class="panel-copy" data-layout="benchmarkIntro"></p>
+              <a class="creator-link" id="benchmarkLink" href="https://www.tiktok.com/@fleureleanorgreen" target="_blank" rel="noreferrer noopener"></a>
+              <ul id="benchmarkList"></ul>
             </article>
           </div>
         </section>
 
-        <section class="section">
-          <div class="two-column">
-            <article class="tip-card">
-              <h3 data-i18n="productBulletsTitle"></h3>
-              <ul id="productBullets"></ul>
-            </article>
-            <article class="tip-card">
-              <h3 data-i18n="brandBulletsTitle"></h3>
-              <ul id="brandBullets"></ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="section">
+        <section class="section" id="how-to-film">
           <div class="section-heading">
-            <p class="eyebrow" data-i18n="hooksEyebrow"></p>
-            <h2 data-i18n="hooksTitle"></h2>
+            <p class="eyebrow" data-layout="filmingEyebrow"></p>
+            <h2 data-layout="filmingTitle"></h2>
+            <p class="section-copy" data-layout="filmingIntro"></p>
           </div>
-          <div class="two-column">
-            <article class="tip-card">
-              <h3 data-i18n="hooksCardTitle"></h3>
-              <ul id="hookList"></ul>
-            </article>
-            <article class="tip-card">
-              <h3 data-i18n="ctaCardTitle"></h3>
-              <ul id="ctaList"></ul>
-            </article>
+
+          <div class="logic-grid">
+            <div class="logic-main">
+              <div class="logic-card-grid" id="logicCards"></div>
+              <div class="start-grid" id="startCards"></div>
+            </div>
+
+            <div class="rules-stack">
+              <article class="panel">
+                <div class="panel-header">
+                  <p class="mini-label" data-i18n="hooksEyebrow"></p>
+                  <h3 data-i18n="hooksTitle"></h3>
+                </div>
+                <div class="tight-columns">
+                  <div>
+                    <h4 class="subhead" data-i18n="hooksCardTitle"></h4>
+                    <ul id="hookList"></ul>
+                  </div>
+                  <div>
+                    <h4 class="subhead" data-i18n="ctaCardTitle"></h4>
+                    <ul id="ctaList"></ul>
+                  </div>
+                </div>
+              </article>
+
+              <article class="panel">
+                <div class="panel-header">
+                  <p class="mini-label" data-i18n="rulesEyebrow"></p>
+                  <h3 data-i18n="rulesTitle"></h3>
+                </div>
+                <div class="tight-columns">
+                  <div>
+                    <h4 class="subhead" data-i18n="doTitle"></h4>
+                    <ul id="doList"></ul>
+                  </div>
+                  <div>
+                    <h4 class="subhead" data-i18n="dontTitle"></h4>
+                    <ul id="dontList"></ul>
+                  </div>
+                </div>
+              </article>
+            </div>
           </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="styles">
           <div class="section-heading">
-            <p class="eyebrow" data-i18n="nextEyebrow"></p>
-            <h2 data-i18n="nextTitle"></h2>
+            <p class="eyebrow" data-layout="stylesEyebrow"></p>
+            <h2 data-layout="stylesTitle"></h2>
+            <p class="section-copy" data-layout="stylesIntro"></p>
           </div>
-          <div class="next-grid">
-            <article class="next-card">
-              <h3 data-i18n="nextBlockOneTitle"></h3>
-              <p data-i18n="nextBlockOneBody"></p>
+          <div class="style-stack" id="styleSections"></div>
+        </section>
+
+        <section class="section" id="policy">
+          <div class="section-heading">
+            <p class="eyebrow" data-layout="policyEyebrow"></p>
+            <h2 data-layout="policyTitle"></h2>
+            <p class="section-copy" data-layout="policyIntro"></p>
+          </div>
+
+          <div class="policy-grid">
+            <article class="panel">
+              <div class="panel-header">
+                <p class="mini-label" data-layout="platformRulesEyebrow"></p>
+                <h3 data-layout="platformRulesTitle"></h3>
+              </div>
+              <ul id="platformRuleList"></ul>
             </article>
-            <article class="next-card">
-              <h3 data-i18n="nextBlockTwoTitle"></h3>
-              <p data-i18n="nextBlockTwoBody"></p>
+
+            <article class="panel">
+              <div class="panel-header">
+                <p class="mini-label" data-layout="medicalEyebrow"></p>
+                <h3 data-layout="medicalDoTitle"></h3>
+              </div>
+              <ul id="medicalDoList"></ul>
             </article>
-            <article class="next-card">
-              <h3 data-i18n="nextBlockThreeTitle"></h3>
-              <p data-i18n="nextBlockThreeBody"></p>
+
+            <article class="panel panel-alert">
+              <div class="panel-header">
+                <p class="mini-label" data-layout="medicalEyebrow"></p>
+                <h3 data-layout="medicalDontTitle"></h3>
+              </div>
+              <ul id="medicalDontList"></ul>
             </article>
           </div>
         </section>
