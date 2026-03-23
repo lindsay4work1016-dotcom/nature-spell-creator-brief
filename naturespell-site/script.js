@@ -74,7 +74,7 @@ const translations = {
         title: "AI screenshot opener",
         videoKey: "aiHook",
         steps: [
-          "Llevaba días intentando entender qué ayuda de verdad con el cuero cabelludo y el frizz.",
+          "¿Te has dado cuenta de cuántos ingredientes sintéticos te estás poniendo en el cuero cabelludo?",
           "Le pasé este tipo de aceite al AI antes de probarlo yo.",
           "Eso fue lo que me llevó a probar este de Nature Spell."
         ],
@@ -92,7 +92,7 @@ const translations = {
         title: "Routine demo",
         videoKey: "replyRoutine",
         steps: [
-          "Esta es la rutina que más estoy usando ahora mismo.",
+          "Antes ignoraba por completo mi cuero cabelludo hasta que añadí este paso fácil.",
           "Primero aplico en cuero cabelludo y masajeo.",
           "Luego te enseño cómo se ve al final."
         ],
@@ -110,7 +110,7 @@ const translations = {
         title: "Hair update",
         videoKey: "resultProof",
         steps: [
-          "Este es el estado real de mi pelo antes de arreglarlo.",
+          "La rutina que más diferencia ha marcado en cómo se ve mi pelo con el tiempo.",
           "Esto es lo que más me está funcionando ahora mismo.",
           "Te enseño el antes, la aplicación y el resultado."
         ],
@@ -134,21 +134,21 @@ const translations = {
       {
         kicker: "Ruta 01",
         title: "AI hook",
-        hook: "Pon el screenshot AI al inicio y di una frase corta.",
+        hook: "Di: ¿te has dado cuenta de cuántos ingredientes sintéticos te estás poniendo en el cuero cabelludo?",
         film: "Cara a cámara, screenshot, cuero cabelludo, masaje, puntas.",
         end: "Di: si quieres una rutina simple, empieza por aquí."
       },
       {
         kicker: "Ruta 02",
         title: "Routine demo",
-        hook: "Di: esta es la rutina que más estoy usando ahora.",
+        hook: "Di: antes ignoraba por completo mi cuero cabelludo hasta que añadí este paso fácil.",
         film: "Brush, apply, massage, wait, result.",
         end: "Di cuántas veces lo usas por semana."
       },
       {
         kicker: "Ruta 03",
         title: "Hair update",
-        hook: "Empieza con el estado real de tu pelo antes de arreglarlo.",
+        hook: "Di: la rutina que más diferencia ha marcado en cómo se ve mi pelo con el tiempo.",
         film: "Antes, aplicación real, secado o resultado final.",
         end: "Di: este es el que yo miraría primero."
       }
@@ -260,16 +260,26 @@ const translations = {
       "Quédate en palabras seguras: más lleno, menos seco, más suave, con más brillo."
     ],
     hooksEyebrow: "Hooks & CTA",
-    hooksTitle: "Hooks y cierres para usar ya",
-    hooksCardTitle: "Hooks que puedes decir",
-    hookList: [
-      "Llevaba días intentando entender qué ayuda de verdad con el cuero cabelludo y el frizz.",
-      "Estoy usando AI para filtrar productos capilares que suenan increíbles pero luego nadie mantiene.",
-      "Me llamó la atención que este se siente más natural y menos cargado que otros aceites capilares.",
-      "Si tus puntas se ponen secas y como hinchadas, prueba este ángulo.",
-      "No quería comprar otro aceite a ciegas, así que lo revisé primero."
+    hooksTitle: "3 rutas de hook para entender rápido",
+    hooksCardTitle: "Elige 1 ángulo de apertura",
+    hookCards: [
+      {
+        kicker: "Ángulo fórmula más limpia",
+        hook: "¿Te has dado cuenta de cuántos ingredientes sintéticos te estás poniendo en el cuero cabelludo?",
+        note: "Úsalo para abrir el ángulo de fórmula más limpia y más natural."
+      },
+      {
+        kicker: "Ángulo progreso",
+        hook: "La rutina que más diferencia ha marcado en cómo se ve mi pelo con el tiempo",
+        note: "Úsalo si tienes before and after o footage de progreso."
+      },
+      {
+        kicker: "Ángulo personal",
+        hook: "Antes ignoraba por completo mi cuero cabelludo hasta que añadí este paso fácil",
+        note: "Úsalo si quieres un tono más personal, cercano y creator."
+      }
     ],
-    ctaCardTitle: "CTA que suenan bien",
+    ctaCardTitle: "Cómo cerrarlo suave",
     ctaList: [
       "Mantén el CTA suave; no entres con compra ya.",
       "Usa frases como: este es el primero que miraría, esta es la botella que más estoy usando, o si tienes el mismo problema prueba este.",
@@ -541,7 +551,7 @@ const translations = {
         use: "Quieres que el video se sienta nuevo y con proof visual desde el segundo uno.",
         swap: "Cambia smoother-looking, fuller-looking o less dry-looking según lo que realmente se vea en tus planos.",
         lines: [
-          "Llevaba días intentando entender qué ayuda de verdad con el cuero cabelludo y con el frizz.",
+          "¿Te has dado cuenta de cuántos ingredientes sintéticos te estás poniendo en el cuero cabelludo?",
           "Así que incluso le pasé este tipo de aceite al AI antes de probarlo yo.",
           "Lo que me llamó la atención de este de Nature Spell es que ya viene pre-diluido y se siente mucho más fácil de usar de verdad.",
           "Te enseño rapidísimo cómo lo aplico en el cuero cabelludo y cómo se ve luego el pelo.",
@@ -644,7 +654,7 @@ const translations = {
         title: "AI screenshot opener",
         videoKey: "aiHook",
         steps: [
-          "I had been trying to figure out what actually helps with scalp care and frizz.",
+          "Did you realise how many synthetic ingredients you are putting on your scalp?",
           "I even ran this type of hair oil through AI before trying it myself.",
           "That is what led me to try this Nature Spell one."
         ],
@@ -662,7 +672,7 @@ const translations = {
         title: "Routine demo",
         videoKey: "replyRoutine",
         steps: [
-          "This is the routine I have been using most lately.",
+          "I used to ignore my scalp completely until I added this easy step.",
           "First I apply it to my scalp and massage it in.",
           "Then I show how my hair looks after."
         ],
@@ -680,7 +690,7 @@ const translations = {
         title: "Hair update",
         videoKey: "resultProof",
         steps: [
-          "This is what my hair actually looks like before I fix it.",
+          "The routine that made the biggest difference to my hair over time.",
           "This is what has been working best for me lately.",
           "I will show you the before, the application, and the result."
         ],
@@ -704,21 +714,21 @@ const translations = {
       {
         kicker: "Route 01",
         title: "AI hook",
-        hook: "Open with the AI screenshot and say one short line.",
+        hook: "Say: did you realise how many synthetic ingredients you are putting on your scalp?",
         film: "Face to camera, screenshot, scalp, massage, ends.",
         end: "Say: if you want a simple routine, start here."
       },
       {
         kicker: "Route 02",
         title: "Routine demo",
-        hook: "Say: this is the routine I have been using lately.",
+        hook: "Say: I used to ignore my scalp completely until I added this easy step.",
         film: "Brush, apply, massage, wait, result.",
         end: "Say how many times a week you use it."
       },
       {
         kicker: "Route 03",
         title: "Hair update",
-        hook: "Start with what your hair looks like before you fix it.",
+        hook: "Say: the routine that made the biggest difference to my hair over time.",
         film: "Before, real application, dry result or final look.",
         end: "Say: this is the one I would look at first."
       }
@@ -830,16 +840,26 @@ const translations = {
       "Keep benefit wording safe: fuller-looking, less dry-looking, smoother-looking."
     ],
     hooksEyebrow: "Hooks & CTA",
-    hooksTitle: "Start with the simplest hooks and endings",
-    hooksCardTitle: "Hooks to test first",
-    hookList: [
-      "I was literally trying to figure out what actually helps with scalp care and frizz.",
-      "I started using AI to filter out hair products that sound amazing but are too much work.",
-      "What stood out to me is that this one feels more natural and less overloaded than a lot of other hair oils.",
-      "If your hair gets dry and puffy at the ends, try this angle.",
-      "I did not want to blind-buy another hair oil, so I checked it first."
+    hooksTitle: "3 opening angles creators can understand fast",
+    hooksCardTitle: "Pick 1 opening route",
+    hookCards: [
+      {
+        kicker: "Cleaner formula angle",
+        hook: "Did you realise how many synthetic ingredients you are putting on your scalp?",
+        note: "Use this to lead into the cleaner, more natural formula angle."
+      },
+      {
+        kicker: "Progress angle",
+        hook: "The routine that made the biggest difference to my hair over time",
+        note: "Use this when you have before-and-after or progress footage."
+      },
+      {
+        kicker: "Personal angle",
+        hook: "I used to ignore my scalp completely until I added this easy step",
+        note: "Use this when you want a more personal, relatable creator tone."
+      }
     ],
-    ctaCardTitle: "Suggested CTA",
+    ctaCardTitle: "How to close softly",
     ctaList: [
       "Keep CTA soft instead of salesy.",
       "Use lines like: this is the one I would look at first, this is the bottle I keep reaching for, or if you have the same issue, try this one.",
@@ -1169,13 +1189,13 @@ const translations = {
       "Brand forte su TikTok Shop UK con supporto creator e samples.",
       "Parla come una scoperta utile, piu pulita e facile da fidarsi, non come una pubblicita."
     ],
-    promoEyebrow: "Spring Promo",
-    promoTitle: "Promo dal 24 marzo 2026 al 1 aprile 2026",
-    promoIntro: "Se entra in modo naturale, aggiungi la promo alla fine o nel testo.",
+    promoEyebrow: "Saldi di Primavera",
+    promoTitle: "Prezzi creator fino al 1 aprile 2026",
+    promoIntro: "Pubblica tra il 22 e il 23 marzo per entrare prima nei feed e spingere meglio i saldi.",
     promoList: [
-      "Single: €12.99",
-      "Bundle: €24.99",
-      "Hashtags IT: #Offertediprimavera #SpringGlowUp"
+      "Olio di rosmarino: €12,99",
+      "Batana + Rosmarino: €24,99",
+      "Tagga @nature.spell + #SpringDealsDays #SpringGlowUp"
     ],
     screenshotEyebrow: "AI Screenshot",
     screenshotTitle: "Fai screenshot di questo per il video",
@@ -1212,7 +1232,7 @@ const translations = {
         title: "AI screenshot opener",
         videoKey: "aiHook",
         steps: [
-          "Stavo cercando di capire cosa aiuta davvero cute e crespo.",
+          "Ti sei resa conto di quanti ingredienti sintetici stai mettendo sul cuoio capelluto?",
           "Ho persino fatto controllare questo tipo di olio all'AI.",
           "E questo mi ha portata a provare Nature Spell."
         ],
@@ -1225,7 +1245,7 @@ const translations = {
         title: "Routine demo",
         videoKey: "replyRoutine",
         steps: [
-          "Questa e la routine che sto usando di piu adesso.",
+          "Prima ignoravo completamente il mio cuoio capelluto finche non ho aggiunto questo passaggio facile.",
           "Prima applico sulla cute e massaggio.",
           "Poi ti faccio vedere il risultato."
         ],
@@ -1238,7 +1258,7 @@ const translations = {
         title: "Hair update",
         videoKey: "resultProof",
         steps: [
-          "Questo e lo stato reale dei miei capelli prima di sistemarli.",
+          "La routine che ha fatto la differenza piu grande sui miei capelli nel tempo.",
           "Questo e quello che mi sta aiutando di piu adesso.",
           "Ti mostro prima, applicazione e risultato."
         ],
@@ -1257,21 +1277,21 @@ const translations = {
       {
         kicker: "Route 01",
         title: "AI hook",
-        hook: "Apri con lo screenshot AI e una frase breve.",
+        hook: "Di: ti sei resa conto di quanti ingredienti sintetici stai mettendo sul cuoio capelluto?",
         film: "Viso, screenshot, cute, massaggio, punte.",
         end: "Di: se vuoi una routine semplice, parti da qui."
       },
       {
         kicker: "Route 02",
         title: "Routine demo",
-        hook: "Di: questa e la routine che sto usando di piu ora.",
+        hook: "Di: prima ignoravo completamente il mio cuoio capelluto finche non ho aggiunto questo passaggio facile.",
         film: "Brush, apply, massage, wait, result.",
         end: "Di quante volte a settimana lo usi."
       },
       {
         kicker: "Route 03",
         title: "Hair update",
-        hook: "Apri con lo stato reale dei capelli prima di sistemarli.",
+        hook: "Di: la routine che ha fatto la differenza piu grande sui miei capelli nel tempo.",
         film: "Prima, applicazione reale, asciutto o risultato finale.",
         end: "Di: questo e quello che guarderei per primo."
       }
@@ -1383,16 +1403,26 @@ const translations = {
       "Usa wording prudente: piu pieno, meno secco, piu liscio."
     ],
     hooksEyebrow: "Hooks & CTA",
-    hooksTitle: "Parti dai hook e finali piu semplici",
-    hooksCardTitle: "Hook da testare",
-    hookList: [
-      "Stavo cercando di capire cosa aiuta davvero il cuoio capelluto e il crespo.",
-      "Sto usando l'AI per filtrare i prodotti capelli che sembrano fortissimi ma sono troppo complicati.",
-      "Quello che mi ha colpita e che questo sembra piu naturale e meno carico di altri oli capelli.",
-      "Se le tue punte diventano secche e gonfie, prova questo angolo.",
-      "Non volevo comprare un altro olio alla cieca, quindi ho controllato prima."
+    hooksTitle: "3 aperture che un creator capisce subito",
+    hooksCardTitle: "Scegli 1 angolo di apertura",
+    hookCards: [
+      {
+        kicker: "Angolo formula piu pulita",
+        hook: "Ti sei resa conto di quanti ingredienti sintetici stai mettendo sul cuoio capelluto?",
+        note: "Usalo per aprire il discorso formula piu pulita e piu naturale."
+      },
+      {
+        kicker: "Angolo progresso",
+        hook: "La routine che ha fatto la differenza piu grande sui miei capelli nel tempo",
+        note: "Usalo se hai before and after o contenuti di progresso."
+      },
+      {
+        kicker: "Angolo personale",
+        hook: "Prima ignoravo completamente il mio cuoio capelluto finche non ho aggiunto questo passaggio facile",
+        note: "Usalo se vuoi un tono piu personale, vicino e relatable."
+      }
     ],
-    ctaCardTitle: "CTA consigliate",
+    ctaCardTitle: "Come chiudere in modo morbido",
     ctaList: [
       "Meglio CTA morbide che troppo aggressive.",
       "Funzionano frasi come: io guarderei prima questo, questa e la bottiglia che uso di piu, oppure se hai lo stesso problema prova questo.",
@@ -1633,7 +1663,7 @@ const translations = {
         title: "AI screenshot opener",
         videoKey: "aiHook",
         steps: [
-          "Ich wollte verstehen, was wirklich bei Kopfhaut und Frizz hilft.",
+          "War dir eigentlich klar, wie viele synthetische Inhaltsstoffe du auf deine Kopfhaut gibst?",
           "Ich habe diese Art Oel sogar erst durch AI gecheckt.",
           "Dadurch bin ich bei Nature Spell gelandet."
         ],
@@ -1646,7 +1676,7 @@ const translations = {
         title: "Routine demo",
         videoKey: "replyRoutine",
         steps: [
-          "Das ist die Routine, die ich gerade am meisten nutze.",
+          "Ich habe meine Kopfhaut komplett ignoriert, bis ich diesen einfachen Schritt erganzt habe.",
           "Zuerst trage ich es auf die Kopfhaut auf und massiere es ein.",
           "Danach zeige ich dir das Ergebnis."
         ],
@@ -1659,7 +1689,7 @@ const translations = {
         title: "Hair update",
         videoKey: "resultProof",
         steps: [
-          "So sehen meine Haare wirklich aus, bevor ich sie mache.",
+          "Die Routine, die bei meinen Haaren uber die Zeit den grossten Unterschied gemacht hat.",
           "Das hilft mir im Moment am meisten.",
           "Ich zeige dir Vorher, Anwendung und Ergebnis."
         ],
@@ -1678,21 +1708,21 @@ const translations = {
       {
         kicker: "Route 01",
         title: "AI hook",
-        hook: "Starte mit dem AI-Screenshot und einem kurzen Satz.",
+        hook: "Sag: war dir eigentlich klar, wie viele synthetische Inhaltsstoffe du auf deine Kopfhaut gibst?",
         film: "Gesicht, Screenshot, Kopfhaut, Massage, Spitzen.",
         end: "Sag: wenn du eine einfache Routine willst, starte hier."
       },
       {
         kicker: "Route 02",
         title: "Routine demo",
-        hook: "Sag: das ist die Routine, die ich gerade am meisten nutze.",
+        hook: "Sag: ich habe meine Kopfhaut komplett ignoriert, bis ich diesen einfachen Schritt erganzt habe.",
         film: "Brush, apply, massage, wait, result.",
         end: "Sag, wie oft pro Woche du es nutzt."
       },
       {
         kicker: "Route 03",
         title: "Hair update",
-        hook: "Starte mit dem echten Haarzustand vor dem Styling.",
+        hook: "Sag: die Routine, die bei meinen Haaren uber die Zeit den grossten Unterschied gemacht hat.",
         film: "Vorher, echte Anwendung, trockenes Ergebnis oder Endlook.",
         end: "Sag: das ist das, was ich mir zuerst ansehen wurde."
       }
@@ -1804,16 +1834,26 @@ const translations = {
       "Sichere Worte nutzen: voller wirkend, weniger trocken, glatter wirkend."
     ],
     hooksEyebrow: "Hooks & CTA",
-    hooksTitle: "Mit den einfachsten Hooks und Endings starten",
-    hooksCardTitle: "Hooks zum Testen",
-    hookList: [
-      "Ich wollte einfach wissen, was wirklich bei Kopfhautpflege und Frizz hilft.",
-      "Ich nutze AI gerade, um Haarprodukte rauszufiltern, die toll klingen, aber zu kompliziert sind.",
-      "Mir ist aufgefallen, dass sich dieses Oel naturlicher und weniger uberladen anfuhlt als viele andere.",
-      "Wenn deine Spitzen trocken und puffig werden, probier diesen Angle.",
-      "Ich wollte nicht noch ein Haarol blind kaufen, also habe ich es erst gecheckt."
+    hooksTitle: "3 Hook-Routen, die Creator sofort verstehen",
+    hooksCardTitle: "Wahle 1 Opening-Angle",
+    hookCards: [
+      {
+        kicker: "Sauberere-Formel-Angle",
+        hook: "War dir eigentlich klar, wie viele synthetische Inhaltsstoffe du auf deine Kopfhaut gibst?",
+        note: "Nutze das als Einstieg in den saubereren, naturlicheren Formel-Angle."
+      },
+      {
+        kicker: "Progress-Angle",
+        hook: "Die Routine, die bei meinen Haaren uber die Zeit den grossten Unterschied gemacht hat",
+        note: "Nutze das, wenn du Before-and-after- oder Progress-Footage hast."
+      },
+      {
+        kicker: "Personlicher Angle",
+        hook: "Ich habe meine Kopfhaut komplett ignoriert, bis ich diesen einfachen Schritt erganzt habe",
+        note: "Nutze das, wenn du personlicher und nahbarer klingen willst."
+      }
     ],
-    ctaCardTitle: "CTA Vorschlage",
+    ctaCardTitle: "So schliesst du weich ab",
     ctaList: [
       "Soft CTA funktioniert besser als harter Sell.",
       "Gut sind Formulierungen wie: das ist die Flasche, die ich mir zuerst ansehen wurde, oder wenn du dasselbe Problem hast, probier diese zuerst.",
@@ -2053,7 +2093,7 @@ const translations = {
         title: "AI screenshot opener",
         videoKey: "aiHook",
         steps: [
-          "J'essayais de comprendre ce qui aide vraiment le cuir chevelu et les frisottis.",
+          "Tu t'es rendu compte de combien d'ingredients synthetiques tu mets sur ton cuir chevelu ?",
           "J'ai meme fait verifier ce type d'huile par l'AI.",
           "C'est ce qui m'a amenee vers Nature Spell."
         ],
@@ -2066,7 +2106,7 @@ const translations = {
         title: "Routine demo",
         videoKey: "replyRoutine",
         steps: [
-          "C'est la routine que j'utilise le plus en ce moment.",
+          "J'ignorais completement mon cuir chevelu jusqu'a ce que j'ajoute cette etape facile.",
           "D'abord j'applique sur le cuir chevelu et je masse.",
           "Ensuite je te montre le resultat."
         ],
@@ -2079,7 +2119,7 @@ const translations = {
         title: "Hair update",
         videoKey: "resultProof",
         steps: [
-          "Voila l'etat reel de mes cheveux avant de les arranger.",
+          "La routine qui a fait la plus grande difference sur mes cheveux avec le temps.",
           "C'est ce qui m'aide le plus en ce moment.",
           "Je te montre l'avant, l'application et le resultat."
         ],
@@ -2098,21 +2138,21 @@ const translations = {
       {
         kicker: "Route 01",
         title: "AI hook",
-        hook: "Ouvre avec la capture AI et une phrase courte.",
+        hook: "Dis : tu t'es rendu compte de combien d'ingredients synthetiques tu mets sur ton cuir chevelu ?",
         film: "Visage, capture, cuir chevelu, massage, pointes.",
         end: "Dis : si tu veux une routine simple, commence ici."
       },
       {
         kicker: "Route 02",
         title: "Routine demo",
-        hook: "Dis : c'est la routine que j'utilise le plus en ce moment.",
+        hook: "Dis : j'ignorais completement mon cuir chevelu jusqu'a ce que j'ajoute cette etape facile.",
         film: "Brush, apply, massage, wait, result.",
         end: "Dis combien de fois par semaine tu l'utilises."
       },
       {
         kicker: "Route 03",
         title: "Hair update",
-        hook: "Commence avec l'etat reel de tes cheveux avant de les arranger.",
+        hook: "Dis : la routine qui a fait la plus grande difference sur mes cheveux avec le temps.",
         film: "Avant, vraie application, resultat sec ou look final.",
         end: "Dis : c'est celui que je regarderais en premier."
       }
@@ -2224,16 +2264,26 @@ const translations = {
       "Utiliser des formules sures : plus fourni, moins sec, plus lisse visuellement."
     ],
     hooksEyebrow: "Hooks & CTA",
-    hooksTitle: "Commencer avec les hooks et fins les plus simples",
-    hooksCardTitle: "Hooks a tester",
-    hookList: [
-      "J'essayais juste de comprendre ce qui aide vraiment pour le cuir chevelu et les frisottis.",
-      "J'utilise l'AI pour eliminer les produits capillaires qui ont l'air incroyables mais trop compliques.",
-      "Ce qui m'a marque, c'est que celui-ci parait plus naturel et moins surcharge que beaucoup d'autres huiles.",
-      "Si tes pointes deviennent seches et gonflees, teste cet angle.",
-      "Je ne voulais pas acheter une autre huile capillaire a l'aveugle, donc j'ai verifie d'abord."
+    hooksTitle: "3 routes de hook qu'un createur comprend vite",
+    hooksCardTitle: "Choisis 1 angle d'ouverture",
+    hookCards: [
+      {
+        kicker: "Angle formule plus clean",
+        hook: "Tu t'es rendu compte de combien d'ingredients synthetiques tu mets sur ton cuir chevelu ?",
+        note: "Utilise-le pour ouvrir l'angle formule plus clean et plus naturelle."
+      },
+      {
+        kicker: "Angle progression",
+        hook: "La routine qui a fait la plus grande difference sur mes cheveux avec le temps",
+        note: "Utilise-le si tu as du before-and-after ou du footage de progression."
+      },
+      {
+        kicker: "Angle personnel",
+        hook: "J'ignorais completement mon cuir chevelu jusqu'a ce que j'ajoute cette etape facile",
+        note: "Utilise-le si tu veux un ton plus personnel, plus proche et plus relatable."
+      }
     ],
-    ctaCardTitle: "CTA recommandes",
+    ctaCardTitle: "Comment fermer en douceur",
     ctaList: [
       "Mieux vaut un CTA doux qu'une vente trop forte.",
       "Des phrases comme : c'est celle que je regarderais d'abord, ou si tu as le meme probleme, essaie celle-ci, marchent bien.",
@@ -2409,25 +2459,62 @@ const layoutCopy = {
     pageTitle: "Nature Spell Info Center",
     siteTitle: "Nature Spell Info Center",
     siteIntro:
-      "All you need to know for creators: can this earn, what exactly are you filming, and what is the easiest version to shoot first?",
+      "A quick creator action page.",
     heroTags: [
       {
         title: "Can it earn?",
-        body: "Lead with payout, support, and trust early so creators immediately understand why this brief matters."
+        body: "Lead with payout and trust."
       },
       {
         title: "What are you filming?",
-        body: "Keep the product story tight: Nature Spell rosemary oil, easy routine, believable discovery tone."
+        body: "Nature Spell rosemary oil, easy routine."
       },
       {
         title: "How should you shoot it?",
-        body: "Teach hook, value, and CTA first, then show three complete video styles without repeating the same AI material."
+        body: "Teach hook, value, and CTA first, then show the clearest video styles without repeating the same AI material."
       }
     ],
+    navEyebrow: "Quick Jump",
+    navOverview: "Overview",
+    navFilming: "How to film",
+    navStyles: "Video styles",
+    navPolicy: "Claims",
+    actionEyebrow: "Today",
+    actionTitle: "Use this page in 3 fast moves",
+    actionCards: [
+      {
+        step: "01",
+        title: "Pick 1 route",
+        body: "Choose the creator route that feels easiest to film today, not the most ambitious one.",
+        href: "#how-to-film",
+        linkLabel: "Compare routes"
+      },
+      {
+        step: "02",
+        title: "Open 1 breakdown",
+        body: "Go into one full breakdown, copy the flow, and keep your first version simple.",
+        href: "#styles",
+        linkLabel: "Open styles"
+      },
+      {
+        step: "03",
+        title: "Check claims last",
+        body: "Finish on the policy block so the final wording stays creator-safe and easy to approve.",
+        href: "#policy",
+        linkLabel: "Review claims"
+      }
+    ],
+    dockLabel: "You are in",
+    dockTop: "Top",
+    dockNextPrefix: "Next:",
     overviewEyebrow: "Start Here",
     overviewTitle: "Can creators earn with this, and what are they actually filming?",
     overviewIntro:
       "Move the money, product story, and creator angle up front. This page should read like an action-ready info center, not a long internal deck.",
+    compareEyebrow: "Route Compare",
+    compareTitle: "Compare the 3 creator routes first",
+    compareIntro:
+      "Use the same logic as a pattern report: compare the three routes side by side first, then open the one you actually want to film.",
     payoutTitle: "Why creators have a reason to test this",
     benchmarkEyebrow: "UK Creator Reference",
     benchmarkTitle: "Use Fleur Green as the creator benchmark",
@@ -2461,11 +2548,21 @@ const layoutCopy = {
     stylesTitle: "Show each style once, fully, without repeating the same AI material",
     stylesIntro:
       "Each block below is a complete creator format: what it is, what to say, what to film, and why it works.",
+    breakdownEyebrow: "Full Breakdowns",
+    breakdownTitle: "Then open the route you want to shoot",
+    breakdownIntro:
+      "Each card below is one full route breakdown: sample lines, visual proof, filming notes, and the soft close.",
+    flowSectionTitle: "Flow structure",
+    flowHookLabel: "Hook",
+    flowMiddleLabel: "Middle",
+    flowCtaLabel: "CTA",
     styleSayTitle: "What to say",
     styleFilmTitle: "What to film",
     styleWhyTitle: "Why this style works",
     styleBrandTitle: "Use this brand line",
     styleCloseTitle: "Soft close",
+    styleExpand: "Show full breakdown",
+    styleCollapse: "Hide full breakdown",
     screenshotAction: "switch language and screenshot this",
     screenshotNote: "Use the market language, then screenshot the phone mockup.",
     screenshotCardTitle: "AI screenshot to use",
@@ -2474,6 +2571,12 @@ const layoutCopy = {
     policyTitle: "Finish with platform rules and medical-claim guardrails",
     policyIntro:
       "Keep the page practical and safe: platform guidance first, then clear medical claim dos and don'ts.",
+    reusableEyebrow: "Reusable Blocks",
+    reusableTitle: "Keep only the lines and moves worth reusing",
+    reusableIntro:
+      "This section is the handoff: hooks already worth testing again, soft closing moves, and the mistakes to avoid next.",
+    repeatableTitle: "Soft closing moves and repeatable habits",
+    avoidTitle: "What to avoid next",
     platformRulesEyebrow: "Platform Rules",
     platformRulesTitle: "Creator-safe platform guidance",
     medicalEyebrow: "Medical Claims",
@@ -2499,6 +2602,39 @@ const layoutCopy = {
         body: "Explica hook, value y CTA primero, y luego ensena tres estilos completos sin repetir el mismo material AI."
       }
     ],
+    navEyebrow: "Salto rapido",
+    navOverview: "Resumen",
+    navFilming: "Como grabar",
+    navStyles: "Estilos",
+    navPolicy: "Claims",
+    actionEyebrow: "Hoy",
+    actionTitle: "Usa esta pagina en 3 pasos rapidos",
+    actionCards: [
+      {
+        step: "01",
+        title: "Elige 1 ruta",
+        body: "Escoge la ruta creator que te resulte mas facil de grabar hoy, no la mas ambiciosa.",
+        href: "#how-to-film",
+        linkLabel: "Comparar rutas"
+      },
+      {
+        step: "02",
+        title: "Abre 1 desglose",
+        body: "Entra en un solo breakdown completo, copia el flow y deja simple la primera version.",
+        href: "#styles",
+        linkLabel: "Abrir estilos"
+      },
+      {
+        step: "03",
+        title: "Revisa claims al final",
+        body: "Termina en policy para que el wording final siga seguro y facil de aprobar.",
+        href: "#policy",
+        linkLabel: "Revisar claims"
+      }
+    ],
+    dockLabel: "Estas en",
+    dockTop: "Arriba",
+    dockNextPrefix: "Sigue:",
     overviewEyebrow: "Empieza Aqui",
     overviewTitle: "Puede darte dinero esto y que estan grabando exactamente?",
     overviewIntro:
@@ -2536,11 +2672,17 @@ const layoutCopy = {
     stylesTitle: "Ensenya cada estilo una sola vez, completo y sin repetir el mismo material AI",
     stylesIntro:
       "Cada bloque de abajo es un formato creator completo: que es, que decir, que filmar y por que funciona.",
+    flowSectionTitle: "Flow structure",
+    flowHookLabel: "Hook",
+    flowMiddleLabel: "Middle",
+    flowCtaLabel: "CTA",
     styleSayTitle: "Que decir",
     styleFilmTitle: "Que filmar",
     styleWhyTitle: "Por que funciona",
     styleBrandTitle: "Usa esta linea de marca",
     styleCloseTitle: "Cierre suave",
+    styleExpand: "Ver desglose completo",
+    styleCollapse: "Ocultar desglose",
     screenshotAction: "Cambia idioma y haz screenshot",
     screenshotNote: "Pon el idioma del mercado y luego haz screenshot del mockup del telefono.",
     screenshotCardTitle: "Screenshot AI para usar",
@@ -2574,6 +2716,39 @@ const layoutCopy = {
         body: "Spiega hook, value e CTA prima, poi mostra tre stili completi senza ripetere lo stesso materiale AI."
       }
     ],
+    navEyebrow: "Salto rapido",
+    navOverview: "Panoramica",
+    navFilming: "Come girare",
+    navStyles: "Stili video",
+    navPolicy: "Claims",
+    actionEyebrow: "Oggi",
+    actionTitle: "Usa questa pagina in 3 mosse veloci",
+    actionCards: [
+      {
+        step: "01",
+        title: "Scegli 1 route",
+        body: "Scegli il percorso creator piu facile da girare oggi, non quello piu ambizioso.",
+        href: "#how-to-film",
+        linkLabel: "Confronta le route"
+      },
+      {
+        step: "02",
+        title: "Apri 1 breakdown",
+        body: "Vai dentro un solo breakdown completo, copia il flow e tieni semplice la prima versione.",
+        href: "#styles",
+        linkLabel: "Apri gli stili"
+      },
+      {
+        step: "03",
+        title: "Controlla i claims alla fine",
+        body: "Chiudi sulla parte policy cosi il wording finale resta sicuro e facile da approvare.",
+        href: "#policy",
+        linkLabel: "Rivedi i claims"
+      }
+    ],
+    dockLabel: "Sei in",
+    dockTop: "Su",
+    dockNextPrefix: "Dopo:",
     overviewEyebrow: "Parti Da Qui",
     overviewTitle: "Questo puo far guadagnare e cosa stanno filmando davvero?",
     overviewIntro:
@@ -2611,11 +2786,17 @@ const layoutCopy = {
     stylesTitle: "Mostra ogni stile una sola volta, completo, senza ripetere lo stesso materiale AI",
     stylesIntro:
       "Ogni blocco qui sotto e un formato creator completo: cos'e, cosa dire, cosa filmare e perche funziona.",
+    flowSectionTitle: "Flow structure",
+    flowHookLabel: "Hook",
+    flowMiddleLabel: "Middle",
+    flowCtaLabel: "CTA",
     styleSayTitle: "Cosa dire",
     styleFilmTitle: "Cosa filmare",
     styleWhyTitle: "Perche funziona",
     styleBrandTitle: "Usa questa linea brand",
     styleCloseTitle: "Chiusura morbida",
+    styleExpand: "Apri il dettaglio completo",
+    styleCollapse: "Nascondi il dettaglio",
     screenshotAction: "Cambia lingua e fai screenshot",
     screenshotNote: "Imposta la lingua del mercato e poi fai screenshot del mockup telefono.",
     screenshotCardTitle: "Screenshot AI da usare",
@@ -2649,6 +2830,39 @@ const layoutCopy = {
         body: "Erklaere zuerst Hook, Value und CTA und zeige dann drei komplette Stilrichtungen ohne das gleiche AI-Material zu wiederholen."
       }
     ],
+    navEyebrow: "Schnell springen",
+    navOverview: "Ueberblick",
+    navFilming: "So filmen",
+    navStyles: "Video-Stile",
+    navPolicy: "Claims",
+    actionEyebrow: "Heute",
+    actionTitle: "Nutze diese Seite in 3 schnellen Schritten",
+    actionCards: [
+      {
+        step: "01",
+        title: "1 Route waehlen",
+        body: "Waehle heute die Creator-Route, die am leichtesten zu drehen ist, nicht die ambitionierteste.",
+        href: "#how-to-film",
+        linkLabel: "Routen vergleichen"
+      },
+      {
+        step: "02",
+        title: "1 Breakdown oeffnen",
+        body: "Geh in genau ein volles Breakdown, kopiere den Flow und halte die erste Version einfach.",
+        href: "#styles",
+        linkLabel: "Stile oeffnen"
+      },
+      {
+        step: "03",
+        title: "Claims zuletzt pruefen",
+        body: "Beende die Seite bei Policy, damit das finale Wording creator-safe und leicht freigebbar bleibt.",
+        href: "#policy",
+        linkLabel: "Claims pruefen"
+      }
+    ],
+    dockLabel: "Du bist in",
+    dockTop: "Nach oben",
+    dockNextPrefix: "Als naechstes:",
     overviewEyebrow: "Starte Hier",
     overviewTitle: "Kann das Umsatz bringen und was filmen Creator hier genau?",
     overviewIntro:
@@ -2686,11 +2900,17 @@ const layoutCopy = {
     stylesTitle: "Zeige jeden Stil einmal komplett, ohne das gleiche AI-Material zu wiederholen",
     stylesIntro:
       "Jeder Block unten ist ein kompletter Creator-Ansatz: was es ist, was man sagt, was man filmt und warum es funktioniert.",
+    flowSectionTitle: "Flow structure",
+    flowHookLabel: "Hook",
+    flowMiddleLabel: "Middle",
+    flowCtaLabel: "CTA",
     styleSayTitle: "Was sagen",
     styleFilmTitle: "Was filmen",
     styleWhyTitle: "Warum es funktioniert",
     styleBrandTitle: "Diese Brand-Line nutzen",
     styleCloseTitle: "Weicher Abschluss",
+    styleExpand: "Volle Analyse zeigen",
+    styleCollapse: "Analyse ausblenden",
     screenshotAction: "Sprache wechseln und Screenshot machen",
     screenshotNote: "Erst die Marktsprache einstellen, dann den Handy-Mockup screenshotten.",
     screenshotCardTitle: "AI-Screenshot zum Nutzen",
@@ -2724,6 +2944,39 @@ const layoutCopy = {
         body: "Explique hook, value et CTA d'abord, puis montre trois styles complets sans repeter le meme materiel AI."
       }
     ],
+    navEyebrow: "Acces rapide",
+    navOverview: "Vue d'ensemble",
+    navFilming: "Comment filmer",
+    navStyles: "Styles video",
+    navPolicy: "Claims",
+    actionEyebrow: "Aujourd'hui",
+    actionTitle: "Utilise cette page en 3 gestes rapides",
+    actionCards: [
+      {
+        step: "01",
+        title: "Choisis 1 route",
+        body: "Choisis la route createur la plus facile a tourner aujourd'hui, pas la plus ambitieuse.",
+        href: "#how-to-film",
+        linkLabel: "Comparer les routes"
+      },
+      {
+        step: "02",
+        title: "Ouvre 1 breakdown",
+        body: "Descends dans un seul breakdown complet, copie le flow et garde la premiere version simple.",
+        href: "#styles",
+        linkLabel: "Ouvrir les styles"
+      },
+      {
+        step: "03",
+        title: "Verifie les claims a la fin",
+        body: "Termine sur le bloc policy pour garder un wording final sur, simple et validable.",
+        href: "#policy",
+        linkLabel: "Verifier les claims"
+      }
+    ],
+    dockLabel: "Tu es dans",
+    dockTop: "Haut",
+    dockNextPrefix: "Suite :",
     overviewEyebrow: "Commence Ici",
     overviewTitle: "Est-ce que cela peut rapporter et qu'est-ce qu'ils filment vraiment ?",
     overviewIntro:
@@ -2761,11 +3014,17 @@ const layoutCopy = {
     stylesTitle: "Montre chaque style une seule fois, complet, sans repeter le meme materiel AI",
     stylesIntro:
       "Chaque bloc ci-dessous est un format createur complet : ce que c'est, quoi dire, quoi filmer et pourquoi cela marche.",
+    flowSectionTitle: "Flow structure",
+    flowHookLabel: "Hook",
+    flowMiddleLabel: "Middle",
+    flowCtaLabel: "CTA",
     styleSayTitle: "Quoi dire",
     styleFilmTitle: "Quoi filmer",
     styleWhyTitle: "Pourquoi ca marche",
     styleBrandTitle: "Utilise cette ligne marque",
     styleCloseTitle: "Fermeture douce",
+    styleExpand: "Voir le detail complet",
+    styleCollapse: "Masquer le detail",
     screenshotAction: "Changer la langue et faire le screenshot",
     screenshotNote: "Mets la langue du marche puis fais le screenshot du mockup telephone.",
     screenshotCardTitle: "Screenshot AI a utiliser",
@@ -2784,8 +3043,10 @@ const layoutCopy = {
 
 const root = document.documentElement;
 const languageButtons = document.querySelectorAll('.lang-btn');
+const quickNavLinks = document.querySelectorAll('.quick-nav-link');
 const guidePills = document.getElementById('guidePills');
 const heroTags = document.getElementById('heroTags');
+const actionCardGrid = document.getElementById('actionCards');
 const productIntroList = document.getElementById('productIntroList');
 const promoList = document.getElementById('promoList');
 const offerCards = document.getElementById('offerCards');
@@ -2793,7 +3054,8 @@ const benchmarkList = document.getElementById('benchmarkList');
 const benchmarkLink = document.getElementById('benchmarkLink');
 const logicCards = document.getElementById('logicCards');
 const startCards = document.getElementById('startCards');
-const hookList = document.getElementById('hookList');
+const routeCompareCards = document.getElementById('routeCompareCards');
+const hookCards = document.getElementById('hookCards');
 const ctaList = document.getElementById('ctaList');
 const doList = document.getElementById('doList');
 const dontList = document.getElementById('dontList');
@@ -2801,16 +3063,31 @@ const styleSections = document.getElementById('styleSections');
 const platformRuleList = document.getElementById('platformRuleList');
 const medicalDoList = document.getElementById('medicalDoList');
 const medicalDontList = document.getElementById('medicalDontList');
+const mobileDockTitle = document.getElementById('mobileDockTitle');
+const mobileDockPrimary = document.getElementById('mobileDockPrimary');
+const mobileDockTop = document.getElementById('mobileDockTop');
 const languageOrder = ['en', 'es', 'it', 'de', 'fr'];
+const quickNavLabelByKey = {
+  overview: 'navOverview',
+  filming: 'navFilming',
+  styles: 'navStyles',
+  policy: 'navPolicy'
+};
+const sectionNavKeyById = {
+  overview: 'navOverview',
+  'how-to-film': 'navFilming',
+  styles: 'navStyles',
+  policy: 'navPolicy'
+};
 const videoAssetMap = {
-  aiHook: '../naturespell_assets/video_references/ai-screenshot-hook.mp4',
-  replyRoutine: '../naturespell_assets/video_references/reply-to-comment-routine.mp4',
-  resultProof: '../naturespell_assets/video_references/healthy-hair-result.mp4'
+  aiHook: './assets/video_references/ai-screenshot-hook.mp4',
+  replyRoutine: './assets/video_references/reply-to-comment-routine.mp4',
+  resultProof: './assets/video_references/healthy-hair-result.mp4'
 };
 const posterAssetMap = {
-  aiHook: '../naturespell_assets/new_reference_frames/ai_hook.jpg',
-  replyRoutine: '../naturespell_assets/new_reference_frames/reply_routine.jpg',
-  resultProof: '../naturespell_assets/new_reference_frames/testimonial.jpg'
+  aiHook: './assets/new_reference_frames/ai_hook.jpg',
+  replyRoutine: './assets/new_reference_frames/reply_routine.jpg',
+  resultProof: './assets/new_reference_frames/testimonial.jpg'
 };
 const fallbackLanguage = translations.en;
 const policyLists = {
@@ -2909,6 +3186,11 @@ const scriptVariantByVideo = {
   aiHook: 0,
   resultProof: 1
 };
+const styleExpansionState = new Map();
+const styleDefaultExpandedQuery = window.matchMedia('(min-width: 961px)');
+const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+let videoObserver;
+let activeSectionTicking = false;
 
 function t(copy, key) {
   return copy[key] ?? fallbackLanguage[key] ?? translations.es[key];
@@ -2916,6 +3198,213 @@ function t(copy, key) {
 
 function l(lang, key) {
   return layoutCopy[lang]?.[key] ?? layoutCopy.en[key];
+}
+
+function isStyleExpanded(videoKey) {
+  if (styleExpansionState.has(videoKey)) {
+    return styleExpansionState.get(videoKey);
+  }
+
+  return styleDefaultExpandedQuery.matches;
+}
+
+function scrollToSection(sectionId) {
+  const target = document.getElementById(sectionId);
+  if (!target) {
+    return;
+  }
+
+  target.scrollIntoView({
+    block: 'start',
+    behavior: reducedMotionQuery.matches ? 'auto' : 'smooth'
+  });
+}
+
+function getStyleBodyId(videoKey) {
+  return `style-body-${videoKey}`;
+}
+
+function getStyleCard(videoKey) {
+  return document.getElementById(`style-${videoKey}`);
+}
+
+function setStyleExpanded(videoKey, nextExpanded, options = {}) {
+  const { persist = true } = options;
+  const styleCard = getStyleCard(videoKey);
+  if (!styleCard) {
+    return;
+  }
+
+  const styleBody = styleCard.querySelector(`[data-style-body="${videoKey}"]`);
+  const styleToggle = styleCard.querySelector(`[data-style-toggle="${videoKey}"]`);
+
+  if (persist) {
+    styleExpansionState.set(videoKey, nextExpanded);
+  }
+
+  styleCard.classList.toggle('is-expanded', nextExpanded);
+  styleBody?.classList.toggle('is-expanded', nextExpanded);
+
+  if (styleToggle) {
+    styleToggle.setAttribute('aria-expanded', String(nextExpanded));
+    styleToggle.textContent = nextExpanded ? l(root.lang, 'styleCollapse') : l(root.lang, 'styleExpand');
+  }
+
+  if (nextExpanded) {
+    styleCard.querySelectorAll('.style-video[data-video-key]').forEach((video) => {
+      hydrateVideo(video);
+    });
+  } else {
+    styleCard.querySelectorAll('.style-video').forEach((video) => {
+      video.pause();
+    });
+  }
+}
+
+function syncViewportStyleExpansion() {
+  document.querySelectorAll('.style-card[id^="style-"]').forEach((styleCard) => {
+    const videoKey = styleCard.id.replace('style-', '');
+    if (styleExpansionState.has(videoKey)) {
+      return;
+    }
+
+    setStyleExpanded(videoKey, styleDefaultExpandedQuery.matches, { persist: false });
+  });
+}
+
+function expandStyleFromHash(hash = window.location.hash, options = {}) {
+  const match = String(hash).match(/^#style-(.+)$/);
+  if (!match) {
+    return;
+  }
+
+  const videoKey = decodeURIComponent(match[1]);
+  setStyleExpanded(videoKey, true, options);
+}
+
+function setQuickNavLabels(lang) {
+  quickNavLinks.forEach((link) => {
+    const labelKey = quickNavLabelByKey[link.dataset.nav];
+    if (labelKey) {
+      link.textContent = l(lang, labelKey);
+    }
+  });
+}
+
+function getSectionLabel(sectionId, lang) {
+  const labelKey = sectionNavKeyById[sectionId];
+  if (!labelKey) {
+    return '';
+  }
+
+  return l(lang, labelKey);
+}
+
+function renderActionCards(lang) {
+  const items = l(lang, 'actionCards');
+  if (!actionCardGrid || !Array.isArray(items)) {
+    return;
+  }
+
+  actionCardGrid.innerHTML = items
+    .map(
+      (item) => `
+        <article class="action-card">
+          <div class="action-card-step">${item.step}</div>
+          <div>
+            <h3>${item.title}</h3>
+            <p>${item.body}</p>
+          </div>
+          <a class="action-card-link" href="${item.href}">${item.linkLabel}</a>
+        </article>
+      `
+    )
+    .join('');
+}
+
+function updateMobileDock(sectionId) {
+  if (!mobileDockTitle || !mobileDockPrimary || !mobileDockTop) {
+    return;
+  }
+
+  const targets = getQuickNavTargets();
+  if (!targets.length) {
+    return;
+  }
+
+  const activeId = targets.some((target) => target.id === sectionId) ? sectionId : targets[0].id;
+  const activeIndex = targets.findIndex((target) => target.id === activeId);
+  const nextTarget = targets[activeIndex + 1] || null;
+  const lang = root.lang || 'en';
+
+  mobileDockTitle.textContent = getSectionLabel(activeId, lang);
+  mobileDockPrimary.textContent = nextTarget ? `${l(lang, 'dockNextPrefix')} ${getSectionLabel(nextTarget.id, lang)}` : l(lang, 'dockTop');
+  mobileDockPrimary.dataset.target = nextTarget ? nextTarget.id : 'top';
+  mobileDockTop.textContent = l(lang, 'dockTop');
+}
+
+function setActiveQuickNav(sectionId) {
+  quickNavLinks.forEach((link) => {
+    const isActive = link.getAttribute('href') === `#${sectionId}`;
+    link.classList.toggle('active', isActive);
+    if (isActive) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+
+  updateMobileDock(sectionId);
+}
+
+function getQuickNavTargets() {
+  return Array.from(quickNavLinks)
+    .map((link) => {
+      const section = document.querySelector(link.getAttribute('href'));
+      return section
+        ? {
+            id: section.id,
+            section
+          }
+        : null;
+    })
+    .filter(Boolean);
+}
+
+function updateActiveQuickNavFromScroll() {
+  const targets = getQuickNavTargets();
+  if (!targets.length) {
+    return;
+  }
+
+  const activationOffset = 190;
+  const scrollY = window.scrollY + activationOffset;
+  let activeId = targets[0].id;
+
+  targets.forEach((target) => {
+    if (target.section.offsetTop <= scrollY) {
+      activeId = target.id;
+    }
+  });
+
+  const lastTarget = targets[targets.length - 1];
+  if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 24) {
+    activeId = lastTarget.id;
+  }
+
+  setActiveQuickNav(activeId);
+}
+
+function requestActiveQuickNavUpdate() {
+  if (activeSectionTicking) {
+    return;
+  }
+
+  activeSectionTicking = true;
+  window.requestAnimationFrame(() => {
+    activeSectionTicking = false;
+    updateActiveQuickNavFromScroll();
+  });
 }
 
 function escapeXml(value) {
@@ -2968,15 +3457,17 @@ function renderAiScreenshot(copy) {
 
   const promptLines = wrapText(mockup.prompt, 22);
   const responseTitleLines = wrapText(mockup.responseTitle, 22);
-  const bulletLines = mockup.bullets.map((bullet) => wrapText(bullet, 24));
+  const bulletLines = mockup.bullets.slice(0, 4).map((bullet) => wrapText(bullet, 24));
 
   const promptLineHeight = 18;
   const promptTextY = 212;
   const promptHeight = 28 + promptLines.length * promptLineHeight;
   const promptRectY = 184;
   const promptRectHeight = promptHeight + 12;
-
-  let currentY = promptRectY + promptRectHeight + 48;
+  const responseHeaderY = promptRectY + promptRectHeight + 42;
+  const responseTitleY = responseHeaderY + 34;
+  const responseTitleHeight = responseTitleLines.length * 22;
+  let currentY = responseTitleY + responseTitleHeight + 24;
   const bulletBlocks = bulletLines
     .map((lines) => {
       const block = `
@@ -2994,8 +3485,6 @@ function renderAiScreenshot(copy) {
       return block;
     })
     .join('');
-
-  const responseTitleY = promptRectY + promptRectHeight + 52;
   const svg = `
     <svg width="430" height="900" viewBox="0 0 430 900" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -3046,12 +3535,12 @@ function renderAiScreenshot(copy) {
         lineHeight: promptLineHeight
       })}
 
-      <circle cx="80" cy="${responseTitleY - 8}" r="11" fill="#19C37D"/>
+      <circle cx="80" cy="${responseHeaderY - 6}" r="11" fill="#19C37D"/>
       <path d="M75 111.5C75 109.6 76.6 108 78.5 108H81.5C83.4 108 85 109.6 85 111.5V114.5C85 116.4 83.4 118 81.5 118H78.5C76.6 118 75 116.4 75 114.5V111.5Z" fill="#0F1F18" opacity="0.35"/>
-      <text x="100" y="${responseTitleY - 2}" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="16" font-weight="700">ChatGPT</text>
+      <text x="100" y="${responseHeaderY}" fill="#F7F7F7" font-family="Arial, sans-serif" font-size="16" font-weight="700">ChatGPT</text>
       ${svgTextBlock({
         x: 74,
-        y: responseTitleY + 28,
+        y: responseTitleY,
         lines: responseTitleLines,
         fill: '#F7F7F7',
         fontSize: 17,
@@ -3157,14 +3646,94 @@ function renderStartCards(copy) {
   }
 
   startCards.innerHTML = items
+    .map((item) => {
+      const parts = String(item.title).match(/^(.*?\d+)\.\s*(.+)$/);
+      const stepLabel = parts ? parts[1] : item.title;
+      const stepTitle = parts ? parts[2] : '';
+      return `
+        <article class="start-card">
+          <div class="start-card-step">${stepLabel}</div>
+          <div class="start-card-copy">
+            ${stepTitle ? `<h3>${stepTitle}</h3>` : ''}
+            <p>${item.body}</p>
+          </div>
+        </article>
+      `
+    })
+    .join('');
+}
+
+function renderHookCards(copy) {
+  const items = t(copy, 'hookCards');
+  if (!hookCards || !Array.isArray(items)) {
+    return;
+  }
+
+  hookCards.innerHTML = items
     .map(
       (item) => `
-        <article class="start-card">
-          <h3>${item.title}</h3>
-          <p>${item.body}</p>
+        <article class="hook-card">
+          <p class="mini-label hook-card-kicker">${item.kicker}</p>
+          <p class="hook-card-quote">"${item.hook}"</p>
+          <p class="hook-card-note">${item.note}</p>
         </article>
       `
     )
+    .join('');
+}
+
+function renderRouteCompare(copy, lang) {
+  const items = t(copy, 'scriptNowCards');
+  const detailItems = t(copy, 'referenceDetails') || [];
+  const variantItems = t(copy, 'scriptBreakdowns') || [];
+  if (!routeCompareCards || !Array.isArray(items)) {
+    return;
+  }
+
+  const detailsByVideo = Object.fromEntries(detailItems.map((item) => [item.videoKey, item]));
+
+  routeCompareCards.innerHTML = items
+    .map((item) => {
+      const detail = detailsByVideo[item.videoKey];
+      const variant = variantItems[scriptVariantByVideo[item.videoKey]];
+      const opener = (variant?.lines || detail?.flow || item.steps || [])[0] || item.end;
+      const proof = (detail?.whyBullets || [])[0] || item.brand;
+
+      return `
+        <article class="route-card">
+          <div class="route-card-head">
+            <p class="mini-label">${item.kicker}</p>
+            <h3>${item.title}</h3>
+            <p class="route-card-summary">${detail?.subtitle || item.end}</p>
+            <div class="route-card-meta">
+              ${detail?.duration ? `<span class="style-chip">${detail.duration}</span>` : ''}
+              ${variant?.use ? `<span class="style-chip">${variant.use}</span>` : ''}
+            </div>
+          </div>
+
+          <div class="route-card-media">
+            <img src="${posterAssetMap[item.videoKey]}" alt="${item.title}" loading="lazy" />
+          </div>
+
+          <div class="route-mini-grid">
+            <div class="route-mini-card">
+              <strong>${l(lang, 'styleSayTitle')}</strong>
+              <p>${opener}</p>
+            </div>
+            <div class="route-mini-card">
+              <strong>${l(lang, 'styleFilmTitle')}</strong>
+              <p>${item.film.slice(0, 3).join(' / ')}</p>
+            </div>
+            <div class="route-mini-card">
+              <strong>${l(lang, 'styleWhyTitle')}</strong>
+              <p>${proof}</p>
+            </div>
+          </div>
+
+          <a class="route-link" href="#style-${item.videoKey}">${l(lang, 'styleExpand')}</a>
+        </article>
+      `;
+    })
     .join('');
 }
 
@@ -3182,25 +3751,45 @@ function renderStyleSections(copy, lang) {
     .map((item) => {
       const detail = detailsByVideo[item.videoKey];
       const variant = variantItems[scriptVariantByVideo[item.videoKey]];
-      const sayLines = variant?.lines || detail?.flow || item.steps;
-      const whyBullets = detail?.whyBullets || [];
-      const screenshotTips = item.videoKey === 'aiHook' ? t(copy, 'screenshotTips') : null;
+      const sayLines = (variant?.lines || detail?.flow || item.steps).slice(0, 4);
+      const whyBullets = (detail?.whyBullets || []).slice(0, 2);
+      const screenshotTips = item.videoKey === 'aiHook' ? t(copy, 'screenshotTips').slice(0, 2) : null;
+      const isExpanded = isStyleExpanded(item.videoKey);
+      const previewShots = item.film.slice(0, 3).join(' / ');
+      const hookLine = sayLines[0] || item.title;
+      const middleLine = sayLines.slice(1).join(' ') || detail?.subtitle || item.brand;
+      const ctaLine = item.end || t(copy, 'ctaList')?.[0] || '';
 
       return `
-        <article class="style-card">
+        <article class="style-card${isExpanded ? ' is-expanded' : ''}" id="style-${item.videoKey}">
           <div class="style-header">
             <div>
               <p class="mini-label">${item.kicker}</p>
               <h3>${item.title}</h3>
               <p class="style-subtitle">${detail?.subtitle || item.end}</p>
+              <p class="style-preview">${previewShots}</p>
             </div>
             <div class="style-meta">
               ${detail?.duration ? `<span class="style-chip">${detail.duration}</span>` : ''}
               ${variant?.use ? `<span class="style-chip">${variant.use}</span>` : ''}
+              <button
+                class="style-toggle"
+                type="button"
+                data-style-toggle="${item.videoKey}"
+                aria-expanded="${isExpanded}"
+                aria-controls="${getStyleBodyId(item.videoKey)}"
+              >
+                ${isExpanded ? l(lang, 'styleCollapse') : l(lang, 'styleExpand')}
+              </button>
             </div>
           </div>
 
-          <div class="style-grid">
+          <div
+            class="style-body${isExpanded ? ' is-expanded' : ''}"
+            id="${getStyleBodyId(item.videoKey)}"
+            data-style-body="${item.videoKey}"
+          >
+            <div class="style-grid">
             <div class="style-media-stack">
               ${
                 item.videoKey === 'aiHook'
@@ -3212,15 +3801,16 @@ function renderStyleSections(copy, lang) {
                         </div>
                         <button class="screenshot-action" type="button" data-cycle-language>${l(lang, 'screenshotAction')}</button>
                       </div>
-                      <p class="style-note">${l(lang, 'screenshotCardNote')}</p>
                       <p class="style-note">${l(lang, 'screenshotNote')}</p>
-                      <div class="phone-stage">
-                        <img id="aiScreenshotImage" class="phone-image" alt="Localized AI screenshot mockup" />
-                      </div>
-                      <div class="summary-blocks">
-                        <div class="summary-block">
-                          <strong>${t(copy, 'screenshotTipTitle')}</strong>
-                          <ul>${screenshotTips.map((tip) => `<li>${tip}</li>`).join('')}</ul>
+                      <div class="screenshot-card-grid">
+                        <div class="phone-stage">
+                          <img id="aiScreenshotImage" class="phone-image" alt="Localized AI screenshot mockup" />
+                        </div>
+                        <div class="summary-blocks">
+                          <div class="summary-block">
+                            <strong>${t(copy, 'screenshotTipTitle')}</strong>
+                            <ul>${screenshotTips.map((tip) => `<li>${tip}</li>`).join('')}</ul>
+                          </div>
                         </div>
                       </div>
                     </article>
@@ -3231,54 +3821,128 @@ function renderStyleSections(copy, lang) {
               <article class="style-media-card">
                 <p class="mini-label">${detail?.kicker || item.kicker}</p>
                 <div class="video-shell">
-                  <video class="style-video" controls preload="metadata" playsinline poster="${posterAssetMap[item.videoKey]}">
-                    <source src="${videoAssetMap[item.videoKey]}" type="video/mp4" />
-                  </video>
+                  <video class="style-video" controls preload="none" playsinline poster="${posterAssetMap[item.videoKey]}" data-video-key="${item.videoKey}"></video>
                 </div>
               </article>
             </div>
 
-            <article class="style-list-card">
-              <h4>${l(lang, 'styleSayTitle')}</h4>
-              <div class="script-lines">
-                ${sayLines
-                  .map(
-                    (line, index) => `
-                      <div class="script-line-item">
-                        <div class="script-line-number">${String(index + 1).padStart(2, '0')}</div>
-                        <p>${line}</p>
-                      </div>
-                    `
-                  )
-                  .join('')}
-              </div>
-            </article>
+            <div class="style-copy-stack">
+              <article class="style-list-card">
+                <h4>${l(lang, 'flowSectionTitle')}</h4>
+                <div class="story-flow">
+                  <div class="story-block">
+                    <div class="story-block-label">${l(lang, 'flowHookLabel')}</div>
+                    <p>${hookLine}</p>
+                  </div>
+                  <div class="story-block">
+                    <div class="story-block-label">${l(lang, 'flowMiddleLabel')}</div>
+                    <p>${middleLine}</p>
+                  </div>
+                  <div class="story-block">
+                    <div class="story-block-label">${l(lang, 'flowCtaLabel')}</div>
+                    <p>${ctaLine}</p>
+                  </div>
+                </div>
+              </article>
 
-            <article class="style-list-card">
-              <div class="summary-blocks">
-                <div class="summary-block">
-                  <strong>${l(lang, 'styleFilmTitle')}</strong>
-                  <ul>${item.film.map((shot) => `<li>${shot}</li>`).join('')}</ul>
+              <article class="style-list-card">
+                <div class="style-summary-grid">
+                  <div class="summary-block">
+                    <strong>${l(lang, 'styleFilmTitle')}</strong>
+                    <ul>${item.film.map((shot) => `<li>${shot}</li>`).join('')}</ul>
+                  </div>
+                  <div class="summary-block">
+                    <strong>${l(lang, 'styleWhyTitle')}</strong>
+                    <ul>${whyBullets.map((bullet) => `<li>${bullet}</li>`).join('')}</ul>
+                  </div>
+                  <div class="summary-block">
+                    <strong>${l(lang, 'styleBrandTitle')}</strong>
+                    <p>${item.brand}</p>
+                  </div>
+                  <div class="summary-block">
+                    <strong>${l(lang, 'styleCloseTitle')}</strong>
+                    <p>${item.end}</p>
+                  </div>
                 </div>
-                <div class="summary-block">
-                  <strong>${l(lang, 'styleWhyTitle')}</strong>
-                  <ul>${whyBullets.map((bullet) => `<li>${bullet}</li>`).join('')}</ul>
-                </div>
-                <div class="summary-block">
-                  <strong>${l(lang, 'styleBrandTitle')}</strong>
-                  <p>${item.brand}</p>
-                </div>
-                <div class="summary-block">
-                  <strong>${l(lang, 'styleCloseTitle')}</strong>
-                  <p>${item.end}</p>
-                </div>
-              </div>
-            </article>
+              </article>
+            </div>
+          </div>
           </div>
         </article>
       `;
     })
     .join('');
+}
+
+function hydrateVideo(video) {
+  if (!video || video.dataset.loaded === 'true') {
+    return;
+  }
+
+  const assetPath = videoAssetMap[video.dataset.videoKey];
+  if (!assetPath) {
+    return;
+  }
+
+  const source = document.createElement('source');
+  source.src = assetPath;
+  source.type = 'video/mp4';
+  video.appendChild(source);
+  video.load();
+  video.dataset.loaded = 'true';
+}
+
+function setupVideoObserver() {
+  if (videoObserver) {
+    videoObserver.disconnect();
+  }
+
+  const videos = document.querySelectorAll('.style-video[data-video-key]');
+  if (!videos.length) {
+    return;
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    videos.forEach((video) => {
+      if (isStyleExpanded(video.dataset.videoKey)) {
+        hydrateVideo(video);
+      }
+    });
+    return;
+  }
+
+  videoObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        }
+
+        hydrateVideo(entry.target);
+        videoObserver.unobserve(entry.target);
+      });
+    },
+    {
+      rootMargin: '240px 0px',
+      threshold: 0.1
+    }
+  );
+
+  videos.forEach((video) => {
+    if (isStyleExpanded(video.dataset.videoKey)) {
+      videoObserver.observe(video);
+    }
+  });
+}
+
+function setupSectionObserver() {
+  updateActiveQuickNavFromScroll();
+  window.addEventListener('scroll', requestActiveQuickNavUpdate, { passive: true });
+  window.addEventListener('resize', requestActiveQuickNavUpdate);
+  window.addEventListener('hashchange', () => {
+    expandStyleFromHash(window.location.hash);
+    requestActiveQuickNavUpdate();
+  });
 }
 
 function setLanguage(lang) {
@@ -3305,6 +3969,8 @@ function setLanguage(lang) {
   });
 
   renderGuidePills(copy);
+  setQuickNavLabels(normalizedLang);
+  renderActionCards(normalizedLang);
   renderHeroTags(normalizedLang);
   renderOfferCards(copy);
   renderBenchmarkList(normalizedLang);
@@ -3315,11 +3981,15 @@ function setLanguage(lang) {
   renderList(productIntroList, t(copy, 'productIntroList'));
   renderList(promoList, t(copy, 'promoList'));
   renderStartCards(copy);
-  renderList(hookList, t(copy, 'hookList'));
-  renderList(ctaList, t(copy, 'ctaList'));
-  renderList(doList, t(copy, 'doList'));
-  renderList(dontList, t(copy, 'dontList'));
+  renderRouteCompare(copy, normalizedLang);
+  renderHookCards(copy);
+  renderList(ctaList, t(copy, 'ctaList').slice(0, 3));
+  renderList(doList, t(copy, 'doList').slice(0, 4));
+  renderList(dontList, t(copy, 'dontList').slice(0, 4));
   renderStyleSections(copy, normalizedLang);
+  updateMobileDock(document.querySelector('.quick-nav-link.active')?.getAttribute('href')?.slice(1) || 'overview');
+  expandStyleFromHash(window.location.hash);
+  setupVideoObserver();
   renderAiScreenshot(copy);
   renderList(platformRuleList, policies.platform);
   renderList(medicalDoList, policies.medicalDo);
@@ -3337,6 +4007,27 @@ languageButtons.forEach((button) => {
 });
 
 document.addEventListener('click', (event) => {
+  const dockAction = event.target.closest('[data-dock-action]');
+  if (dockAction) {
+    const targetId = dockAction.dataset.dockAction === 'top' ? 'top' : dockAction.dataset.target || 'top';
+    scrollToSection(targetId);
+    return;
+  }
+
+  const routeLink = event.target.closest('.route-link[href^="#style-"]');
+  if (routeLink) {
+    expandStyleFromHash(routeLink.getAttribute('href'));
+  }
+
+  const styleToggle = event.target.closest('[data-style-toggle]');
+  if (styleToggle) {
+    const videoKey = styleToggle.dataset.styleToggle;
+    const nextExpanded = !isStyleExpanded(videoKey);
+    setStyleExpanded(videoKey, nextExpanded);
+
+    return;
+  }
+
   const actionButton = event.target.closest('[data-cycle-language]');
   if (!actionButton) {
     return;
@@ -3349,3 +4040,10 @@ document.addEventListener('click', (event) => {
 
 const savedLanguage = localStorage.getItem('nature-spell-lang');
 setLanguage(savedLanguage === 'zh' ? 'en' : savedLanguage || 'en');
+setupSectionObserver();
+updateActiveQuickNavFromScroll();
+if (typeof styleDefaultExpandedQuery.addEventListener === 'function') {
+  styleDefaultExpandedQuery.addEventListener('change', syncViewportStyleExpansion);
+} else if (typeof styleDefaultExpandedQuery.addListener === 'function') {
+  styleDefaultExpandedQuery.addListener(syncViewportStyleExpansion);
+}

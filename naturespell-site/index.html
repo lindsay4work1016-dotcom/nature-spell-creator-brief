@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nature Spell creator action page with quick hooks, filming logic, video style references, and platform-safe claim guidance."
+    />
+    <meta name="theme-color" content="#f6efe7" />
     <title>Nature Spell Info Center</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23117b76'/%3E%3Cpath d='M18 38c10-2 18-10 23-21 7 7 9 17 5 25-5 10-18 14-28 10 4-4 10-7 16-8-7 0-12-2-16-6Z' fill='%23fff8ef'/%3E%3C/svg%3E"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -35,7 +45,25 @@
         </aside>
       </header>
 
-      <main>
+      <nav class="quick-nav" aria-label="Quick section navigation">
+        <p class="eyebrow" data-layout="navEyebrow"></p>
+        <div class="quick-nav-list">
+          <a class="quick-nav-link" href="#overview" data-nav="overview"></a>
+          <a class="quick-nav-link" href="#how-to-film" data-nav="filming"></a>
+          <a class="quick-nav-link" href="#styles" data-nav="styles"></a>
+          <a class="quick-nav-link" href="#policy" data-nav="policy"></a>
+        </div>
+      </nav>
+
+      <section class="action-strip" aria-labelledby="actionStripTitle">
+        <div class="action-strip-head">
+          <p class="eyebrow" data-layout="actionEyebrow"></p>
+          <h2 id="actionStripTitle" class="action-strip-title" data-layout="actionTitle"></h2>
+        </div>
+        <div class="action-strip-grid" id="actionCards"></div>
+      </section>
+
+      <main id="mainContent">
         <section class="section" id="overview">
           <div class="section-heading">
             <p class="eyebrow" data-layout="overviewEyebrow"></p>
@@ -82,60 +110,18 @@
 
         <section class="section" id="how-to-film">
           <div class="section-heading">
-            <p class="eyebrow" data-layout="filmingEyebrow"></p>
-            <h2 data-layout="filmingTitle"></h2>
-            <p class="section-copy" data-layout="filmingIntro"></p>
+            <p class="eyebrow" data-layout="compareEyebrow"></p>
+            <h2 data-layout="compareTitle"></h2>
+            <p class="section-copy" data-layout="compareIntro"></p>
           </div>
-
-          <div class="logic-grid">
-            <div class="logic-main">
-              <div class="logic-card-grid" id="logicCards"></div>
-              <div class="start-grid" id="startCards"></div>
-            </div>
-
-            <div class="rules-stack">
-              <article class="panel">
-                <div class="panel-header">
-                  <p class="mini-label" data-i18n="hooksEyebrow"></p>
-                  <h3 data-i18n="hooksTitle"></h3>
-                </div>
-                <div class="tight-columns">
-                  <div>
-                    <h4 class="subhead" data-i18n="hooksCardTitle"></h4>
-                    <ul id="hookList"></ul>
-                  </div>
-                  <div>
-                    <h4 class="subhead" data-i18n="ctaCardTitle"></h4>
-                    <ul id="ctaList"></ul>
-                  </div>
-                </div>
-              </article>
-
-              <article class="panel">
-                <div class="panel-header">
-                  <p class="mini-label" data-i18n="rulesEyebrow"></p>
-                  <h3 data-i18n="rulesTitle"></h3>
-                </div>
-                <div class="tight-columns">
-                  <div>
-                    <h4 class="subhead" data-i18n="doTitle"></h4>
-                    <ul id="doList"></ul>
-                  </div>
-                  <div>
-                    <h4 class="subhead" data-i18n="dontTitle"></h4>
-                    <ul id="dontList"></ul>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
+          <div class="route-compare-grid" id="routeCompareCards"></div>
         </section>
 
         <section class="section" id="styles">
           <div class="section-heading">
-            <p class="eyebrow" data-layout="stylesEyebrow"></p>
-            <h2 data-layout="stylesTitle"></h2>
-            <p class="section-copy" data-layout="stylesIntro"></p>
+            <p class="eyebrow" data-layout="breakdownEyebrow"></p>
+            <h2 data-layout="breakdownTitle"></h2>
+            <p class="section-copy" data-layout="breakdownIntro"></p>
           </div>
           <div class="style-stack" id="styleSections"></div>
         </section>
@@ -145,6 +131,42 @@
             <p class="eyebrow" data-layout="policyEyebrow"></p>
             <h2 data-layout="policyTitle"></h2>
             <p class="section-copy" data-layout="policyIntro"></p>
+          </div>
+
+          <div class="handoff-grid">
+            <article class="panel">
+              <div class="panel-header">
+                <p class="mini-label" data-layout="reusableEyebrow"></p>
+                <h3 data-layout="reusableTitle"></h3>
+                <p class="panel-copy" data-layout="reusableIntro"></p>
+              </div>
+              <div class="hook-card-grid" id="hookCards"></div>
+            </article>
+
+            <article class="panel">
+              <div class="panel-header">
+                <p class="mini-label" data-i18n="ctaCardTitle"></p>
+                <h3 data-layout="repeatableTitle"></h3>
+              </div>
+              <div class="tight-columns">
+                <div>
+                  <h4 class="subhead" data-i18n="ctaCardTitle"></h4>
+                  <ul id="ctaList"></ul>
+                </div>
+                <div>
+                  <h4 class="subhead" data-i18n="doTitle"></h4>
+                  <ul id="doList"></ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel panel-alert">
+              <div class="panel-header">
+                <p class="mini-label" data-i18n="dontTitle"></p>
+                <h3 data-layout="avoidTitle"></h3>
+              </div>
+              <ul id="dontList"></ul>
+            </article>
           </div>
 
           <div class="policy-grid">
@@ -175,6 +197,17 @@
         </section>
       </main>
     </div>
+
+    <aside class="mobile-dock" id="mobileDock" aria-label="Mobile progress dock">
+      <div class="mobile-dock-copy">
+        <p class="mobile-dock-label" data-layout="dockLabel"></p>
+        <p class="mobile-dock-title" id="mobileDockTitle"></p>
+      </div>
+      <div class="mobile-dock-actions">
+        <button class="mobile-dock-btn" type="button" id="mobileDockPrimary" data-dock-action="next"></button>
+        <button class="mobile-dock-btn mobile-dock-btn-secondary" type="button" id="mobileDockTop" data-dock-action="top"></button>
+      </div>
+    </aside>
 
     <script src="script.js"></script>
   </body>
