@@ -590,7 +590,7 @@ const translations = {
     guideEyebrow: "Use This Page Like This",
     guideTitle: "Pick one route and film it simply",
     guideBody:
-      "Pick one reference, copy the short flow, film it in your own voice, then come back to the detailed breakdown if you want to improve it.",
+      "Choose one route, keep the wording natural, and send a first version quickly.",
     guideNote:
       "This version is built for quick desktop and mobile reading, so treat it like an action page, not a brand deck.",
     guidePills: [
@@ -1168,8 +1168,8 @@ const translations = {
     heroIntro: "Questa prima bozza e pensata per il giorno uno: il creator deve poter aprire la pagina e iniziare subito a filmare. La struttura da spingere ora e semplice: screenshot AI, spiegazione personale, demo facile e CTA morbida.",
     heroNote: "Il video di riferimento non vende lo stesso prodotto Nature Spell, e questo e scritto chiaramente nella pagina. Riprendiamo il formato e la sensazione di prova, non i claim dell'altro prodotto.",
     guideEyebrow: "Usa Questa Pagina Cosi",
-    guideTitle: "Scegli una strada e filma semplice",
-    guideBody: "Scegli un riferimento, copia il flow corto, giralo con la tua voce e torna sotto solo se vuoi migliorarlo.",
+    guideTitle: "Scegli una route e gira semplice",
+    guideBody: "Scegli una route, tieni il tono naturale e manda una prima versione velocemente.",
     guideNote: "Questa pagina serve per partire subito, non per studiare troppo.",
     guidePills: [
       "Un link pubblico semplice",
@@ -2457,9 +2457,9 @@ const translations = {
 const layoutCopy = {
   en: {
     pageTitle: "Nature Spell Info Center",
-    siteTitle: "Nature Spell Info Center",
+    siteTitle: "Nature Spell Creator Brief",
     siteIntro:
-      "A quick creator action page.",
+      "A lean creative brief for strong creators. Pick one route, copy the structure, and film the first version fast.",
     heroTags: [
       {
         title: "Can it earn?",
@@ -2474,11 +2474,10 @@ const layoutCopy = {
         body: "Teach hook, value, and CTA first, then show the clearest video styles without repeating the same AI material."
       }
     ],
-    navEyebrow: "Quick Jump",
-    navOverview: "Overview",
-    navFilming: "How to film",
-    navStyles: "Video styles",
-    navPolicy: "Claims",
+    navEyebrow: "Creative Brief",
+    navFilming: "Creative routes",
+    navStyles: "Breakdowns",
+    navPolicy: "Final notes",
     actionEyebrow: "Today",
     actionTitle: "Use this page in 3 fast moves",
     actionCards: [
@@ -2511,10 +2510,10 @@ const layoutCopy = {
     overviewTitle: "Can creators earn with this, and what are they actually filming?",
     overviewIntro:
       "Move the money, product story, and creator angle up front. This page should read like an action-ready info center, not a long internal deck.",
-    compareEyebrow: "Route Compare",
-    compareTitle: "Compare the 3 creator routes first",
+    compareEyebrow: "Creative Routes",
+    compareTitle: "Pick 1 route and start there",
     compareIntro:
-      "Use the same logic as a pattern report: compare the three routes side by side first, then open the one you actually want to film.",
+      "This is the main part of the brief: three routes creators can understand fast, copy fast, and turn into content today.",
     payoutTitle: "Why creators have a reason to test this",
     benchmarkEyebrow: "UK Creator Reference",
     benchmarkTitle: "Use Fleur Green as the creator benchmark",
@@ -2548,10 +2547,10 @@ const layoutCopy = {
     stylesTitle: "Show each style once, fully, without repeating the same AI material",
     stylesIntro:
       "Each block below is a complete creator format: what it is, what to say, what to film, and why it works.",
-    breakdownEyebrow: "Full Breakdowns",
-    breakdownTitle: "Then open the route you want to shoot",
+    breakdownEyebrow: "Route Breakdowns",
+    breakdownTitle: "Then open the route you want to film",
     breakdownIntro:
-      "Each card below is one full route breakdown: sample lines, visual proof, filming notes, and the soft close.",
+      "Each route below is the detailed version: hook, middle, CTA, proof, and filming notes.",
     flowSectionTitle: "Flow structure",
     flowHookLabel: "Hook",
     flowMiddleLabel: "Middle",
@@ -2567,10 +2566,10 @@ const layoutCopy = {
     screenshotNote: "Use the market language, then screenshot the phone mockup.",
     screenshotCardTitle: "AI screenshot to use",
     screenshotCardNote: "Make this feel like a real iPhone ChatGPT screenshot, then cut straight into the demo.",
-    policyEyebrow: "Platform & Claims",
-    policyTitle: "Finish with platform rules and medical-claim guardrails",
+    policyEyebrow: "Final Notes",
+    policyTitle: "Keep the wording simple and safe",
     policyIntro:
-      "Keep the page practical and safe: platform guidance first, then clear medical claim dos and don'ts.",
+      "Use this part as the final check before posting or sending the script back.",
     reusableEyebrow: "Reusable Blocks",
     reusableTitle: "Keep only the lines and moves worth reusing",
     reusableIntro:
@@ -2699,9 +2698,9 @@ const layoutCopy = {
   },
   it: {
     pageTitle: "Nature Spell Centro Informazioni",
-    siteTitle: "Nature Spell Centro Informazioni",
+    siteTitle: "Nature Spell Creator Brief",
     siteIntro:
-      "Tutto quello che serve a un creator: se questo puo convertire, cosa si sta filmando davvero e qual e la versione piu facile da girare per prima.",
+      "Un brief creativo piu diretto per creator forti. Scegli una route, copia la struttura e gira subito una prima versione.",
     heroTags: [
       {
         title: "Puo far guadagnare?",
@@ -2716,11 +2715,10 @@ const layoutCopy = {
         body: "Spiega hook, value e CTA prima, poi mostra tre stili completi senza ripetere lo stesso materiale AI."
       }
     ],
-    navEyebrow: "Salto rapido",
-    navOverview: "Panoramica",
-    navFilming: "Come girare",
-    navStyles: "Stili video",
-    navPolicy: "Claims",
+    navEyebrow: "Creative Brief",
+    navFilming: "Route creative",
+    navStyles: "Breakdown",
+    navPolicy: "Note finali",
     actionEyebrow: "Oggi",
     actionTitle: "Usa questa pagina in 3 mosse veloci",
     actionCards: [
@@ -2764,10 +2762,10 @@ const layoutCopy = {
       "Mostra prova visiva presto e poi rende la routine facile abbastanza da provare.",
       "Questa e la barra di collaborazione da citare quando presenti il potenziale Nature Spell ai creator."
     ],
-    filmingEyebrow: "Come Girare",
-    filmingTitle: "Spiega la logica virale prima degli esempi",
-    filmingIntro:
-      "Prima insegna hook, value e CTA. Poi fai scendere il creator dentro linee, riprese e proof device da copiare oggi.",
+    compareEyebrow: "Route Creative",
+    compareTitle: "Scegli 1 route e parti da li",
+    compareIntro:
+      "Questa e la parte principale del brief: tre route facili da capire, da copiare e da trasformare in contenuto oggi.",
     logicCards: [
       {
         title: "Hook",
@@ -2782,10 +2780,10 @@ const layoutCopy = {
         body: "Chiudi morbido. Fai sembrare il passo dopo facile da provare, non una frase di pressione."
       }
     ],
-    stylesEyebrow: "3 Stili Video",
-    stylesTitle: "Mostra ogni stile una sola volta, completo, senza ripetere lo stesso materiale AI",
-    stylesIntro:
-      "Ogni blocco qui sotto e un formato creator completo: cos'e, cosa dire, cosa filmare e perche funziona.",
+    breakdownEyebrow: "Breakdown Completi",
+    breakdownTitle: "Poi apri la route che vuoi girare",
+    breakdownIntro:
+      "Qui sotto trovi la versione completa di ogni route: hook, parte centrale, CTA, proof visivo e note di ripresa.",
     flowSectionTitle: "Flow structure",
     flowHookLabel: "Hook",
     flowMiddleLabel: "Middle",
@@ -2801,10 +2799,10 @@ const layoutCopy = {
     screenshotNote: "Imposta la lingua del mercato e poi fai screenshot del mockup telefono.",
     screenshotCardTitle: "Screenshot AI da usare",
     screenshotCardNote: "Fallo sembrare un vero screenshot ChatGPT su iPhone e poi passa subito alla demo.",
-    policyEyebrow: "Piattaforma e Claims",
-    policyTitle: "Chiudi con regole piattaforma e guardrail sui medical claim",
+    policyEyebrow: "Note Finali",
+    policyTitle: "Tieni il wording semplice e sicuro",
     policyIntro:
-      "Tieni la pagina pratica e sicura: prima linee guida piattaforma, poi do e don't chiari sui claim medici.",
+      "Usa questa parte come ultimo check prima di pubblicare o rimandare lo script.",
     platformRulesEyebrow: "Regole Piattaforma",
     platformRulesTitle: "Guida sicura per creator",
     medicalEyebrow: "Medical Claims",
@@ -3068,13 +3066,11 @@ const mobileDockPrimary = document.getElementById('mobileDockPrimary');
 const mobileDockTop = document.getElementById('mobileDockTop');
 const languageOrder = ['en', 'es', 'it', 'de', 'fr'];
 const quickNavLabelByKey = {
-  overview: 'navOverview',
   filming: 'navFilming',
   styles: 'navStyles',
   policy: 'navPolicy'
 };
 const sectionNavKeyById = {
-  overview: 'navOverview',
   'how-to-film': 'navFilming',
   styles: 'navStyles',
   policy: 'navPolicy'
@@ -3987,7 +3983,7 @@ function setLanguage(lang) {
   renderList(doList, t(copy, 'doList').slice(0, 4));
   renderList(dontList, t(copy, 'dontList').slice(0, 4));
   renderStyleSections(copy, normalizedLang);
-  updateMobileDock(document.querySelector('.quick-nav-link.active')?.getAttribute('href')?.slice(1) || 'overview');
+  updateMobileDock(document.querySelector('.quick-nav-link.active')?.getAttribute('href')?.slice(1) || 'how-to-film');
   expandStyleFromHash(window.location.hash);
   setupVideoObserver();
   renderAiScreenshot(copy);

@@ -87,9 +87,9 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
-  gap: 24px;
-  padding: 28px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+  gap: 20px;
+  padding: 24px;
 }
 
 .section {
@@ -379,9 +379,9 @@ li,
 }
 
 .guide-card {
-  padding: 24px;
-  border-radius: var(--radius-xl);
-  background: linear-gradient(180deg, rgba(17, 123, 118, 0.92), rgba(70, 147, 141, 0.96));
+  padding: 20px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(17, 123, 118, 0.9), rgba(48, 126, 121, 0.96));
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: var(--shadow);
   color: var(--cream);
@@ -395,27 +395,7 @@ li,
 }
 
 .guide-title {
-  font-size: clamp(1.58rem, 2vw, 2rem);
-}
-
-.guide-note {
-  margin-top: 12px;
-  color: rgba(255, 248, 239, 0.76);
-}
-
-.guide-pill-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 18px;
-}
-
-.guide-pill {
-  padding: 14px 16px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  line-height: 1.6;
+  font-size: clamp(1.34rem, 1.9vw, 1.72rem);
 }
 
 .section {
